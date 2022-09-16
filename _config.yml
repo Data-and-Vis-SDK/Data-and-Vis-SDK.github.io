@@ -1,1 +1,10 @@
-theme: jekyll-theme-slate
+title: ecp-data-viz-sdk
+description: >-
+  DOE Exascale Computing Project Data & Visualization SDK
+
+baseurl: ""
+url: ""
+
+remote_theme: pages-themes/slate@v0.2.0
+plugins:
+  - jekyll-remote-theme
