@@ -1,0 +1,55 @@
+/* Colors chosen from seaborn "colorblind" and converted to hex. */
+.dark_blue { background-color: #0173B2; }
+.orange { background-color: #DE8F05; }
+.green { background-color: #029E73; }
+.red { background-color: #D55E00; }
+.dark_pink { background-color: #CC78BC; }
+.orange_light { background-color: #CA9161; }
+.light_pink { background-color: #FBAFE4; }
+.gray { background-color: #949494; }
+.yellow { background-color: #ECE133; }
+.light_blue { background-color: #56B4E9; }
+
+/* Make links (and footnotes) in the tables behave differently for readability. */
+.status_table a {
+    color: #373737;
+}
+table.status_table a:hover {
+    color: #56B4E9;
+}
+.status_table a:visited {
+    color: #373737;
+}
+
+/* Custom table styling for "status tables" (little content, just colors). */
+table.status_table {
+    text-align: center;
+    table-layout: fixed;
+    width: 100%;
+    border: 1px solid;
+    border-color: white;
+}
+
+table.status_table td, th {
+    overflow: hidden;
+    border: 1px solid;
+    border-color: #4b4b4b;
+}
+
+/* A nested table for embedding in a `status_table`. */
+table.status_table_legend {
+    text-align: center;
+    table-layout: fixed;
+    width: 100%;
+    height: 100%;
+    border-spacing: 0;
+    border: none;
+    border-color: #4b4b4b;
+}
+
+table.status_table_legend th, td, tr {
+    padding: 0;
+    height: 100%;
+    vertical-align: middle;
+}
+
