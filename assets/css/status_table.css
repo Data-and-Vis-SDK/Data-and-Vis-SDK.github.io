@@ -1,24 +1,44 @@
 /* Colors chosen from seaborn "colorblind" and converted to hex. */
 .dark_blue { background-color: #0173B2; }
 .orange { background-color: #DE8F05; }
-.green { background-color: #029E73; }
-.red { background-color: #D55E00; }
+.green, .verified { background-color: #029E73; }
+.red, .failing { background-color: #D55E00; }
 .dark_pink { background-color: #CC78BC; }
 .orange_light { background-color: #CA9161; }
 .light_pink { background-color: #FBAFE4; }
-.gray { background-color: #949494; }
+.gray, .na { background-color: #949494; }
 .yellow { background-color: #ECE133; }
-.light_blue { background-color: #56B4E9; }
+.light_blue, .in_progress { background-color: #56B4E9; }
 
-/* Make links (and footnotes) in the tables behave differently for readability. */
-.status_table a {
+/* Make links (and footnotes) in the tables behave differently for readability.
+ * For tables we want the links to be presented consistently, and set their
+ * text color to something legible on a white or colorful background.  For
+ * the special case of a footnote in a table header (which has a dark
+ * background), set the color to white.
+ *
+ * NOTE: a:hover MUST come after a:link and a:visited! */
+table.status_table a:link {
     color: #373737;
 }
+
+table.status_table a:visited {
+    color: #373737;
+}
+
 table.status_table a:hover {
     color: #56B4E9;
 }
-.status_table a:visited {
-    color: #373737;
+
+table.status_table > thead a:link {
+    color: white;
+}
+
+table.status_table > thead a:visited {
+    color: white;
+}
+
+table.status_table > thead a:hover {
+    color: #56B4E9;
 }
 
 /* Custom table styling for "status tables" (little content, just colors). */
@@ -53,3 +73,17 @@ table.status_table_legend th, td, tr {
     vertical-align: middle;
 }
 
+/* Custom table styling for "toolchain tables". */
+table.toolchain_table {
+    text-align: center;
+    table-layout: fixed;
+    width: 100%;
+    border: 1px solid;
+    border-color: white;
+}
+
+table.toolchain_table td, th {
+    overflow: hidden;
+    border: 1px solid;
+    border-color: #4b4b4b;
+}

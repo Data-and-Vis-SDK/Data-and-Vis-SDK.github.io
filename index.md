@@ -22,7 +22,7 @@ The following projects are included as part of the Data and Visualization SDK:
 
 ### I/O and Data Management
 
-* [ADIOS][ADIOS]: An adaptable framework for HPC I/O supporting files, in situ,
+* [ADIOS2][ADIOS2]: An adaptable framework for HPC I/O supporting files, in situ,
   and in transit data movement.
 * [Darshan][Darshan]: An HPC I/O
   characterization tool.
@@ -35,7 +35,7 @@ The following projects are included as part of the Data and Visualization SDK:
 * [VeloC][VeloC]: A multi-level checkpoint-restart runtime for HPC
   supercomputing infrastructures and large-scale data centers.
 
-[ADIOS]: https://csmd.ornl.gov/software/adios2
+[ADIOS2]: https://csmd.ornl.gov/software/adios2
 [Darshan]: https://www.mcs.anl.gov/research/projects/darshan/
 [HDF5]: https://www.hdfgroup.org/solutions/hdf5/
 [PNetCDF]: https://parallel-netcdf.github.io/
@@ -91,123 +91,123 @@ The following projects are included as part of the Data and Visualization SDK:
   <tbody>
     <tr>
       <td markdown="span">
-        [ADIOS][ADIOS]
+        [ADIOS2][ADIOS2]
       </td>
-      <td class="green"></td><!-- CPU -->
-      <td class="green"></td><!-- CUDA -->
-      <td class="gray"></td><!-- ROCm -->
+      <td class="verified"></td><!-- CPU -->
+      <td class="verified"></td><!-- CUDA -->
+      <td class="na" markdown="span">([^1])</td><!-- ROCm -->
     </tr>
     <tr>
       <td markdown="span">
         [Darshan][Darshan]
       </td>
-      <td class="green"></td><!-- CPU -->
-      <td class="gray"></td><!-- CUDA -->
-      <td class="gray"></td><!-- ROCm -->
+      <td class="verified"></td><!-- CPU -->
+      <td class="na"></td><!-- CUDA -->
+      <td class="na"></td><!-- ROCm -->
     </tr>
     <tr>
       <td markdown="span">
         [HDF5][HDF5]
       </td>
-      <td class="green"></td><!-- CPU -->
-      <td class="gray"></td><!-- CUDA -->
-      <td class="gray"></td><!-- ROCm -->
+      <td class="verified"></td><!-- CPU -->
+      <td class="verified"></td><!-- CUDA -->
+      <td class="na"></td><!-- ROCm -->
     </tr>
     <tr>
       <td markdown="span">
         [PNetCDF][PNetCDF]
       </td>
-      <td class="green"></td><!-- CPU -->
-      <td class="gray"></td><!-- CUDA -->
-      <td class="gray"></td><!-- ROCm -->
+      <td class="verified"></td><!-- CPU -->
+      <td class="na"></td><!-- CUDA -->
+      <td class="na"></td><!-- ROCm -->
     </tr>
     <tr>
       <td markdown="span">
         [UnifyFS][UnifyFS]
       </td>
-      <td class="green"></td><!-- CPU -->
-      <td class="gray"></td><!-- CUDA -->
-      <td class="gray"></td><!-- ROCm -->
+      <td class="verified"></td><!-- CPU -->
+      <td class="na"></td><!-- CUDA -->
+      <td class="na"></td><!-- ROCm -->
     </tr>
     <tr>
       <td markdown="span">
         [VeloC][VeloC]
       </td>
-      <td class="green"></td><!-- CPU -->
-      <td class="gray"></td><!-- CUDA -->
-      <td class="gray"></td><!-- ROCm -->
+      <td class="verified"></td><!-- CPU -->
+      <td class="na"></td><!-- CUDA -->
+      <td class="na"></td><!-- ROCm -->
     </tr>
     <tr>
       <td markdown="span">
         [Ascent][Ascent]
       </td>
-      <td class="green"></td><!-- CPU -->
-      <td class="gray" markdown="span">([^1])</td><!-- CUDA -->
-      <td class="gray" markdown="span">([^1])</td><!-- ROCm -->
+      <td class="verified"></td><!-- CPU -->
+      <td class="verified" markdown="span">([^2])</td><!-- CUDA -->
+      <td class="na" markdown="span">([^3])</td><!-- ROCm -->
     </tr>
     <tr>
       <td markdown="span">
         [Cinema][Cinema]
       </td>
-      <td class="green"></td><!-- CPU -->
-      <td class="gray"></td><!-- CUDA -->
-      <td class="gray"></td><!-- ROCm -->
+      <td class="verified"></td><!-- CPU -->
+      <td class="na"></td><!-- CUDA -->
+      <td class="na"></td><!-- ROCm -->
     </tr>
     <tr>
       <td markdown="span">
         [ParaView][ParaView]
       </td>
-      <td class="green"></td><!-- CPU -->
-      <td class="green" markdown="span">([^2])</td><!-- CUDA -->
-      <td class="gray" markdown="span">([^3])</td><!-- ROCm -->
+      <td class="verified"></td><!-- CPU -->
+      <td class="verified" markdown="span">([^4])</td><!-- CUDA -->
+      <td class="na" markdown="span">([^5])</td><!-- ROCm -->
     </tr>
     <tr>
       <td markdown="span">
         [SENSEI][SENSEI]
       </td>
-      <td class="green"></td><!-- CPU -->
-      <td class="gray"></td><!-- CUDA -->
-      <td class="gray"></td><!-- ROCm -->
+      <td class="verified"></td><!-- CPU -->
+      <td class="na"></td><!-- CUDA -->
+      <td class="na"></td><!-- ROCm -->
     </tr>
     <tr>
       <td markdown="span">
         [VisIt][VisIt]
       </td>
-      <td class="green"></td><!-- CPU -->
-      <td class="gray"></td><!-- CUDA -->
-      <td class="gray"></td><!-- ROCm -->
+      <td class="verified"></td><!-- CPU -->
+      <td class="na" markdown="span">([^6])</td><!-- CUDA -->
+      <td class="na"></td><!-- ROCm -->
     </tr>
     <tr>
       <td markdown="span">
         [VTK-m][VTK-m]
       </td>
-      <td class="green"></td><!-- CPU -->
-      <td class="green"></td><!-- CUDA -->
-      <td class="green"></td><!-- ROCm -->
+      <td class="verified"></td><!-- CPU -->
+      <td class="verified"></td><!-- CUDA -->
+      <td class="verified"></td><!-- ROCm -->
     </tr>
     <tr>
       <td markdown="span">
         [SZ][SZ]
       </td>
-      <td class="green"></td><!-- CPU -->
-      <td class="gray"></td><!-- CUDA -->
-      <td class="gray"></td><!-- ROCm -->
+      <td class="verified"></td><!-- CPU -->
+      <td class="na" markdown="span">([^7])</td><!-- CUDA -->
+      <td class="na"></td><!-- ROCm -->
     </tr>
     <tr>
       <td markdown="span">
         [ZFP][ZFP]
       </td>
-      <td class="green"></td><!-- CPU -->
-      <td class="green"></td><!-- CUDA -->
-      <td class="gray"></td><!-- ROCm -->
+      <td class="verified"></td><!-- CPU -->
+      <td class="verified"></td><!-- CUD -->
+      <td class="na" markdown="span">([^8])</td><!-- ROCm -->
     </tr>
     <tr>
       <td style="background-color: #373737; color: white">Legend</td>
       <td colspan="3">
         <table class="status_table_legend">
           <tr>
-            <td class="green" style="color: white">Available</td>
-            <td class="gray" style="color: white">Not Available</td>
+            <td class="verified" style="color: white">Available</td>
+            <td class="na" style="color: white">Not Available</td>
           </tr>
         </table>
       </td>
@@ -215,18 +215,27 @@ The following projects are included as part of the Data and Visualization SDK:
   </tbody>
 </table>
 
-[^1]: Ascent: the lastest available verison in the spack package depends on an
-      older version of VTK-m which doesn't properly implement CUDA and ROCm.
-      This creates a conflict with being able to enable the latest versions of
-      all packages with GPU features enabled.  The most recent upstream Ascent
-      release uses an appropriately newer version of VTK-m but it has not yet
-      made it to the spack package.
+[^1]: ADIOS2: ROCm/HIP support is in progress
 
-[^2]: ParaView: while CUDA can be enabled in ParaView it requires some recent
+[^2]: Ascent: the lastest available verison in the spack package depends on an
+      older version of VTK-m which doesn't properly implement CUDA with shared
+      libraries, which is required by the SDK.
+
+[^3]: Ascent: the lastest available verison in spack does not have support for
+      ROCm, but it is in the Ascent upstream and planned for release before the
+      end of 2022.
+
+[^4]: ParaView: while CUDA can be enabled in ParaView it requires some recent
       patches to the `master` branch to work correctly.  We are iterating with the
       ParaView team to get this enabled in Spack.
 
-[^3]: ParaView: ROCm support will be available in the 5.11.0 release.
+[^5]: ParaView: ROCm support will be available in the 5.11.0 release.
+
+[^6]: VisIt: VTK-m enabled GPU support is planned for VisIt by early 2023.
+
+[^7]: SZ: GPU support for SZ will require the use of new libraries SZ stacks.
+
+[^8]: ZFP: ROCm support is planned for EOY 2022
 
 ## ECP SDK Support
 
@@ -237,145 +246,145 @@ The following projects are included as part of the Data and Visualization SDK:
       <th>CPU</th>
       <th>CUDA</th>
       <th>ROCm</th>
-      <th>OneAPI</th>
+      <th markdown="span">OneAPI ([^9])</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td markdown="span">
-        [ADIOS][ADIOS]
+        [ADIOS2][ADIOS2]
       </td>
-      <td class="dark_pink"></td><!-- CPU -->
-      <td class="dark_pink"></td><!-- CUDA -->
-      <td class="dark_pink"></td><!-- ROCm -->
-      <td class="dark_pink"></td><!-- OneAPI -->
+      <td class="verified"></td><!-- CPU -->
+      <td class="verified"></td><!-- CUDA -->
+      <td class="na"></td><!-- ROCm -->
+      <td class="na"></td><!-- OneAPI -->
     </tr>
     <tr>
       <td markdown="span">
         [Darshan][Darshan]
       </td>
-      <td class="dark_pink"></td><!-- CPU -->
-      <td class="dark_pink"></td><!-- CUDA -->
-      <td class="dark_pink"></td><!-- ROCm -->
-      <td class="dark_pink"></td><!-- OneAPI -->
+      <td class="verified"></td><!-- CPU -->
+      <td class="na"></td><!-- CUDA -->
+      <td class="na"></td><!-- ROCm -->
+      <td class="na"></td><!-- OneAPI -->
     </tr>
     <tr>
       <td markdown="span">
         [HDF5][HDF5]
       </td>
-      <td class="dark_pink"></td><!-- CPU -->
-      <td class="dark_pink"></td><!-- CUDA -->
-      <td class="dark_pink"></td><!-- ROCm -->
-      <td class="dark_pink"></td><!-- OneAPI -->
+      <td class="verified"></td><!-- CPU -->
+      <td class="in_progress"></td><!-- CUDA -->
+      <td class="na"></td><!-- ROCm -->
+      <td class="na"></td><!-- OneAPI -->
     </tr>
     <tr>
       <td markdown="span">
         [PNetCDF][PNetCDF]
       </td>
-      <td class="dark_pink"></td><!-- CPU -->
-      <td class="dark_pink"></td><!-- CUDA -->
-      <td class="dark_pink"></td><!-- ROCm -->
-      <td class="dark_pink"></td><!-- OneAPI -->
+      <td class="verified"></td><!-- CPU -->
+      <td class="na"></td><!-- CUDA -->
+      <td class="na"></td><!-- ROCm -->
+      <td class="na"></td><!-- OneAPI -->
     </tr>
     <tr>
       <td markdown="span">
         [UnifyFS][UnifyFS]
       </td>
-      <td class="dark_pink"></td><!-- CPU -->
-      <td class="dark_pink"></td><!-- CUDA -->
-      <td class="dark_pink"></td><!-- ROCm -->
-      <td class="dark_pink"></td><!-- OneAPI -->
+      <td class="verified"></td><!-- CPU -->
+      <td class="na"></td><!-- CUDA -->
+      <td class="na"></td><!-- ROCm -->
+      <td class="na"></td><!-- OneAPI -->
     </tr>
     <tr>
       <td markdown="span">
         [VeloC][VeloC]
       </td>
-      <td class="dark_pink"></td><!-- CPU -->
-      <td class="dark_pink"></td><!-- CUDA -->
-      <td class="dark_pink"></td><!-- ROCm -->
-      <td class="dark_pink"></td><!-- OneAPI -->
+      <td class="verified"></td><!-- CPU -->
+      <td class="na"></td><!-- CUDA -->
+      <td class="na"></td><!-- ROCm -->
+      <td class="na"></td><!-- OneAPI -->
     </tr>
     <tr>
       <td markdown="span">
         [Ascent][Ascent]
       </td>
-      <td class="dark_pink"></td><!-- CPU -->
-      <td class="dark_pink"></td><!-- CUDA -->
-      <td class="dark_pink"></td><!-- ROCm -->
-      <td class="dark_pink"></td><!-- OneAPI -->
+      <td class="verified"></td><!-- CPU -->
+      <td class="verified"></td><!-- CUDA -->
+      <td class="na"></td><!-- ROCm -->
+      <td class="na"></td><!-- OneAPI -->
     </tr>
     <tr>
       <td markdown="span">
         [Cinema][Cinema]
       </td>
-      <td class="dark_pink"></td><!-- CPU -->
-      <td class="dark_pink"></td><!-- CUDA -->
-      <td class="dark_pink"></td><!-- ROCm -->
-      <td class="dark_pink"></td><!-- OneAPI -->
+      <td class="verified"></td><!-- CPU -->
+      <td class="na"></td><!-- CUDA -->
+      <td class="na"></td><!-- ROCm -->
+      <td class="na"></td><!-- OneAPI -->
     </tr>
     <tr>
       <td markdown="span">
         [ParaView][ParaView]
       </td>
-      <td class="dark_pink"></td><!-- CPU -->
-      <td class="dark_pink"></td><!-- CUDA -->
-      <td class="dark_pink"></td><!-- ROCm -->
-      <td class="dark_pink"></td><!-- OneAPI -->
+      <td class="verified"></td><!-- CPU -->
+      <td class="in_progress"></td><!-- CUDA -->
+      <td class="in_progress"></td><!-- ROCm -->
+      <td class="na"></td><!-- OneAPI -->
     </tr>
     <tr>
       <td markdown="span">
         [SENSEI][SENSEI]
       </td>
-      <td class="dark_pink"></td><!-- CPU -->
-      <td class="dark_pink"></td><!-- CUDA -->
-      <td class="dark_pink"></td><!-- ROCm -->
-      <td class="dark_pink"></td><!-- OneAPI -->
+      <td class="verified"></td><!-- CPU -->
+      <td class="na"></td><!-- CUDA -->
+      <td class="na"></td><!-- ROCm -->
+      <td class="na"></td><!-- OneAPI -->
     </tr>
     <tr>
       <td markdown="span">
         [VisIt][VisIt]
       </td>
-      <td class="dark_pink"></td><!-- CPU -->
-      <td class="dark_pink"></td><!-- CUDA -->
-      <td class="dark_pink"></td><!-- ROCm -->
-      <td class="dark_pink"></td><!-- OneAPI -->
+      <td class="verified"></td><!-- CPU -->
+      <td class="na"></td><!-- CUDA -->
+      <td class="na"></td><!-- ROCm -->
+      <td class="na"></td><!-- OneAPI -->
     </tr>
     <tr>
       <td markdown="span">
         [VTK-m][VTK-m]
       </td>
-      <td class="dark_pink"></td><!-- CPU -->
-      <td class="dark_pink"></td><!-- CUDA -->
-      <td class="dark_pink"></td><!-- ROCm -->
-      <td class="dark_pink"></td><!-- OneAPI -->
+      <td class="verified"></td><!-- CPU -->
+      <td class="verified"></td><!-- CUDA -->
+      <td class="verified"></td><!-- ROCm -->
+      <td class="na"></td><!-- OneAPI -->
     </tr>
     <tr>
       <td markdown="span">
         [SZ][SZ]
       </td>
-      <td class="dark_pink"></td><!-- CPU -->
-      <td class="dark_pink"></td><!-- CUDA -->
-      <td class="dark_pink"></td><!-- ROCm -->
-      <td class="dark_pink"></td><!-- OneAPI -->
+      <td class="verified"></td><!-- CPU -->
+      <td class="in_progress"></td><!-- CUDA -->
+      <td class="na"></td><!-- ROCm -->
+      <td class="na"></td><!-- OneAPI -->
     </tr>
     <tr>
       <td markdown="span">
         [ZFP][ZFP]
       </td>
-      <td class="dark_pink"></td><!-- CPU -->
-      <td class="dark_pink"></td><!-- CUDA -->
-      <td class="dark_pink"></td><!-- ROCm -->
-      <td class="dark_pink"></td><!-- OneAPI -->
+      <td class="verified"></td><!-- CPU -->
+      <td class="verified"></td><!-- CUDA -->
+      <td class="na"></td><!-- ROCm -->
+      <td class="na"></td><!-- OneAPI -->
     </tr>
     <tr>
       <td style="background-color: #373737; color: white">Legend</td>
       <td colspan="4">
         <table class="status_table_legend">
           <tr>
-            <th class="green" style="color: white;">Verified</th>
-            <th class="light_blue" style="color: white;">In Progress</th>
-            <th class="gray" style="color: white;">Not Applicable</th>
-            <th class="red" style="color: white;">Failing</th>
+            <th class="verified" style="color: white;">Verified</th>
+            <th class="in_progress" style="color: white;">In Progress</th>
+            <th class="na" style="color: white;">Not Applicable</th>
+            <th class="failing" style="color: white;">Failing</th>
           </tr>
         </table>
       </td>
@@ -383,9 +392,16 @@ The following projects are included as part of the Data and Visualization SDK:
   </tbody>
 </table>
 
+[^9]:  OneAPI is currently not tested by the SDK. Plans to begin testing with OneAPI will begin
+       when Aurora pre-release system become available.
+
 ## Extreme-scale Scientific Software Stack (E4S)
 
 ### E4S Deployment
+
+This table is an overview of the status of the different deployments of the Data and Vis SDK via E4S. Some items may be
+marked as "In Progress" but have fully completed specific stacks on those systems. The following tables will fill in
+more details on the facility deployments.
 
 <table class="status_table">
   <thead>
@@ -401,153 +417,153 @@ The following projects are included as part of the Data and Visualization SDK:
   <tbody>
     <tr>
       <td markdown="span">
-        [ADIOS][ADIOS]
+        [ADIOS2][ADIOS2]
       </td>
-      <td class="dark_pink"></td><!-- Desktop -->
-      <td class="dark_pink"></td><!-- Docker -->
-      <td class="dark_pink"></td><!-- Pre-Frontier -->
-      <td class="dark_pink"></td><!-- Perlmutter -->
-      <td class="dark_pink"></td><!-- Pre-Aurora -->
+      <td class="verified"></td><!-- Desktop -->
+      <td class="verified"></td><!-- Docker -->
+      <td class="verified"></td><!-- Pre-Frontier -->
+      <td class="in_progress"></td><!-- Perlmutter -->
+      <td class="na"></td><!-- Pre-Aurora -->
     </tr>
     <tr>
       <td markdown="span">
         [Darshan][Darshan]
       </td>
-      <td class="dark_pink"></td><!-- Desktop -->
-      <td class="dark_pink"></td><!-- Docker -->
-      <td class="dark_pink"></td><!-- Pre-Frontier -->
-      <td class="dark_pink"></td><!-- Perlmutter -->
-      <td class="dark_pink"></td><!-- Pre-Aurora -->
+      <td class="verified"></td><!-- Desktop -->
+      <td class="verified"></td><!-- Docker -->
+      <td class="verified"></td><!-- Pre-Frontier -->
+      <td class="verified"></td><!-- Perlmutter -->
+      <td class="na"></td><!-- Pre-Aurora -->
     </tr>
     <tr>
       <td markdown="span">
         [HDF5][HDF5]
       </td>
-      <td class="dark_pink"></td><!-- Desktop -->
-      <td class="dark_pink"></td><!-- Docker -->
-      <td class="dark_pink"></td><!-- Pre-Frontier -->
-      <td class="dark_pink"></td><!-- Perlmutter -->
-      <td class="dark_pink"></td><!-- Pre-Aurora -->
+      <td class="verified"></td><!-- Desktop -->
+      <td class="verified"></td><!-- Docker -->
+      <td class="verified"></td><!-- Pre-Frontier -->
+      <td class="in_progress"></td><!-- Perlmutter -->
+      <td class="na"></td><!-- Pre-Aurora -->
     </tr>
     <tr>
       <td markdown="span">
         [PNetCDF][PNetCDF]
       </td>
-      <td class="dark_pink"></td><!-- Desktop -->
-      <td class="dark_pink"></td><!-- Docker -->
-      <td class="dark_pink"></td><!-- Pre-Frontier -->
-      <td class="dark_pink"></td><!-- Perlmutter -->
-      <td class="dark_pink"></td><!-- Pre-Aurora -->
+      <td class="verified"></td><!-- Desktop -->
+      <td class="verified"></td><!-- Docker -->
+      <td class="verified"></td><!-- Pre-Frontier -->
+      <td class="verified"></td><!-- Perlmutter -->
+      <td class="na"></td><!-- Pre-Aurora -->
     </tr>
     <tr>
       <td markdown="span">
         [UnifyFS][UnifyFS]
       </td>
-      <td class="dark_pink"></td><!-- Desktop -->
-      <td class="dark_pink"></td><!-- Docker -->
-      <td class="dark_pink"></td><!-- Pre-Frontier -->
-      <td class="dark_pink"></td><!-- Perlmutter -->
-      <td class="dark_pink"></td><!-- Pre-Aurora -->
+      <td class="verified"></td><!-- Desktop -->
+      <td class="failing" markdown="span">([^10])</td><!-- Docker -->
+      <td class="verified"></td><!-- Pre-Frontier -->
+      <td class="verified"></td><!-- Perlmutter -->
+      <td class="na"></td><!-- Pre-Aurora -->
     </tr>
     <tr>
       <td markdown="span">
         [VeloC][VeloC]
       </td>
-      <td class="dark_pink"></td><!-- Desktop -->
-      <td class="dark_pink"></td><!-- Docker -->
-      <td class="dark_pink"></td><!-- Pre-Frontier -->
-      <td class="dark_pink"></td><!-- Perlmutter -->
-      <td class="dark_pink"></td><!-- Pre-Aurora -->
+      <td class="verified"></td><!-- Desktop -->
+      <td class="verified"></td><!-- Docker -->
+      <td class="verified"></td><!-- Pre-Frontier -->
+      <td class="verified"></td><!-- Perlmutter -->
+      <td class="na"></td><!-- Pre-Aurora -->
     </tr>
     <tr>
       <td markdown="span">
         [Ascent][Ascent]
       </td>
-      <td class="dark_pink"></td><!-- Desktop -->
-      <td class="dark_pink"></td><!-- Docker -->
-      <td class="dark_pink"></td><!-- Pre-Frontier -->
-      <td class="dark_pink"></td><!-- Perlmutter -->
-      <td class="dark_pink"></td><!-- Pre-Aurora -->
+      <td class="verified"></td><!-- Desktop -->
+      <td class="verified"></td><!-- Docker -->
+      <td class="failing" markdown="span">([^11])</td><!-- Pre-Frontier -->
+      <td class="failing" markdown="span">([^12])</td><!-- Perlmutter -->
+      <td class="na"></td><!-- Pre-Aurora -->
     </tr>
     <tr>
       <td markdown="span">
         [Cinema][Cinema]
       </td>
-      <td class="dark_pink"></td><!-- Desktop -->
-      <td class="dark_pink"></td><!-- Docker -->
-      <td class="dark_pink"></td><!-- Pre-Frontier -->
-      <td class="dark_pink"></td><!-- Perlmutter -->
-      <td class="dark_pink"></td><!-- Pre-Aurora -->
+      <td class="verified"></td><!-- Desktop -->
+      <td class="verified"></td><!-- Docker -->
+      <td class="verified"></td><!-- Pre-Frontier -->
+      <td class="verified"></td><!-- Perlmutter -->
+      <td class="na"></td><!-- Pre-Aurora -->
     </tr>
     <tr>
       <td markdown="span">
         [ParaView][ParaView]
       </td>
-      <td class="dark_pink"></td><!-- Desktop -->
-      <td class="dark_pink"></td><!-- Docker -->
-      <td class="dark_pink"></td><!-- Pre-Frontier -->
-      <td class="dark_pink"></td><!-- Perlmutter -->
-      <td class="dark_pink"></td><!-- Pre-Aurora -->
+      <td class="verified"></td><!-- Desktop -->
+      <td class="verified"></td><!-- Docker -->
+      <td class="in_progress"></td><!-- Pre-Frontier -->
+      <td class="in_progress"></td><!-- Perlmutter -->
+      <td class="na"></td><!-- Pre-Aurora -->
     </tr>
     <tr>
       <td markdown="span">
         [SENSEI][SENSEI]
       </td>
-      <td class="dark_pink"></td><!-- Desktop -->
-      <td class="dark_pink"></td><!-- Docker -->
-      <td class="dark_pink"></td><!-- Pre-Frontier -->
-      <td class="dark_pink"></td><!-- Perlmutter -->
-      <td class="dark_pink"></td><!-- Pre-Aurora -->
+      <td class="verified"></td><!-- Desktop -->
+      <td class="verified"></td><!-- Docker -->
+      <td class="verified"></td><!-- Pre-Frontier -->
+      <td class="verified"></td><!-- Perlmutter -->
+      <td class="na"></td><!-- Pre-Aurora -->
     </tr>
     <tr>
       <td markdown="span">
         [VisIt][VisIt]
       </td>
-      <td class="dark_pink"></td><!-- Desktop -->
-      <td class="dark_pink"></td><!-- Docker -->
-      <td class="dark_pink"></td><!-- Pre-Frontier -->
-      <td class="dark_pink"></td><!-- Perlmutter -->
-      <td class="dark_pink"></td><!-- Pre-Aurora -->
+      <td class="verified"></td><!-- Desktop -->
+      <td class="verified"></td><!-- Docker -->
+      <td class="verified"></td><!-- Pre-Frontier -->
+      <td class="verified"></td><!-- Perlmutter -->
+      <td class="na"></td><!-- Pre-Aurora -->
     </tr>
     <tr>
       <td markdown="span">
         [VTK-m][VTK-m]
       </td>
-      <td class="dark_pink"></td><!-- Desktop -->
-      <td class="dark_pink"></td><!-- Docker -->
-      <td class="dark_pink"></td><!-- Pre-Frontier -->
-      <td class="dark_pink"></td><!-- Perlmutter -->
-      <td class="dark_pink"></td><!-- Pre-Aurora -->
+      <td class="verified"></td><!-- Desktop -->
+      <td class="verified"></td><!-- Docker -->
+      <td class="in_progress"></td><!-- Pre-Frontier -->
+      <td class="in_progress"></td><!-- Perlmutter -->
+      <td class="na"></td><!-- Pre-Aurora -->
     </tr>
     <tr>
       <td markdown="span">
         [SZ][SZ]
       </td>
-      <td class="dark_pink"></td><!-- Desktop -->
-      <td class="dark_pink"></td><!-- Docker -->
-      <td class="dark_pink"></td><!-- Pre-Frontier -->
-      <td class="dark_pink"></td><!-- Perlmutter -->
-      <td class="dark_pink"></td><!-- Pre-Aurora -->
+      <td class="verified"></td><!-- Desktop -->
+      <td class="verified"></td><!-- Docker -->
+      <td class="verified"></td><!-- Pre-Frontier -->
+      <td class="verified"></td><!-- Perlmutter -->
+      <td class="na"></td><!-- Pre-Aurora -->
     </tr>
     <tr>
       <td markdown="span">
         [ZFP][ZFP]
       </td>
-      <td class="dark_pink"></td><!-- Desktop -->
-      <td class="dark_pink"></td><!-- Docker -->
-      <td class="dark_pink"></td><!-- Pre-Frontier -->
-      <td class="dark_pink"></td><!-- Perlmutter -->
-      <td class="dark_pink"></td><!-- Pre-Aurora -->
+      <td class="verified"></td><!-- Desktop -->
+      <td class="verified"></td><!-- Docker -->
+      <td class="verified"></td><!-- Pre-Frontier -->
+      <td class="verified"></td><!-- Perlmutter -->
+      <td class="na"></td><!-- Pre-Aurora -->
     </tr>
     <tr>
       <td style="background-color: #373737; color: white">Legend</td>
       <td colspan="5">
         <table class="status_table_legend">
           <tr>
-            <th class="green" style="color: white;">Verified</th>
-            <th class="light_blue" style="color: white;">In Progress</th>
-            <th class="gray" style="color: white;">Not Applicable</th>
-            <th class="red" style="color: white;">Failing</th>
+            <th class="verified" style="color: white;">Verified</th>
+            <th class="in_progress" style="color: white;">In Progress</th>
+            <th class="na" style="color: white;">Not Applicable</th>
+            <th class="failing" style="color: white;">Failing</th>
           </tr>
         </table>
       </td>
@@ -555,7 +571,58 @@ The following projects are included as part of the Data and Visualization SDK:
   </tbody>
 </table>
 
+[^10]: UnifyFS: E4S Container deployment requires a downgrade to allow building dependencies of UnifyFS that
+       require an older version of glibc.
+
+[^11]: Ascent: the "+rocm" permutation of the SDK fails due conflicting version requirements with
+       VTK-m. Ascent 0.9.0 will have fixes for this. The CPU version with Ascent in the SDK
+       builds on Crusher (Pre-Frontier) with the older version of VTK-m.
+
+[^12]: Ascent: The way MPI is set up on Perlmutter conflicts with Ascent's spack recipe and CMake. Fixes
+       for this are being developed.
+
 ### Pre-Frontier
+
+Pre-Frontier here means "Crusher", which is assumed to be a system that matches the system software and architecture
+of the target facility system Frontier. On of the primary challenges on this system is handling the compiler wrappers
+for the CCE and AMD compilers, in particular how they wrap MPI and HIP.
+
+<table class="toolchain_table">
+  <thead>
+    <tr>
+      <th>Info</th>
+      <th>GCC Toolchain</th>
+      <th>CCE Toolchain</th>
+      <th>AMD Toolchain</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        Version
+      </td>  <!-- Info -->
+      <td>v11.2</td>  <!-- GCC Toolchain -->
+      <td>v1.1.1</td>  <!-- CCE Toolchain -->
+      <td>v5.2.3</td>  <!-- AMD Toolchain -->
+    </tr>
+    <tr>
+      <td>
+        Cray MPICH
+      </td>  <!-- Info -->
+      <td>v8.2.3</td>  <!-- GCC Toolchain -->
+      <td>v8.2.3</td>  <!-- CCE Toolchain -->
+      <td>v8.2.3</td>  <!-- AMD Toolchain -->
+    </tr>
+    <tr>
+      <td>
+        ROCm
+      </td>  <!-- Info -->
+      <td>v5.2.3</td>  <!-- GCC Toolchain -->
+      <td>v5.2.3</td>  <!-- CCE Toolchain -->
+      <td>v5.2.3</td>  <!-- AMD Toolchain -->
+    </tr>
+  </tbody>
+</table>
 
 <table class="status_table">
   <thead>
@@ -572,167 +639,167 @@ The following projects are included as part of the Data and Visualization SDK:
   <tbody>
     <tr>
       <td markdown="span">
-        [ADIOS][ADIOS]
+        [ADIOS2][ADIOS2]
       </td>
-      <td class="dark_pink"></td><!-- GCC -->
-      <td class="dark_pink"></td><!-- GCC + ROCm -->
-      <td class="dark_pink"></td><!-- CCE -->
-      <td class="dark_pink"></td><!-- CCE + ROCm -->
-      <td class="dark_pink"></td><!-- AMD -->
-      <td class="dark_pink"></td><!-- AMD + ROCm -->
+      <td class="verified"></td><!-- GCC -->
+      <td class="na"></td><!-- GCC + ROCm -->
+      <td class="in_progress"></td><!-- CCE -->
+      <td class="na"></td><!-- CCE + ROCm -->
+      <td class="in_progress"></td><!-- AMD -->
+      <td class="na"></td><!-- AMD + ROCm -->
     </tr>
     <tr>
       <td markdown="span">
         [Darshan][Darshan]
       </td>
-      <td class="dark_pink"></td><!-- GCC -->
-      <td class="dark_pink"></td><!-- GCC + ROCm -->
-      <td class="dark_pink"></td><!-- CCE -->
-      <td class="dark_pink"></td><!-- CCE + ROCm -->
-      <td class="dark_pink"></td><!-- AMD -->
-      <td class="dark_pink"></td><!-- AMD + ROCm -->
+      <td class="verified"></td><!-- GCC -->
+      <td class="na"></td><!-- GCC + ROCm -->
+      <td class="in_progress"></td><!-- CCE -->
+      <td class="na"></td><!-- CCE + ROCm -->
+      <td class="in_progress"></td><!-- AMD -->
+      <td class="na"></td><!-- AMD + ROCm -->
     </tr>
     <tr>
       <td markdown="span">
         [HDF5][HDF5]
       </td>
-      <td class="dark_pink"></td><!-- GCC -->
-      <td class="dark_pink"></td><!-- GCC + ROCm -->
-      <td class="dark_pink"></td><!-- CCE -->
-      <td class="dark_pink"></td><!-- CCE + ROCm -->
-      <td class="dark_pink"></td><!-- AMD -->
-      <td class="dark_pink"></td><!-- AMD + ROCm -->
+      <td class="verified"></td><!-- GCC -->
+      <td class="na"></td><!-- GCC + ROCm -->
+      <td class="in_progress"></td><!-- CCE -->
+      <td class="na"></td><!-- CCE + ROCm -->
+      <td class="in_progress"></td><!-- AMD -->
+      <td class="na"></td><!-- AMD + ROCm -->
     </tr>
     <tr>
       <td markdown="span">
         [PNetCDF][PNetCDF]
       </td>
-      <td class="dark_pink"></td><!-- GCC -->
-      <td class="dark_pink"></td><!-- GCC + ROCm -->
-      <td class="dark_pink"></td><!-- CCE -->
-      <td class="dark_pink"></td><!-- CCE + ROCm -->
-      <td class="dark_pink"></td><!-- AMD -->
-      <td class="dark_pink"></td><!-- AMD + ROCm -->
+      <td class="verified"></td><!-- GCC -->
+      <td class="na"></td><!-- GCC + ROCm -->
+      <td class="in_progress"></td><!-- CCE -->
+      <td class="na"></td><!-- CCE + ROCm -->
+      <td class="in_progress"></td><!-- AMD -->
+      <td class="na"></td><!-- AMD + ROCm -->
     </tr>
     <tr>
       <td markdown="span">
         [UnifyFS][UnifyFS]
       </td>
-      <td class="dark_pink"></td><!-- GCC -->
-      <td class="dark_pink"></td><!-- GCC + ROCm -->
-      <td class="dark_pink"></td><!-- CCE -->
-      <td class="dark_pink"></td><!-- CCE + ROCm -->
-      <td class="dark_pink"></td><!-- AMD -->
-      <td class="dark_pink"></td><!-- AMD + ROCm -->
+      <td class="verified"></td><!-- GCC -->
+      <td class="na"></td><!-- GCC + ROCm -->
+      <td class="in_progress"></td><!-- CCE -->
+      <td class="na"></td><!-- CCE + ROCm -->
+      <td class="in_progress"></td><!-- AMD -->
+      <td class="na"></td><!-- AMD + ROCm -->
     </tr>
     <tr>
       <td markdown="span">
         [VeloC][VeloC]
       </td>
-      <td class="dark_pink"></td><!-- GCC -->
-      <td class="dark_pink"></td><!-- GCC + ROCm -->
-      <td class="dark_pink"></td><!-- CCE -->
-      <td class="dark_pink"></td><!-- CCE + ROCm -->
-      <td class="dark_pink"></td><!-- AMD -->
-      <td class="dark_pink"></td><!-- AMD + ROCm -->
+      <td class="verified"></td><!-- GCC -->
+      <td class="na"></td><!-- GCC + ROCm -->
+      <td class="in_progress"></td><!-- CCE -->
+      <td class="na"></td><!-- CCE + ROCm -->
+      <td class="in_progress"></td><!-- AMD -->
+      <td class="na"></td><!-- AMD + ROCm -->
     </tr>
     <tr>
       <td markdown="span">
         [Ascent][Ascent]
       </td>
-      <td class="dark_pink"></td><!-- GCC -->
-      <td class="dark_pink"></td><!-- GCC + ROCm -->
-      <td class="dark_pink"></td><!-- CCE -->
-      <td class="dark_pink"></td><!-- CCE + ROCm -->
-      <td class="dark_pink"></td><!-- AMD -->
-      <td class="dark_pink"></td><!-- AMD + ROCm -->
+      <td class="verified"></td><!-- GCC -->
+      <td class="na"></td><!-- GCC + ROCm -->
+      <td class="in_progress"></td><!-- CCE -->
+      <td class="na"></td><!-- CCE + ROCm -->
+      <td class="in_progress"></td><!-- AMD -->
+      <td class="na"></td><!-- AMD + ROCm -->
     </tr>
     <tr>
       <td markdown="span">
         [Cinema][Cinema]
       </td>
-      <td class="dark_pink"></td><!-- GCC -->
-      <td class="dark_pink"></td><!-- GCC + ROCm -->
-      <td class="dark_pink"></td><!-- CCE -->
-      <td class="dark_pink"></td><!-- CCE + ROCm -->
-      <td class="dark_pink"></td><!-- AMD -->
-      <td class="dark_pink"></td><!-- AMD + ROCm -->
+      <td class="verified"></td><!-- GCC -->
+      <td class="na"></td><!-- GCC + ROCm -->
+      <td class="in_progress"></td><!-- CCE -->
+      <td class="na"></td><!-- CCE + ROCm -->
+      <td class="in_progress"></td><!-- AMD -->
+      <td class="na"></td><!-- AMD + ROCm -->
     </tr>
     <tr>
       <td markdown="span">
         [ParaView][ParaView]
       </td>
-      <td class="dark_pink"></td><!-- GCC -->
-      <td class="dark_pink"></td><!-- GCC + ROCm -->
-      <td class="dark_pink"></td><!-- CCE -->
-      <td class="dark_pink"></td><!-- CCE + ROCm -->
-      <td class="dark_pink"></td><!-- AMD -->
-      <td class="dark_pink"></td><!-- AMD + ROCm -->
+      <td class="verified"></td><!-- GCC -->
+      <td class="na"></td><!-- GCC + ROCm -->
+      <td class="in_progress"></td><!-- CCE -->
+      <td class="na"></td><!-- CCE + ROCm -->
+      <td class="in_progress"></td><!-- AMD -->
+      <td class="na"></td><!-- AMD + ROCm -->
     </tr>
     <tr>
       <td markdown="span">
         [SENSEI][SENSEI]
       </td>
-      <td class="dark_pink"></td><!-- GCC -->
-      <td class="dark_pink"></td><!-- GCC + ROCm -->
-      <td class="dark_pink"></td><!-- CCE -->
-      <td class="dark_pink"></td><!-- CCE + ROCm -->
-      <td class="dark_pink"></td><!-- AMD -->
-      <td class="dark_pink"></td><!-- AMD + ROCm -->
+      <td class="verified"></td><!-- GCC -->
+      <td class="na"></td><!-- GCC + ROCm -->
+      <td class="in_progress"></td><!-- CCE -->
+      <td class="na"></td><!-- CCE + ROCm -->
+      <td class="in_progress"></td><!-- AMD -->
+      <td class="na"></td><!-- AMD + ROCm -->
     </tr>
     <tr>
       <td markdown="span">
         [VisIt][VisIt]
       </td>
-      <td class="dark_pink"></td><!-- GCC -->
-      <td class="dark_pink"></td><!-- GCC + ROCm -->
-      <td class="dark_pink"></td><!-- CCE -->
-      <td class="dark_pink"></td><!-- CCE + ROCm -->
-      <td class="dark_pink"></td><!-- AMD -->
-      <td class="dark_pink"></td><!-- AMD + ROCm -->
+      <td class="verified"></td><!-- GCC -->
+      <td class="na"></td><!-- GCC + ROCm -->
+      <td class="in_progress"></td><!-- CCE -->
+      <td class="na"></td><!-- CCE + ROCm -->
+      <td class="in_progress"></td><!-- AMD -->
+      <td class="na"></td><!-- AMD + ROCm -->
     </tr>
     <tr>
       <td markdown="span">
         [VTK-m][VTK-m]
       </td>
-      <td class="dark_pink"></td><!-- GCC -->
-      <td class="dark_pink"></td><!-- GCC + ROCm -->
-      <td class="dark_pink"></td><!-- CCE -->
-      <td class="dark_pink"></td><!-- CCE + ROCm -->
-      <td class="dark_pink" markdown="span">([^4])</td><!-- AMD -->
-      <td class="dark_pink"></td><!-- AMD + ROCm -->
+      <td class="verified"></td><!-- GCC -->
+      <td class="verified"></td><!-- GCC + ROCm -->
+      <td class="in_progress"></td><!-- CCE -->
+      <td class="failing" markdown="span">([^13])</td><!-- CCE + ROCm -->
+      <td class="in_progress"></td><!-- AMD -->
+      <td class="failing" markdown="span">([^13])</td><!-- AMD + ROCm -->
     </tr>
     <tr>
       <td markdown="span">
         [SZ][SZ]
       </td>
-      <td class="dark_pink"></td><!-- GCC -->
-      <td class="dark_pink"></td><!-- GCC + ROCm -->
-      <td class="dark_pink"></td><!-- CCE -->
-      <td class="dark_pink"></td><!-- CCE + ROCm -->
-      <td class="dark_pink"></td><!-- AMD -->
-      <td class="dark_pink"></td><!-- AMD + ROCm -->
+      <td class="verified"></td><!-- GCC -->
+      <td class="na"></td><!-- GCC + ROCm -->
+      <td class="verified"></td><!-- CCE -->
+      <td class="na"></td><!-- CCE + ROCm -->
+      <td class="verified"></td><!-- AMD -->
+      <td class="na"></td><!-- AMD + ROCm -->
     </tr>
     <tr>
       <td markdown="span">
         [ZFP][ZFP]
       </td>
-      <td class="dark_pink"></td><!-- GCC -->
-      <td class="dark_pink"></td><!-- GCC + ROCm -->
-      <td class="dark_pink"></td><!-- CCE -->
-      <td class="dark_pink"></td><!-- CCE + ROCm -->
-      <td class="dark_pink"></td><!-- AMD -->
-      <td class="dark_pink"></td><!-- AMD + ROCm -->
+      <td class="verified"></td><!-- GCC -->
+      <td class="na"></td><!-- GCC + ROCm -->
+      <td class="verified"></td><!-- CCE -->
+      <td class="na"></td><!-- CCE + ROCm -->
+      <td class="verified"></td><!-- AMD -->
+      <td class="na"></td><!-- AMD + ROCm -->
     </tr>
     <tr>
       <td style="background-color: #373737; color: white">Legend</td>
       <td colspan="6">
         <table class="status_table_legend">
           <tr>
-            <th class="green" style="color: white;">Verified</th>
-            <th class="light_blue" style="color: white;">In Progress</th>
-            <th class="gray" style="color: white;">Not Applicable</th>
-            <th class="red" style="color: white;">Failing</th>
+            <th class="verified" style="color: white;">Verified</th>
+            <th class="in_progress" style="color: white;">In Progress</th>
+            <th class="na" style="color: white;">Not Applicable</th>
+            <th class="failing" style="color: white;">Failing</th>
           </tr>
         </table>
       </td>
@@ -740,12 +807,43 @@ The following projects are included as part of the Data and Visualization SDK:
   </tbody>
 </table>
 
-[^4]: VTK-m: several versions of the AMD compiler are known to crash when
-      building VTK-m.
+[^13]: VTK-m: Spack configurations when using MPI + HIP (ROCm) are not yet compatible
+       with the Cray compiler wrappers.
 
 ### Perlmutter Toolchains (CUDA)
 
-Perlmutter is pinned to GCC X.Y.Z and CUDA A.B.C.
+<table class="toolchain_table">
+  <thead>
+    <tr>
+      <th>Info</th>
+      <th>GCC Toolchain</th>
+      <th>NVHPC Toolchain</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        Version
+      </td>  <!-- Info -->
+      <td>v11.2</td>  <!-- GCC Toolchain -->
+      <td>v22.4</td>  <!-- NVHPC Toolchain -->
+    </tr>
+    <tr>
+      <td>
+        Cray MPICH
+      </td>  <!-- Info -->
+      <td>v8.2.3</td>  <!-- GCC Toolchain -->
+      <td>v8.2.3</td>  <!-- NVHPC Toolchain -->
+    </tr>
+    <tr>
+      <td>
+        CUDA
+      </td>  <!-- Info -->
+      <td>v11.3</td>  <!-- GCC Toolchain -->
+      <td>v11.3</td>  <!-- NVHPC Toolchain -->
+    </tr>
+  </tbody>
+</table>
 
 <table class="status_table">
   <thead>
@@ -759,125 +857,125 @@ Perlmutter is pinned to GCC X.Y.Z and CUDA A.B.C.
   <tbody>
     <tr>
       <td markdown="span">
-        [ADIOS][ADIOS]
+        [ADIOS2][ADIOS2]
       </td>
-      <td class="dark_pink"></td><!-- GCC -->
-      <td class="dark_pink"></td><!-- GCC + CUDA -->
-      <td class="dark_pink"></td><!-- NVHPC + CUDA -->
+      <td class="verified"></td><!-- GCC -->
+      <td class="in_progress"></td><!-- GCC + CUDA -->
+      <td class="in_progress"></td><!-- NVHPC + CUDA -->
     </tr>
     <tr>
       <td markdown="span">
         [Darshan][Darshan]
       </td>
-      <td class="dark_pink"></td><!-- GCC -->
-      <td class="dark_pink"></td><!-- GCC + CUDA -->
-      <td class="dark_pink"></td><!-- NVHPC + CUDA -->
+      <td class="verified"></td><!-- GCC -->
+      <td class="na"></td><!-- GCC + CUDA -->
+      <td class="in_progress"></td><!-- NVHPC + CUDA -->
     </tr>
     <tr>
       <td markdown="span">
         [HDF5][HDF5]
       </td>
-      <td class="dark_pink"></td><!-- GCC -->
-      <td class="dark_pink"></td><!-- GCC + CUDA -->
-      <td class="dark_pink"></td><!-- NVHPC + CUDA -->
+      <td class="verified"></td><!-- GCC -->
+      <td class="in_progress"></td><!-- GCC + CUDA -->
+      <td class="in_progress"></td><!-- NVHPC + CUDA -->
     </tr>
     <tr>
       <td markdown="span">
         [PNetCDF][PNetCDF]
       </td>
-      <td class="dark_pink"></td><!-- GCC -->
-      <td class="dark_pink"></td><!-- GCC + CUDA -->
-      <td class="dark_pink"></td><!-- NVHPC + CUDA -->
+      <td class="verified"></td><!-- GCC -->
+      <td class="na"></td><!-- GCC + CUDA -->
+      <td class="in_progress"></td><!-- NVHPC + CUDA -->
     </tr>
     <tr>
       <td markdown="span">
         [UnifyFS][UnifyFS]
       </td>
-      <td class="dark_pink"></td><!-- GCC -->
-      <td class="dark_pink"></td><!-- GCC + CUDA -->
-      <td class="dark_pink"></td><!-- NVHPC + CUDA -->
+      <td class="verified"></td><!-- GCC -->
+      <td class="na"></td><!-- GCC + CUDA -->
+      <td class="in_progress"></td><!-- NVHPC + CUDA -->
     </tr>
     <tr>
       <td markdown="span">
         [VeloC][VeloC]
       </td>
-      <td class="dark_pink"></td><!-- GCC -->
-      <td class="dark_pink"></td><!-- GCC + CUDA -->
-      <td class="dark_pink"></td><!-- NVHPC + CUDA -->
+      <td class="verified"></td><!-- GCC -->
+      <td class="na"></td><!-- GCC + CUDA -->
+      <td class="in_progress"></td><!-- NVHPC + CUDA -->
     </tr>
     <tr>
       <td markdown="span">
         [Ascent][Ascent]
       </td>
-      <td class="dark_pink"></td><!-- GCC -->
-      <td class="dark_pink"></td><!-- GCC + CUDA -->
-      <td class="dark_pink"></td><!-- NVHPC + CUDA -->
+      <td class="verified"></td><!-- GCC -->
+      <td class="failing" markdown="span">([^2])</td><!-- GCC + CUDA -->
+      <td class="in_progress"></td><!-- NVHPC + CUDA -->
     </tr>
     <tr>
       <td markdown="span">
         [Cinema][Cinema]
       </td>
-      <td class="dark_pink"></td><!-- GCC -->
-      <td class="dark_pink"></td><!-- GCC + CUDA -->
-      <td class="dark_pink"></td><!-- NVHPC + CUDA -->
+      <td class="verified"></td><!-- GCC -->
+      <td class="na"></td><!-- GCC + CUDA -->
+      <td class="in_progress"></td><!-- NVHPC + CUDA -->
     </tr>
     <tr>
       <td markdown="span">
         [ParaView][ParaView]
       </td>
-      <td class="dark_pink"></td><!-- GCC -->
-      <td class="dark_pink"></td><!-- GCC + CUDA -->
-      <td class="dark_pink"></td><!-- NVHPC + CUDA -->
+      <td class="verified"></td><!-- GCC -->
+      <td class="na"></td><!-- GCC + CUDA -->
+      <td class="in_progress"></td><!-- NVHPC + CUDA -->
     </tr>
     <tr>
       <td markdown="span">
         [SENSEI][SENSEI]
       </td>
-      <td class="dark_pink"></td><!-- GCC -->
-      <td class="dark_pink"></td><!-- GCC + CUDA -->
-      <td class="dark_pink"></td><!-- NVHPC + CUDA -->
+      <td class="verified"></td><!-- GCC -->
+      <td class="na"></td><!-- GCC + CUDA -->
+      <td class="in_progress"></td><!-- NVHPC + CUDA -->
     </tr>
     <tr>
       <td markdown="span">
         [VisIt][VisIt]
       </td>
-      <td class="dark_pink"></td><!-- GCC -->
-      <td class="dark_pink"></td><!-- GCC + CUDA -->
-      <td class="dark_pink"></td><!-- NVHPC + CUDA -->
+      <td class="verified"></td><!-- GCC -->
+      <td class="na"></td><!-- GCC + CUDA -->
+      <td class="in_progress"></td><!-- NVHPC + CUDA -->
     </tr>
     <tr>
       <td markdown="span">
         [VTK-m][VTK-m]
       </td>
-      <td class="dark_pink"></td><!-- GCC -->
-      <td class="dark_pink" markdown="span">([^5])</td><!-- GCC + CUDA -->
-      <td class="dark_pink"></td><!-- NVHPC + CUDA -->
+      <td class="verified"></td><!-- GCC -->
+      <td class="verified" markdown="span"></td><!-- GCC + CUDA -->
+      <td class="in_progress"></td><!-- NVHPC + CUDA -->
     </tr>
     <tr>
       <td markdown="span">
         [SZ][SZ]
       </td>
-      <td class="dark_pink"></td><!-- GCC -->
-      <td class="dark_pink"></td><!-- GCC + CUDA -->
-      <td class="dark_pink"></td><!-- NVHPC + CUDA -->
+      <td class="verified"></td><!-- GCC -->
+      <td class="na"></td><!-- GCC + CUDA -->
+      <td class="in_progress"></td><!-- NVHPC + CUDA -->
     </tr>
     <tr>
       <td markdown="span">
         [ZFP][ZFP]
       </td>
-      <td class="dark_pink"></td><!-- GCC -->
-      <td class="dark_pink"></td><!-- GCC + CUDA -->
-      <td class="dark_pink"></td><!-- NVHPC + CUDA -->
+      <td class="verified"></td><!-- GCC -->
+      <td class="verified"></td><!-- GCC + CUDA -->
+      <td class="in_progress"></td><!-- NVHPC + CUDA -->
     </tr>
     <tr>
       <td style="background-color: #373737; color: white">Legend</td>
       <td colspan="3">
         <table class="status_table_legend">
           <tr>
-            <th class="green" style="color: white;">Verified</th>
-            <th class="light_blue" style="color: white;">In Progress</th>
-            <th class="gray" style="color: white;">Not Applicable</th>
-            <th class="red" style="color: white;">Failing</th>
+            <th class="verified" style="color: white;">Verified</th>
+            <th class="in_progress" style="color: white;">In Progress</th>
+            <th class="na" style="color: white;">Not Applicable</th>
+            <th class="failing" style="color: white;">Failing</th>
           </tr>
         </table>
       </td>
@@ -885,8 +983,6 @@ Perlmutter is pinned to GCC X.Y.Z and CUDA A.B.C.
   </tbody>
 </table>
 
-[^5]: VTK-m: several versions of the NVIDIA CUDA compiler are known to crash
-      when building VTK-m.
 
 ### Pre-Aurora Toolchains
 
