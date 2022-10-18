@@ -93,121 +93,121 @@ The following projects are included as part of the Data and Visualization SDK:
       <td markdown="span">
         [ADIOS2][ADIOS2]
       </td>
-      <td class="green"></td><!-- CPU -->
-      <td class="green"></td><!-- CUDA -->
-      <td class="gray" markdown="span">([^1])</td><!-- ROCm -->
+      <td class="verified"></td><!-- CPU -->
+      <td class="verified"></td><!-- CUDA -->
+      <td class="na" markdown="span">([^1])</td><!-- ROCm -->
     </tr>
     <tr>
       <td markdown="span">
         [Darshan][Darshan]
       </td>
-      <td class="green"></td><!-- CPU -->
-      <td class="gray"></td><!-- CUDA -->
-      <td class="gray"></td><!-- ROCm -->
+      <td class="verified"></td><!-- CPU -->
+      <td class="na"></td><!-- CUDA -->
+      <td class="na"></td><!-- ROCm -->
     </tr>
     <tr>
       <td markdown="span">
         [HDF5][HDF5]
       </td>
-      <td class="green"></td><!-- CPU -->
-      <td class="green"></td><!-- CUDA -->
-      <td class="gray"></td><!-- ROCm -->
+      <td class="verified"></td><!-- CPU -->
+      <td class="verified"></td><!-- CUDA -->
+      <td class="na"></td><!-- ROCm -->
     </tr>
     <tr>
       <td markdown="span">
         [PNetCDF][PNetCDF]
       </td>
-      <td class="green"></td><!-- CPU -->
-      <td class="gray"></td><!-- CUDA -->
-      <td class="gray"></td><!-- ROCm -->
+      <td class="verified"></td><!-- CPU -->
+      <td class="na"></td><!-- CUDA -->
+      <td class="na"></td><!-- ROCm -->
     </tr>
     <tr>
       <td markdown="span">
         [UnifyFS][UnifyFS]
       </td>
-      <td class="green"></td><!-- CPU -->
-      <td class="gray"></td><!-- CUDA -->
-      <td class="gray"></td><!-- ROCm -->
+      <td class="verified"></td><!-- CPU -->
+      <td class="na"></td><!-- CUDA -->
+      <td class="na"></td><!-- ROCm -->
     </tr>
     <tr>
       <td markdown="span">
         [VeloC][VeloC]
       </td>
-      <td class="green"></td><!-- CPU -->
-      <td class="gray"></td><!-- CUDA -->
-      <td class="gray"></td><!-- ROCm -->
+      <td class="verified"></td><!-- CPU -->
+      <td class="na"></td><!-- CUDA -->
+      <td class="na"></td><!-- ROCm -->
     </tr>
     <tr>
       <td markdown="span">
         [Ascent][Ascent]
       </td>
-      <td class="green"></td><!-- CPU -->
-      <td class="green" markdown="span">([^2])</td><!-- CUDA -->
-      <td class="gray" markdown="span">([^3])</td><!-- ROCm -->
+      <td class="verified"></td><!-- CPU -->
+      <td class="verified" markdown="span">([^2])</td><!-- CUDA -->
+      <td class="na" markdown="span">([^3])</td><!-- ROCm -->
     </tr>
     <tr>
       <td markdown="span">
         [Cinema][Cinema]
       </td>
-      <td class="green"></td><!-- CPU -->
-      <td class="gray"></td><!-- CUDA -->
-      <td class="gray"></td><!-- ROCm -->
+      <td class="verified"></td><!-- CPU -->
+      <td class="na"></td><!-- CUDA -->
+      <td class="na"></td><!-- ROCm -->
     </tr>
     <tr>
       <td markdown="span">
         [ParaView][ParaView]
       </td>
-      <td class="green"></td><!-- CPU -->
-      <td class="green" markdown="span">([^4])</td><!-- CUDA -->
-      <td class="gray" markdown="span">([^5])</td><!-- ROCm -->
+      <td class="verified"></td><!-- CPU -->
+      <td class="verified" markdown="span">([^4])</td><!-- CUDA -->
+      <td class="na" markdown="span">([^5])</td><!-- ROCm -->
     </tr>
     <tr>
       <td markdown="span">
         [SENSEI][SENSEI]
       </td>
-      <td class="green"></td><!-- CPU -->
-      <td class="gray"></td><!-- CUDA -->
-      <td class="gray"></td><!-- ROCm -->
+      <td class="verified"></td><!-- CPU -->
+      <td class="na"></td><!-- CUDA -->
+      <td class="na"></td><!-- ROCm -->
     </tr>
     <tr>
       <td markdown="span">
         [VisIt][VisIt]
       </td>
-      <td class="green"></td><!-- CPU -->
-      <td class="gray" markdown="span">([^6])</td><!-- CUDA -->
-      <td class="gray"></td><!-- ROCm -->
+      <td class="verified"></td><!-- CPU -->
+      <td class="na" markdown="span">([^6])</td><!-- CUDA -->
+      <td class="na"></td><!-- ROCm -->
     </tr>
     <tr>
       <td markdown="span">
         [VTK-m][VTK-m]
       </td>
-      <td class="green"></td><!-- CPU -->
-      <td class="green"></td><!-- CUDA -->
-      <td class="green"></td><!-- ROCm -->
+      <td class="verified"></td><!-- CPU -->
+      <td class="verified"></td><!-- CUDA -->
+      <td class="verified"></td><!-- ROCm -->
     </tr>
     <tr>
       <td markdown="span">
         [SZ][SZ]
       </td>
-      <td class="green"></td><!-- CPU -->
-      <td class="gray" markdown="span">([^7])</td><!-- CUDA -->
-      <td class="gray"></td><!-- ROCm -->
+      <td class="verified"></td><!-- CPU -->
+      <td class="na" markdown="span">([^7])</td><!-- CUDA -->
+      <td class="na"></td><!-- ROCm -->
     </tr>
     <tr>
       <td markdown="span">
         [ZFP][ZFP]
       </td>
-      <td class="green"></td><!-- CPU -->
-      <td class="green"></td><!-- CUD -->
-      <td class="gray" markdown="span">([^8])</td><!-- ROCm -->
+      <td class="verified"></td><!-- CPU -->
+      <td class="verified"></td><!-- CUD -->
+      <td class="na" markdown="span">([^8])</td><!-- ROCm -->
     </tr>
     <tr>
       <td style="background-color: #373737; color: white">Legend</td>
       <td colspan="3">
         <table class="status_table_legend">
           <tr>
-            <td class="green" style="color: white">Available</td>
-            <td class="gray" style="color: white">Not Available</td>
+            <td class="verified" style="color: white">Available</td>
+            <td class="na" style="color: white">Not Available</td>
           </tr>
         </table>
       </td>
@@ -254,137 +254,137 @@ The following projects are included as part of the Data and Visualization SDK:
       <td markdown="span">
         [ADIOS2][ADIOS2]
       </td>
-      <td class="green"></td><!-- CPU -->
-      <td class="green"></td><!-- CUDA -->
-      <td class="gray"></td><!-- ROCm -->
-      <td class="gray"></td><!-- OneAPI -->
+      <td class="verified"></td><!-- CPU -->
+      <td class="verified"></td><!-- CUDA -->
+      <td class="na"></td><!-- ROCm -->
+      <td class="na"></td><!-- OneAPI -->
     </tr>
     <tr>
       <td markdown="span">
         [Darshan][Darshan]
       </td>
-      <td class="green"></td><!-- CPU -->
-      <td class="gray"></td><!-- CUDA -->
-      <td class="gray"></td><!-- ROCm -->
-      <td class="gray"></td><!-- OneAPI -->
+      <td class="verified"></td><!-- CPU -->
+      <td class="na"></td><!-- CUDA -->
+      <td class="na"></td><!-- ROCm -->
+      <td class="na"></td><!-- OneAPI -->
     </tr>
     <tr>
       <td markdown="span">
         [HDF5][HDF5]
       </td>
-      <td class="green"></td><!-- CPU -->
-      <td class="light_blue"></td><!-- CUDA -->
-      <td class="gray"></td><!-- ROCm -->
-      <td class="gray"></td><!-- OneAPI -->
+      <td class="verified"></td><!-- CPU -->
+      <td class="in_progress"></td><!-- CUDA -->
+      <td class="na"></td><!-- ROCm -->
+      <td class="na"></td><!-- OneAPI -->
     </tr>
     <tr>
       <td markdown="span">
         [PNetCDF][PNetCDF]
       </td>
-      <td class="green"></td><!-- CPU -->
-      <td class="gray"></td><!-- CUDA -->
-      <td class="gray"></td><!-- ROCm -->
-      <td class="gray"></td><!-- OneAPI -->
+      <td class="verified"></td><!-- CPU -->
+      <td class="na"></td><!-- CUDA -->
+      <td class="na"></td><!-- ROCm -->
+      <td class="na"></td><!-- OneAPI -->
     </tr>
     <tr>
       <td markdown="span">
         [UnifyFS][UnifyFS]
       </td>
-      <td class="green"></td><!-- CPU -->
-      <td class="gray"></td><!-- CUDA -->
-      <td class="gray"></td><!-- ROCm -->
-      <td class="gray"></td><!-- OneAPI -->
+      <td class="verified"></td><!-- CPU -->
+      <td class="na"></td><!-- CUDA -->
+      <td class="na"></td><!-- ROCm -->
+      <td class="na"></td><!-- OneAPI -->
     </tr>
     <tr>
       <td markdown="span">
         [VeloC][VeloC]
       </td>
-      <td class="green"></td><!-- CPU -->
-      <td class="light_blue"></td><!-- CUDA -->
-      <td class="gray"></td><!-- ROCm -->
-      <td class="gray"></td><!-- OneAPI -->
+      <td class="verified"></td><!-- CPU -->
+      <td class="na"></td><!-- CUDA -->
+      <td class="na"></td><!-- ROCm -->
+      <td class="na"></td><!-- OneAPI -->
     </tr>
     <tr>
       <td markdown="span">
         [Ascent][Ascent]
       </td>
-      <td class="green"></td><!-- CPU -->
-      <td class="green"></td><!-- CUDA -->
-      <td class="gray"></td><!-- ROCm -->
-      <td class="gray"></td><!-- OneAPI -->
+      <td class="verified"></td><!-- CPU -->
+      <td class="verified"></td><!-- CUDA -->
+      <td class="na"></td><!-- ROCm -->
+      <td class="na"></td><!-- OneAPI -->
     </tr>
     <tr>
       <td markdown="span">
         [Cinema][Cinema]
       </td>
-      <td class="green"></td><!-- CPU -->
-      <td class="gray"></td><!-- CUDA -->
-      <td class="gray"></td><!-- ROCm -->
-      <td class="gray"></td><!-- OneAPI -->
+      <td class="verified"></td><!-- CPU -->
+      <td class="na"></td><!-- CUDA -->
+      <td class="na"></td><!-- ROCm -->
+      <td class="na"></td><!-- OneAPI -->
     </tr>
     <tr>
       <td markdown="span">
         [ParaView][ParaView]
       </td>
-      <td class="green"></td><!-- CPU -->
-      <td class="light_blue"></td><!-- CUDA -->
-      <td class="light_blue"></td><!-- ROCm -->
-      <td class="gray"></td><!-- OneAPI -->
+      <td class="verified"></td><!-- CPU -->
+      <td class="in_progress"></td><!-- CUDA -->
+      <td class="in_progress"></td><!-- ROCm -->
+      <td class="na"></td><!-- OneAPI -->
     </tr>
     <tr>
       <td markdown="span">
         [SENSEI][SENSEI]
       </td>
-      <td class="green"></td><!-- CPU -->
-      <td class="gray"></td><!-- CUDA -->
-      <td class="gray"></td><!-- ROCm -->
-      <td class="gray"></td><!-- OneAPI -->
+      <td class="verified"></td><!-- CPU -->
+      <td class="na"></td><!-- CUDA -->
+      <td class="na"></td><!-- ROCm -->
+      <td class="na"></td><!-- OneAPI -->
     </tr>
     <tr>
       <td markdown="span">
         [VisIt][VisIt]
       </td>
-      <td class="green"></td><!-- CPU -->
-      <td class="gray"></td><!-- CUDA -->
-      <td class="gray"></td><!-- ROCm -->
-      <td class="gray"></td><!-- OneAPI -->
+      <td class="verified"></td><!-- CPU -->
+      <td class="na"></td><!-- CUDA -->
+      <td class="na"></td><!-- ROCm -->
+      <td class="na"></td><!-- OneAPI -->
     </tr>
     <tr>
       <td markdown="span">
         [VTK-m][VTK-m]
       </td>
-      <td class="green"></td><!-- CPU -->
-      <td class="green"></td><!-- CUDA -->
-      <td class="green"></td><!-- ROCm -->
-      <td class="gray"></td><!-- OneAPI -->
+      <td class="verified"></td><!-- CPU -->
+      <td class="verified"></td><!-- CUDA -->
+      <td class="verified"></td><!-- ROCm -->
+      <td class="na"></td><!-- OneAPI -->
     </tr>
     <tr>
       <td markdown="span">
         [SZ][SZ]
       </td>
-      <td class="green"></td><!-- CPU -->
-      <td class="light_blue"></td><!-- CUDA -->
-      <td class="gray"></td><!-- ROCm -->
-      <td class="gray"></td><!-- OneAPI -->
+      <td class="verified"></td><!-- CPU -->
+      <td class="in_progress"></td><!-- CUDA -->
+      <td class="na"></td><!-- ROCm -->
+      <td class="na"></td><!-- OneAPI -->
     </tr>
     <tr>
       <td markdown="span">
         [ZFP][ZFP]
       </td>
-      <td class="green"></td><!-- CPU -->
-      <td class="green"></td><!-- CUDA -->
-      <td class="gray"></td><!-- ROCm -->
-      <td class="gray"></td><!-- OneAPI -->
+      <td class="verified"></td><!-- CPU -->
+      <td class="verified"></td><!-- CUDA -->
+      <td class="na"></td><!-- ROCm -->
+      <td class="na"></td><!-- OneAPI -->
     </tr>
     <tr>
       <td style="background-color: #373737; color: white">Legend</td>
       <td colspan="4">
         <table class="status_table_legend">
           <tr>
-            <th class="green" style="color: white;">Verified</th>
-            <th class="light_blue" style="color: white;">In Progress</th>
-            <th class="gray" style="color: white;">Not Applicable</th>
-            <th class="red" style="color: white;">Failing</th>
+            <th class="verified" style="color: white;">Verified</th>
+            <th class="in_progress" style="color: white;">In Progress</th>
+            <th class="na" style="color: white;">Not Applicable</th>
+            <th class="failing" style="color: white;">Failing</th>
           </tr>
         </table>
       </td>
@@ -419,151 +419,151 @@ more details on the facility deployments.
       <td markdown="span">
         [ADIOS2][ADIOS2]
       </td>
-      <td class="green"></td><!-- Desktop -->
-      <td class="green"></td><!-- Docker -->
-      <td class="green"></td><!-- Pre-Frontier -->
-      <td class="light_blue"></td><!-- Perlmutter -->
-      <td class="gray"></td><!-- Pre-Aurora -->
+      <td class="verified"></td><!-- Desktop -->
+      <td class="verified"></td><!-- Docker -->
+      <td class="verified"></td><!-- Pre-Frontier -->
+      <td class="in_progress"></td><!-- Perlmutter -->
+      <td class="na"></td><!-- Pre-Aurora -->
     </tr>
     <tr>
       <td markdown="span">
         [Darshan][Darshan]
       </td>
-      <td class="green"></td><!-- Desktop -->
-      <td class="green"></td><!-- Docker -->
-      <td class="green"></td><!-- Pre-Frontier -->
-      <td class="green"></td><!-- Perlmutter -->
-      <td class="gray"></td><!-- Pre-Aurora -->
+      <td class="verified"></td><!-- Desktop -->
+      <td class="verified"></td><!-- Docker -->
+      <td class="verified"></td><!-- Pre-Frontier -->
+      <td class="verified"></td><!-- Perlmutter -->
+      <td class="na"></td><!-- Pre-Aurora -->
     </tr>
     <tr>
       <td markdown="span">
         [HDF5][HDF5]
       </td>
-      <td class="green"></td><!-- Desktop -->
-      <td class="green"></td><!-- Docker -->
-      <td class="green"></td><!-- Pre-Frontier -->
-      <td class="light_blue"></td><!-- Perlmutter -->
-      <td class="gray"></td><!-- Pre-Aurora -->
+      <td class="verified"></td><!-- Desktop -->
+      <td class="verified"></td><!-- Docker -->
+      <td class="verified"></td><!-- Pre-Frontier -->
+      <td class="in_progress"></td><!-- Perlmutter -->
+      <td class="na"></td><!-- Pre-Aurora -->
     </tr>
     <tr>
       <td markdown="span">
         [PNetCDF][PNetCDF]
       </td>
-      <td class="green"></td><!-- Desktop -->
-      <td class="green"></td><!-- Docker -->
-      <td class="green"></td><!-- Pre-Frontier -->
-      <td class="green"></td><!-- Perlmutter -->
-      <td class="gray"></td><!-- Pre-Aurora -->
+      <td class="verified"></td><!-- Desktop -->
+      <td class="verified"></td><!-- Docker -->
+      <td class="verified"></td><!-- Pre-Frontier -->
+      <td class="verified"></td><!-- Perlmutter -->
+      <td class="na"></td><!-- Pre-Aurora -->
     </tr>
     <tr>
       <td markdown="span">
         [UnifyFS][UnifyFS]
       </td>
-      <td class="green"></td><!-- Desktop -->
-      <td class="red" markdown="span">([^10])</td><!-- Docker -->
-      <td class="green"></td><!-- Pre-Frontier -->
-      <td class="green"></td><!-- Perlmutter -->
-      <td class="gray"></td><!-- Pre-Aurora -->
+      <td class="verified"></td><!-- Desktop -->
+      <td class="failing" markdown="span">([^10])</td><!-- Docker -->
+      <td class="verified"></td><!-- Pre-Frontier -->
+      <td class="verified"></td><!-- Perlmutter -->
+      <td class="na"></td><!-- Pre-Aurora -->
     </tr>
     <tr>
       <td markdown="span">
         [VeloC][VeloC]
       </td>
-      <td class="green"></td><!-- Desktop -->
-      <td class="green"></td><!-- Docker -->
-      <td class="green"></td><!-- Pre-Frontier -->
-      <td class="green"></td><!-- Perlmutter -->
-      <td class="gray"></td><!-- Pre-Aurora -->
+      <td class="verified"></td><!-- Desktop -->
+      <td class="verified"></td><!-- Docker -->
+      <td class="verified"></td><!-- Pre-Frontier -->
+      <td class="verified"></td><!-- Perlmutter -->
+      <td class="na"></td><!-- Pre-Aurora -->
     </tr>
     <tr>
       <td markdown="span">
         [Ascent][Ascent]
       </td>
-      <td class="green"></td><!-- Desktop -->
-      <td class="green"></td><!-- Docker -->
-      <td class="red" markdown="span">([^11])</td><!-- Pre-Frontier -->
-      <td class="red" markdown="span">([^12])</td><!-- Perlmutter -->
-      <td class="gray"></td><!-- Pre-Aurora -->
+      <td class="verified"></td><!-- Desktop -->
+      <td class="verified"></td><!-- Docker -->
+      <td class="failing" markdown="span">([^11])</td><!-- Pre-Frontier -->
+      <td class="failing" markdown="span">([^12])</td><!-- Perlmutter -->
+      <td class="na"></td><!-- Pre-Aurora -->
     </tr>
     <tr>
       <td markdown="span">
         [Cinema][Cinema]
       </td>
-      <td class="green"></td><!-- Desktop -->
-      <td class="green"></td><!-- Docker -->
-      <td class="green"></td><!-- Pre-Frontier -->
-      <td class="green"></td><!-- Perlmutter -->
-      <td class="gray"></td><!-- Pre-Aurora -->
+      <td class="verified"></td><!-- Desktop -->
+      <td class="verified"></td><!-- Docker -->
+      <td class="verified"></td><!-- Pre-Frontier -->
+      <td class="verified"></td><!-- Perlmutter -->
+      <td class="na"></td><!-- Pre-Aurora -->
     </tr>
     <tr>
       <td markdown="span">
         [ParaView][ParaView]
       </td>
-      <td class="green"></td><!-- Desktop -->
-      <td class="green"></td><!-- Docker -->
-      <td class="light_blue"></td><!-- Pre-Frontier -->
-      <td class="light_blue"></td><!-- Perlmutter -->
-      <td class="gray"></td><!-- Pre-Aurora -->
+      <td class="verified"></td><!-- Desktop -->
+      <td class="verified"></td><!-- Docker -->
+      <td class="in_progress"></td><!-- Pre-Frontier -->
+      <td class="in_progress"></td><!-- Perlmutter -->
+      <td class="na"></td><!-- Pre-Aurora -->
     </tr>
     <tr>
       <td markdown="span">
         [SENSEI][SENSEI]
       </td>
-      <td class="green"></td><!-- Desktop -->
-      <td class="green"></td><!-- Docker -->
-      <td class="green"></td><!-- Pre-Frontier -->
-      <td class="green"></td><!-- Perlmutter -->
-      <td class="gray"></td><!-- Pre-Aurora -->
+      <td class="verified"></td><!-- Desktop -->
+      <td class="verified"></td><!-- Docker -->
+      <td class="verified"></td><!-- Pre-Frontier -->
+      <td class="verified"></td><!-- Perlmutter -->
+      <td class="na"></td><!-- Pre-Aurora -->
     </tr>
     <tr>
       <td markdown="span">
         [VisIt][VisIt]
       </td>
-      <td class="green"></td><!-- Desktop -->
-      <td class="green"></td><!-- Docker -->
-      <td class="green"></td><!-- Pre-Frontier -->
-      <td class="green"></td><!-- Perlmutter -->
-      <td class="gray"></td><!-- Pre-Aurora -->
+      <td class="verified"></td><!-- Desktop -->
+      <td class="verified"></td><!-- Docker -->
+      <td class="verified"></td><!-- Pre-Frontier -->
+      <td class="verified"></td><!-- Perlmutter -->
+      <td class="na"></td><!-- Pre-Aurora -->
     </tr>
     <tr>
       <td markdown="span">
         [VTK-m][VTK-m]
       </td>
-      <td class="green"></td><!-- Desktop -->
-      <td class="green"></td><!-- Docker -->
-      <td class="light_blue"></td><!-- Pre-Frontier -->
-      <td class="light_blue"></td><!-- Perlmutter -->
-      <td class="gray"></td><!-- Pre-Aurora -->
+      <td class="verified"></td><!-- Desktop -->
+      <td class="verified"></td><!-- Docker -->
+      <td class="in_progress"></td><!-- Pre-Frontier -->
+      <td class="in_progress"></td><!-- Perlmutter -->
+      <td class="na"></td><!-- Pre-Aurora -->
     </tr>
     <tr>
       <td markdown="span">
         [SZ][SZ]
       </td>
-      <td class="green"></td><!-- Desktop -->
-      <td class="green"></td><!-- Docker -->
-      <td class="green"></td><!-- Pre-Frontier -->
-      <td class="green"></td><!-- Perlmutter -->
-      <td class="gray"></td><!-- Pre-Aurora -->
+      <td class="verified"></td><!-- Desktop -->
+      <td class="verified"></td><!-- Docker -->
+      <td class="verified"></td><!-- Pre-Frontier -->
+      <td class="verified"></td><!-- Perlmutter -->
+      <td class="na"></td><!-- Pre-Aurora -->
     </tr>
     <tr>
       <td markdown="span">
         [ZFP][ZFP]
       </td>
-      <td class="green"></td><!-- Desktop -->
-      <td class="green"></td><!-- Docker -->
-      <td class="green"></td><!-- Pre-Frontier -->
-      <td class="green"></td><!-- Perlmutter -->
-      <td class="gray"></td><!-- Pre-Aurora -->
+      <td class="verified"></td><!-- Desktop -->
+      <td class="verified"></td><!-- Docker -->
+      <td class="verified"></td><!-- Pre-Frontier -->
+      <td class="verified"></td><!-- Perlmutter -->
+      <td class="na"></td><!-- Pre-Aurora -->
     </tr>
     <tr>
       <td style="background-color: #373737; color: white">Legend</td>
       <td colspan="5">
         <table class="status_table_legend">
           <tr>
-            <th class="green" style="color: white;">Verified</th>
-            <th class="light_blue" style="color: white;">In Progress</th>
-            <th class="gray" style="color: white;">Not Applicable</th>
-            <th class="red" style="color: white;">Failing</th>
+            <th class="verified" style="color: white;">Verified</th>
+            <th class="in_progress" style="color: white;">In Progress</th>
+            <th class="na" style="color: white;">Not Applicable</th>
+            <th class="failing" style="color: white;">Failing</th>
           </tr>
         </table>
       </td>
@@ -641,165 +641,165 @@ for the CCE and AMD compilers, in particular how they wrap MPI and HIP.
       <td markdown="span">
         [ADIOS2][ADIOS2]
       </td>
-      <td class="green"></td><!-- GCC -->
-      <td class="gray"></td><!-- GCC + ROCm -->
-      <td class="light_blue"></td><!-- CCE -->
-      <td class="gray"></td><!-- CCE + ROCm -->
-      <td class="light_blue"></td><!-- AMD -->
-      <td class="gray"></td><!-- AMD + ROCm -->
+      <td class="verified"></td><!-- GCC -->
+      <td class="na"></td><!-- GCC + ROCm -->
+      <td class="in_progress"></td><!-- CCE -->
+      <td class="na"></td><!-- CCE + ROCm -->
+      <td class="in_progress"></td><!-- AMD -->
+      <td class="na"></td><!-- AMD + ROCm -->
     </tr>
     <tr>
       <td markdown="span">
         [Darshan][Darshan]
       </td>
-      <td class="green"></td><!-- GCC -->
-      <td class="gray"></td><!-- GCC + ROCm -->
-      <td class="light_blue"></td><!-- CCE -->
-      <td class="gray"></td><!-- CCE + ROCm -->
-      <td class="light_blue"></td><!-- AMD -->
-      <td class="gray"></td><!-- AMD + ROCm -->
+      <td class="verified"></td><!-- GCC -->
+      <td class="na"></td><!-- GCC + ROCm -->
+      <td class="in_progress"></td><!-- CCE -->
+      <td class="na"></td><!-- CCE + ROCm -->
+      <td class="in_progress"></td><!-- AMD -->
+      <td class="na"></td><!-- AMD + ROCm -->
     </tr>
     <tr>
       <td markdown="span">
         [HDF5][HDF5]
       </td>
-      <td class="green"></td><!-- GCC -->
-      <td class="gray"></td><!-- GCC + ROCm -->
-      <td class="light_blue"></td><!-- CCE -->
-      <td class="gray"></td><!-- CCE + ROCm -->
-      <td class="light_blue"></td><!-- AMD -->
-      <td class="gray"></td><!-- AMD + ROCm -->
+      <td class="verified"></td><!-- GCC -->
+      <td class="na"></td><!-- GCC + ROCm -->
+      <td class="in_progress"></td><!-- CCE -->
+      <td class="na"></td><!-- CCE + ROCm -->
+      <td class="in_progress"></td><!-- AMD -->
+      <td class="na"></td><!-- AMD + ROCm -->
     </tr>
     <tr>
       <td markdown="span">
         [PNetCDF][PNetCDF]
       </td>
-      <td class="green"></td><!-- GCC -->
-      <td class="gray"></td><!-- GCC + ROCm -->
-      <td class="light_blue"></td><!-- CCE -->
-      <td class="gray"></td><!-- CCE + ROCm -->
-      <td class="light_blue"></td><!-- AMD -->
-      <td class="gray"></td><!-- AMD + ROCm -->
+      <td class="verified"></td><!-- GCC -->
+      <td class="na"></td><!-- GCC + ROCm -->
+      <td class="in_progress"></td><!-- CCE -->
+      <td class="na"></td><!-- CCE + ROCm -->
+      <td class="in_progress"></td><!-- AMD -->
+      <td class="na"></td><!-- AMD + ROCm -->
     </tr>
     <tr>
       <td markdown="span">
         [UnifyFS][UnifyFS]
       </td>
-      <td class="green"></td><!-- GCC -->
-      <td class="gray"></td><!-- GCC + ROCm -->
-      <td class="light_blue"></td><!-- CCE -->
-      <td class="gray"></td><!-- CCE + ROCm -->
-      <td class="light_blue"></td><!-- AMD -->
-      <td class="gray"></td><!-- AMD + ROCm -->
+      <td class="verified"></td><!-- GCC -->
+      <td class="na"></td><!-- GCC + ROCm -->
+      <td class="in_progress"></td><!-- CCE -->
+      <td class="na"></td><!-- CCE + ROCm -->
+      <td class="in_progress"></td><!-- AMD -->
+      <td class="na"></td><!-- AMD + ROCm -->
     </tr>
     <tr>
       <td markdown="span">
         [VeloC][VeloC]
       </td>
-      <td class="green"></td><!-- GCC -->
-      <td class="gray"></td><!-- GCC + ROCm -->
-      <td class="light_blue"></td><!-- CCE -->
-      <td class="gray"></td><!-- CCE + ROCm -->
-      <td class="light_blue"></td><!-- AMD -->
-      <td class="gray"></td><!-- AMD + ROCm -->
+      <td class="verified"></td><!-- GCC -->
+      <td class="na"></td><!-- GCC + ROCm -->
+      <td class="in_progress"></td><!-- CCE -->
+      <td class="na"></td><!-- CCE + ROCm -->
+      <td class="in_progress"></td><!-- AMD -->
+      <td class="na"></td><!-- AMD + ROCm -->
     </tr>
     <tr>
       <td markdown="span">
         [Ascent][Ascent]
       </td>
-      <td class="green"></td><!-- GCC -->
-      <td class="gray"></td><!-- GCC + ROCm -->
-      <td class="light_blue"></td><!-- CCE -->
-      <td class="gray"></td><!-- CCE + ROCm -->
-      <td class="light_blue"></td><!-- AMD -->
-      <td class="gray"></td><!-- AMD + ROCm -->
+      <td class="verified"></td><!-- GCC -->
+      <td class="na"></td><!-- GCC + ROCm -->
+      <td class="in_progress"></td><!-- CCE -->
+      <td class="na"></td><!-- CCE + ROCm -->
+      <td class="in_progress"></td><!-- AMD -->
+      <td class="na"></td><!-- AMD + ROCm -->
     </tr>
     <tr>
       <td markdown="span">
         [Cinema][Cinema]
       </td>
-      <td class="green"></td><!-- GCC -->
-      <td class="gray"></td><!-- GCC + ROCm -->
-      <td class="light_blue"></td><!-- CCE -->
-      <td class="gray"></td><!-- CCE + ROCm -->
-      <td class="light_blue"></td><!-- AMD -->
-      <td class="gray"></td><!-- AMD + ROCm -->
+      <td class="verified"></td><!-- GCC -->
+      <td class="na"></td><!-- GCC + ROCm -->
+      <td class="in_progress"></td><!-- CCE -->
+      <td class="na"></td><!-- CCE + ROCm -->
+      <td class="in_progress"></td><!-- AMD -->
+      <td class="na"></td><!-- AMD + ROCm -->
     </tr>
     <tr>
       <td markdown="span">
         [ParaView][ParaView]
       </td>
-      <td class="green"></td><!-- GCC -->
-      <td class="gray"></td><!-- GCC + ROCm -->
-      <td class="light_blue"></td><!-- CCE -->
-      <td class="gray"></td><!-- CCE + ROCm -->
-      <td class="light_blue"></td><!-- AMD -->
-      <td class="gray"></td><!-- AMD + ROCm -->
+      <td class="verified"></td><!-- GCC -->
+      <td class="na"></td><!-- GCC + ROCm -->
+      <td class="in_progress"></td><!-- CCE -->
+      <td class="na"></td><!-- CCE + ROCm -->
+      <td class="in_progress"></td><!-- AMD -->
+      <td class="na"></td><!-- AMD + ROCm -->
     </tr>
     <tr>
       <td markdown="span">
         [SENSEI][SENSEI]
       </td>
-      <td class="green"></td><!-- GCC -->
-      <td class="gray"></td><!-- GCC + ROCm -->
-      <td class="light_blue"></td><!-- CCE -->
-      <td class="gray"></td><!-- CCE + ROCm -->
-      <td class="light_blue"></td><!-- AMD -->
-      <td class="gray"></td><!-- AMD + ROCm -->
+      <td class="verified"></td><!-- GCC -->
+      <td class="na"></td><!-- GCC + ROCm -->
+      <td class="in_progress"></td><!-- CCE -->
+      <td class="na"></td><!-- CCE + ROCm -->
+      <td class="in_progress"></td><!-- AMD -->
+      <td class="na"></td><!-- AMD + ROCm -->
     </tr>
     <tr>
       <td markdown="span">
         [VisIt][VisIt]
       </td>
-      <td class="green"></td><!-- GCC -->
-      <td class="gray"></td><!-- GCC + ROCm -->
-      <td class="light_blue"></td><!-- CCE -->
-      <td class="gray"></td><!-- CCE + ROCm -->
-      <td class="light_blue"></td><!-- AMD -->
-      <td class="gray"></td><!-- AMD + ROCm -->
+      <td class="verified"></td><!-- GCC -->
+      <td class="na"></td><!-- GCC + ROCm -->
+      <td class="in_progress"></td><!-- CCE -->
+      <td class="na"></td><!-- CCE + ROCm -->
+      <td class="in_progress"></td><!-- AMD -->
+      <td class="na"></td><!-- AMD + ROCm -->
     </tr>
     <tr>
       <td markdown="span">
         [VTK-m][VTK-m]
       </td>
-      <td class="green"></td><!-- GCC -->
-      <td class="green"></td><!-- GCC + ROCm -->
-      <td class="light_blue"></td><!-- CCE -->
-      <td class="red" markdown="span">([^13])</td><!-- CCE + ROCm -->
-      <td class="light_blue"></td><!-- AMD -->
-      <td class="red" markdown="span">([^13])</td><!-- AMD + ROCm -->
+      <td class="verified"></td><!-- GCC -->
+      <td class="verified"></td><!-- GCC + ROCm -->
+      <td class="in_progress"></td><!-- CCE -->
+      <td class="failing" markdown="span">([^13])</td><!-- CCE + ROCm -->
+      <td class="in_progress"></td><!-- AMD -->
+      <td class="failing" markdown="span">([^13])</td><!-- AMD + ROCm -->
     </tr>
     <tr>
       <td markdown="span">
         [SZ][SZ]
       </td>
-      <td class="green"></td><!-- GCC -->
-      <td class="gray"></td><!-- GCC + ROCm -->
-      <td class="green"></td><!-- CCE -->
-      <td class="gray"></td><!-- CCE + ROCm -->
-      <td class="green"></td><!-- AMD -->
-      <td class="gray"></td><!-- AMD + ROCm -->
+      <td class="verified"></td><!-- GCC -->
+      <td class="na"></td><!-- GCC + ROCm -->
+      <td class="verified"></td><!-- CCE -->
+      <td class="na"></td><!-- CCE + ROCm -->
+      <td class="verified"></td><!-- AMD -->
+      <td class="na"></td><!-- AMD + ROCm -->
     </tr>
     <tr>
       <td markdown="span">
         [ZFP][ZFP]
       </td>
-      <td class="green"></td><!-- GCC -->
-      <td class="gray"></td><!-- GCC + ROCm -->
-      <td class="green"></td><!-- CCE -->
-      <td class="gray"></td><!-- CCE + ROCm -->
-      <td class="green"></td><!-- AMD -->
-      <td class="gray"></td><!-- AMD + ROCm -->
+      <td class="verified"></td><!-- GCC -->
+      <td class="na"></td><!-- GCC + ROCm -->
+      <td class="verified"></td><!-- CCE -->
+      <td class="na"></td><!-- CCE + ROCm -->
+      <td class="verified"></td><!-- AMD -->
+      <td class="na"></td><!-- AMD + ROCm -->
     </tr>
     <tr>
       <td style="background-color: #373737; color: white">Legend</td>
       <td colspan="6">
         <table class="status_table_legend">
           <tr>
-            <th class="green" style="color: white;">Verified</th>
-            <th class="light_blue" style="color: white;">In Progress</th>
-            <th class="gray" style="color: white;">Not Applicable</th>
-            <th class="red" style="color: white;">Failing</th>
+            <th class="verified" style="color: white;">Verified</th>
+            <th class="in_progress" style="color: white;">In Progress</th>
+            <th class="na" style="color: white;">Not Applicable</th>
+            <th class="failing" style="color: white;">Failing</th>
           </tr>
         </table>
       </td>
@@ -859,123 +859,123 @@ for the CCE and AMD compilers, in particular how they wrap MPI and HIP.
       <td markdown="span">
         [ADIOS2][ADIOS2]
       </td>
-      <td class="green"></td><!-- GCC -->
-      <td class="light_blue"></td><!-- GCC + CUDA -->
-      <td class="light_blue"></td><!-- NVHPC + CUDA -->
+      <td class="verified"></td><!-- GCC -->
+      <td class="in_progress"></td><!-- GCC + CUDA -->
+      <td class="in_progress"></td><!-- NVHPC + CUDA -->
     </tr>
     <tr>
       <td markdown="span">
         [Darshan][Darshan]
       </td>
-      <td class="green"></td><!-- GCC -->
-      <td class="gray"></td><!-- GCC + CUDA -->
-      <td class="light_blue"></td><!-- NVHPC + CUDA -->
+      <td class="verified"></td><!-- GCC -->
+      <td class="na"></td><!-- GCC + CUDA -->
+      <td class="in_progress"></td><!-- NVHPC + CUDA -->
     </tr>
     <tr>
       <td markdown="span">
         [HDF5][HDF5]
       </td>
-      <td class="green"></td><!-- GCC -->
-      <td class="light_blue"></td><!-- GCC + CUDA -->
-      <td class="light_blue"></td><!-- NVHPC + CUDA -->
+      <td class="verified"></td><!-- GCC -->
+      <td class="in_progress"></td><!-- GCC + CUDA -->
+      <td class="in_progress"></td><!-- NVHPC + CUDA -->
     </tr>
     <tr>
       <td markdown="span">
         [PNetCDF][PNetCDF]
       </td>
-      <td class="green"></td><!-- GCC -->
-      <td class="gray"></td><!-- GCC + CUDA -->
-      <td class="light_blue"></td><!-- NVHPC + CUDA -->
+      <td class="verified"></td><!-- GCC -->
+      <td class="na"></td><!-- GCC + CUDA -->
+      <td class="in_progress"></td><!-- NVHPC + CUDA -->
     </tr>
     <tr>
       <td markdown="span">
         [UnifyFS][UnifyFS]
       </td>
-      <td class="green"></td><!-- GCC -->
-      <td class="gray"></td><!-- GCC + CUDA -->
-      <td class="light_blue"></td><!-- NVHPC + CUDA -->
+      <td class="verified"></td><!-- GCC -->
+      <td class="na"></td><!-- GCC + CUDA -->
+      <td class="in_progress"></td><!-- NVHPC + CUDA -->
     </tr>
     <tr>
       <td markdown="span">
         [VeloC][VeloC]
       </td>
-      <td class="green"></td><!-- GCC -->
-      <td class="gray"></td><!-- GCC + CUDA -->
-      <td class="light_blue"></td><!-- NVHPC + CUDA -->
+      <td class="verified"></td><!-- GCC -->
+      <td class="na"></td><!-- GCC + CUDA -->
+      <td class="in_progress"></td><!-- NVHPC + CUDA -->
     </tr>
     <tr>
       <td markdown="span">
         [Ascent][Ascent]
       </td>
-      <td class="green"></td><!-- GCC -->
-      <td class="red" markdown="span">([^2])</td><!-- GCC + CUDA -->
-      <td class="light_blue"></td><!-- NVHPC + CUDA -->
+      <td class="verified"></td><!-- GCC -->
+      <td class="failing" markdown="span">([^2])</td><!-- GCC + CUDA -->
+      <td class="in_progress"></td><!-- NVHPC + CUDA -->
     </tr>
     <tr>
       <td markdown="span">
         [Cinema][Cinema]
       </td>
-      <td class="green"></td><!-- GCC -->
-      <td class="gray"></td><!-- GCC + CUDA -->
-      <td class="light_blue"></td><!-- NVHPC + CUDA -->
+      <td class="verified"></td><!-- GCC -->
+      <td class="na"></td><!-- GCC + CUDA -->
+      <td class="in_progress"></td><!-- NVHPC + CUDA -->
     </tr>
     <tr>
       <td markdown="span">
         [ParaView][ParaView]
       </td>
-      <td class="green"></td><!-- GCC -->
-      <td class="gray"></td><!-- GCC + CUDA -->
-      <td class="light_blue"></td><!-- NVHPC + CUDA -->
+      <td class="verified"></td><!-- GCC -->
+      <td class="na"></td><!-- GCC + CUDA -->
+      <td class="in_progress"></td><!-- NVHPC + CUDA -->
     </tr>
     <tr>
       <td markdown="span">
         [SENSEI][SENSEI]
       </td>
-      <td class="green"></td><!-- GCC -->
-      <td class="gray"></td><!-- GCC + CUDA -->
-      <td class="light_blue"></td><!-- NVHPC + CUDA -->
+      <td class="verified"></td><!-- GCC -->
+      <td class="na"></td><!-- GCC + CUDA -->
+      <td class="in_progress"></td><!-- NVHPC + CUDA -->
     </tr>
     <tr>
       <td markdown="span">
         [VisIt][VisIt]
       </td>
-      <td class="green"></td><!-- GCC -->
-      <td class="gray"></td><!-- GCC + CUDA -->
-      <td class="light_blue"></td><!-- NVHPC + CUDA -->
+      <td class="verified"></td><!-- GCC -->
+      <td class="na"></td><!-- GCC + CUDA -->
+      <td class="in_progress"></td><!-- NVHPC + CUDA -->
     </tr>
     <tr>
       <td markdown="span">
         [VTK-m][VTK-m]
       </td>
-      <td class="green"></td><!-- GCC -->
-      <td class="green" markdown="span"></td><!-- GCC + CUDA -->
-      <td class="light_blue"></td><!-- NVHPC + CUDA -->
+      <td class="verified"></td><!-- GCC -->
+      <td class="verified" markdown="span"></td><!-- GCC + CUDA -->
+      <td class="in_progress"></td><!-- NVHPC + CUDA -->
     </tr>
     <tr>
       <td markdown="span">
         [SZ][SZ]
       </td>
-      <td class="green"></td><!-- GCC -->
-      <td class="gray"></td><!-- GCC + CUDA -->
-      <td class="light_blue"></td><!-- NVHPC + CUDA -->
+      <td class="verified"></td><!-- GCC -->
+      <td class="na"></td><!-- GCC + CUDA -->
+      <td class="in_progress"></td><!-- NVHPC + CUDA -->
     </tr>
     <tr>
       <td markdown="span">
         [ZFP][ZFP]
       </td>
-      <td class="green"></td><!-- GCC -->
-      <td class="green"></td><!-- GCC + CUDA -->
-      <td class="light_blue"></td><!-- NVHPC + CUDA -->
+      <td class="verified"></td><!-- GCC -->
+      <td class="verified"></td><!-- GCC + CUDA -->
+      <td class="in_progress"></td><!-- NVHPC + CUDA -->
     </tr>
     <tr>
       <td style="background-color: #373737; color: white">Legend</td>
       <td colspan="3">
         <table class="status_table_legend">
           <tr>
-            <th class="green" style="color: white;">Verified</th>
-            <th class="light_blue" style="color: white;">In Progress</th>
-            <th class="gray" style="color: white;">Not Applicable</th>
-            <th class="red" style="color: white;">Failing</th>
+            <th class="verified" style="color: white;">Verified</th>
+            <th class="in_progress" style="color: white;">In Progress</th>
+            <th class="na" style="color: white;">Not Applicable</th>
+            <th class="failing" style="color: white;">Failing</th>
           </tr>
         </table>
       </td>
