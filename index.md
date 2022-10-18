@@ -987,11 +987,6 @@ iterating with the ParaView team to get this enabled in Spack.
 <span id="paraview_note_2">5. </span>ROCm support will be available in the
 5.11.0 release.
 
-### VisIt
-
-<span id="visit_note_1">6. </span>VTK-m enabled GPU support is planned for VisIt
-by early 2023.
-
 ### SZ
 
 <span id="sz_note_1">7. </span> GPU support for SZ will require the use of new
@@ -1002,6 +997,11 @@ libraries SZ stacks.
 <span id="unify_fs_note_1">10. </span>E4S Container deployment requires a
 downgrade to allow building dependencies of UnifyFS that require an older
 version of glibc.
+
+### VisIt
+
+<span id="visit_note_1">6. </span>VTK-m enabled GPU support is planned for VisIt
+by early 2023.
 
 ### VTK-m
 
