@@ -53,3 +53,17 @@ table.status_table_legend th, td, tr {
     vertical-align: middle;
 }
 
+/* Custom table styling for "status tables" (little content, just colors). */
+table.toolchain_table {
+    text-align: center;
+    table-layout: fixed;
+    width: 100%;
+    border: 1px solid;
+    border-color: white;
+}
+
+table.toolchain_table td, th {
+    overflow: hidden;
+    border: 1px solid;
+    border-color: #4b4b4b;
+}
