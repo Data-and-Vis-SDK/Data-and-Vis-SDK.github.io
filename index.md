@@ -95,7 +95,7 @@ The following projects are included as part of the Data and Visualization SDK:
       </td>
       <td class="verified"></td><!-- CPU -->
       <td class="verified"></td><!-- CUDA -->
-      <td class="na" markdown="span">([^1])</td><!-- ROCm -->
+      <td class="na" markdown="span">([1](#adios2_note_1))</td><!-- ROCm -->
     </tr>
     <tr>
       <td markdown="span">
@@ -142,8 +142,8 @@ The following projects are included as part of the Data and Visualization SDK:
         [Ascent][Ascent]
       </td>
       <td class="verified"></td><!-- CPU -->
-      <td class="verified" markdown="span">([^2])</td><!-- CUDA -->
-      <td class="na" markdown="span">([^3])</td><!-- ROCm -->
+      <td class="verified" markdown="span">([2](#ascent_note_1))</td><!-- CUDA -->
+      <td class="na" markdown="span">([3](#ascent_note_2))</td><!-- ROCm -->
     </tr>
     <tr>
       <td markdown="span">
@@ -158,8 +158,8 @@ The following projects are included as part of the Data and Visualization SDK:
         [ParaView][ParaView]
       </td>
       <td class="verified"></td><!-- CPU -->
-      <td class="verified" markdown="span">([^4])</td><!-- CUDA -->
-      <td class="na" markdown="span">([^5])</td><!-- ROCm -->
+      <td class="verified" markdown="span">([4](#paraview_note_1))</td><!-- CUDA -->
+      <td class="na" markdown="span">([5](#paraview_note_2))</td><!-- ROCm -->
     </tr>
     <tr>
       <td markdown="span">
@@ -174,7 +174,7 @@ The following projects are included as part of the Data and Visualization SDK:
         [VisIt][VisIt]
       </td>
       <td class="verified"></td><!-- CPU -->
-      <td class="na" markdown="span">([^6])</td><!-- CUDA -->
+      <td class="na" markdown="span">([6](#visit_note_1))</td><!-- CUDA -->
       <td class="na"></td><!-- ROCm -->
     </tr>
     <tr>
@@ -190,7 +190,7 @@ The following projects are included as part of the Data and Visualization SDK:
         [SZ][SZ]
       </td>
       <td class="verified"></td><!-- CPU -->
-      <td class="na" markdown="span">([^7])</td><!-- CUDA -->
+      <td class="na" markdown="span">([7](#sz_note_1))</td><!-- CUDA -->
       <td class="na"></td><!-- ROCm -->
     </tr>
     <tr>
@@ -199,7 +199,7 @@ The following projects are included as part of the Data and Visualization SDK:
       </td>
       <td class="verified"></td><!-- CPU -->
       <td class="verified"></td><!-- CUD -->
-      <td class="na" markdown="span">([^8])</td><!-- ROCm -->
+      <td class="na" markdown="span">([8](#zfp_note_1))</td><!-- ROCm -->
     </tr>
     <tr>
       <td style="background-color: #373737; color: white">Legend</td>
@@ -215,28 +215,6 @@ The following projects are included as part of the Data and Visualization SDK:
   </tbody>
 </table>
 
-[^1]: ADIOS2: ROCm/HIP support is in progress
-
-[^2]: Ascent: the lastest available verison in the spack package depends on an
-      older version of VTK-m which doesn't properly implement CUDA with shared
-      libraries, which is required by the SDK.
-
-[^3]: Ascent: the lastest available verison in spack does not have support for
-      ROCm, but it is in the Ascent upstream and planned for release before the
-      end of 2022.
-
-[^4]: ParaView: while CUDA can be enabled in ParaView it requires some recent
-      patches to the `master` branch to work correctly.  We are iterating with the
-      ParaView team to get this enabled in Spack.
-
-[^5]: ParaView: ROCm support will be available in the 5.11.0 release.
-
-[^6]: VisIt: VTK-m enabled GPU support is planned for VisIt by early 2023.
-
-[^7]: SZ: GPU support for SZ will require the use of new libraries SZ stacks.
-
-[^8]: ZFP: ROCm support is planned for EOY 2022
-
 ## ECP SDK Support
 
 <table class="status_table">
@@ -246,7 +224,7 @@ The following projects are included as part of the Data and Visualization SDK:
       <th>CPU</th>
       <th>CUDA</th>
       <th>ROCm</th>
-      <th markdown="span">OneAPI ([^9])</th>
+      <th markdown="span">OneAPI ([9](#one_api_note_1))</th>
     </tr>
   </thead>
   <tbody>
@@ -392,9 +370,6 @@ The following projects are included as part of the Data and Visualization SDK:
   </tbody>
 </table>
 
-[^9]:  OneAPI is currently not tested by the SDK. Plans to begin testing with OneAPI will begin
-       when Aurora pre-release system become available.
-
 ## Extreme-scale Scientific Software Stack (E4S)
 
 ### E4S Deployment
@@ -460,7 +435,7 @@ more details on the facility deployments.
         [UnifyFS][UnifyFS]
       </td>
       <td class="verified"></td><!-- Desktop -->
-      <td class="failing" markdown="span">([^10])</td><!-- Docker -->
+      <td class="failing" markdown="span">([10](#unify_fs_note_1))</td><!-- Docker -->
       <td class="verified"></td><!-- Pre-Frontier -->
       <td class="verified"></td><!-- Perlmutter -->
       <td class="na"></td><!-- Pre-Aurora -->
@@ -481,8 +456,8 @@ more details on the facility deployments.
       </td>
       <td class="verified"></td><!-- Desktop -->
       <td class="verified"></td><!-- Docker -->
-      <td class="failing" markdown="span">([^11])</td><!-- Pre-Frontier -->
-      <td class="failing" markdown="span">([^12])</td><!-- Perlmutter -->
+      <td class="failing" markdown="span">([11](#ascent_note_3))</td><!-- Pre-Frontier -->
+      <td class="failing" markdown="span">([12](#ascent_note_4))</td><!-- Perlmutter -->
       <td class="na"></td><!-- Pre-Aurora -->
     </tr>
     <tr>
@@ -570,16 +545,6 @@ more details on the facility deployments.
     </tr>
   </tbody>
 </table>
-
-[^10]: UnifyFS: E4S Container deployment requires a downgrade to allow building dependencies of UnifyFS that
-       require an older version of glibc.
-
-[^11]: Ascent: the "+rocm" permutation of the SDK fails due conflicting version requirements with
-       VTK-m. Ascent 0.9.0 will have fixes for this. The CPU version with Ascent in the SDK
-       builds on Crusher (Pre-Frontier) with the older version of VTK-m.
-
-[^12]: Ascent: The way MPI is set up on Perlmutter conflicts with Ascent's spack recipe and CMake. Fixes
-       for this are being developed.
 
 ### Pre-Frontier
 
@@ -765,9 +730,9 @@ for the CCE and AMD compilers, in particular how they wrap MPI and HIP.
       <td class="verified"></td><!-- GCC -->
       <td class="verified"></td><!-- GCC + ROCm -->
       <td class="in_progress"></td><!-- CCE -->
-      <td class="failing" markdown="span">([^13])</td><!-- CCE + ROCm -->
+      <td class="failing" markdown="span">([13](#vtk_m_note_1))</td><!-- CCE + ROCm -->
       <td class="in_progress"></td><!-- AMD -->
-      <td class="failing" markdown="span">([^13])</td><!-- AMD + ROCm -->
+      <td class="failing" markdown="span">([13](#vtk_m_note_1))</td><!-- AMD + ROCm -->
     </tr>
     <tr>
       <td markdown="span">
@@ -806,9 +771,6 @@ for the CCE and AMD compilers, in particular how they wrap MPI and HIP.
     </tr>
   </tbody>
 </table>
-
-[^13]: VTK-m: Spack configurations when using MPI + HIP (ROCm) are not yet compatible
-       with the Cray compiler wrappers.
 
 ### Perlmutter Toolchains (CUDA)
 
@@ -908,7 +870,7 @@ for the CCE and AMD compilers, in particular how they wrap MPI and HIP.
         [Ascent][Ascent]
       </td>
       <td class="verified"></td><!-- GCC -->
-      <td class="failing" markdown="span">([^2])</td><!-- GCC + CUDA -->
+      <td class="failing" markdown="span">([2])</td><!-- GCC + CUDA -->
       <td class="in_progress"></td><!-- NVHPC + CUDA -->
     </tr>
     <tr>
@@ -990,5 +952,72 @@ In progress.
 
 ## Notes
 
-<!-- NOTE: keep this last, we do not want anything between this header and the
-     footnotes added at the bottom by jekyll. -->
+<!-- NOTE: we want to group the notes and link to them from the table, so we
+     will be creating anchor "span"s with id attributes to href to above. -->
+
+### ADIOS2
+
+<span id="adios2_note_1">1. </span>ROCm/HIP support is in progress.
+
+### Ascent
+
+<span id="ascent_note_1">2. </span> The lastest available verison in the spack
+package depends on an older version of VTK-m which doesn't properly implement
+CUDA with shared libraries, which is required by the SDK.
+
+<span id="ascent_note_2">3. </span>The lastest available verison in spack does
+not have support for ROCm, but it is in the Ascent upstream and planned for
+release before the end of 2022.
+
+<span id="ascent_note_3">11. </span> the "+rocm" permutation of the SDK fails
+due conflicting version requirements with VTK-m. Ascent 0.9.0 will have fixes
+for this. The CPU version with Ascent in the SDK builds on Crusher
+(Pre-Frontier) with the older version of VTK-m.
+
+<span id="ascent_note_4">12. </span> The way MPI is set up on Perlmutter
+conflicts with Ascent's spack recipe and CMake. Fixes for this are being
+developed.
+
+### ParaView
+
+<span id="paraview_note_1">4. </span> While CUDA can be enabled in ParaView it
+requires some recent patches to the `master` branch to work correctly.  We are
+iterating with the ParaView team to get this enabled in Spack.
+
+<span id="paraview_note_2">5. </span>ROCm support will be available in the
+5.11.0 release.
+
+### VisIt
+
+<span id="visit_note_1">6. </span>VTK-m enabled GPU support is planned for VisIt
+by early 2023.
+
+### SZ
+
+<span id="sz_note_1">7. </span> GPU support for SZ will require the use of new
+libraries SZ stacks.
+
+### UnifyFS
+
+<span id="unify_fs_note_1">10. </span>E4S Container deployment requires a
+downgrade to allow building dependencies of UnifyFS that require an older
+version of glibc.
+
+### VTK-m
+
+<span id="vtk_m_note_1">13. </span> Spack configurations when using MPI + HIP
+(ROCm) are not yet compatible with the Cray compiler wrappers.
+
+
+### ZFP
+
+<span id="zfp_note_1">8. </span>ROCm support is planned for EOY 2022
+
+### OneAPI
+
+<span id="one_api_note_1">9. </span>OneAPI is currently not tested by the SDK.
+Plans to begin testing with OneAPI will begin when Aurora pre-release system
+become available.
+
+
+
