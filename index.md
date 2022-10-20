@@ -28,6 +28,18 @@ The following projects are included as part of the Data and Visualization SDK:
   characterization tool.
 * [HDF5][HDF5]: A data model, library, and file format for storing and managing
   data.
+    * CUDA support (where applicable) is provided by the [HDF5 GPUDirect Storage
+      VFD](https://github.com/hpc-io/vfd-gds).  Refer to the documentation for
+      more information on enabling GDS VFD for your application.  The SDK will
+      install the package and populate `HDF5_PLUGIN_PATH` (only).
+    * [HDF5 VOL](https://docs.hdfgroup.org/hdf5/develop/group___h5_m.html)
+      plugins will be installed with `HDF5_PLUGIN_PATH` populated:
+        * [ADIOS2][ADIOS2]: when `ecp-data-vis-sdk +adios2 +hdf5` is installed,
+          the ADIOS2 VOL is installed (by the `adios2` package).
+        * [hdf5-vol-cache](https://github.com/hpc-io/vol-cache),
+          [hdf5-vol-async](https://github.com/hpc-io/vol-async), and
+          [hdf5-vol-log](https://github.com/DataLib-ECP/vol-log-based) **are
+          planned to be installed** when `ecp-data-vis-sdk +hdf5` is installed.
 * [PNetCDF][PNetCDF]: A high-performance parallel I/O library for accessing
   Unidata's NetCDF, files in classic formats, specifically the formats of CDF-1,
    2, and 5.
@@ -68,10 +80,12 @@ The following projects are included as part of the Data and Visualization SDK:
 
 * [SZ][SZ]: An error-bounded lossy data compressor for floating-point and
   integer datasets.
+* [cuSZ][cuSZ]: A CUDA based implementation of the [SZ][SZ] lossy compressor.
 * [ZFP][ZFP]: An open-source library for compressed floating-point arrays that
   support high throughput read and write random access.
 
 [SZ]: https://szcompressor.org
+[cuSZ]: https://github.com/szcompressor/cuSZ
 [ZFP]: https://computing.llnl.gov/projects/zfp
 
 # Integration Status
@@ -134,16 +148,16 @@ The following projects are included as part of the Data and Visualization SDK:
         [VeloC][VeloC]
       </td>
       <td class="verified"></td><!-- CPU -->
-      <td class="na"></td><!-- CUDA -->
-      <td class="na"></td><!-- ROCm -->
+      <td class="na" markdown="span">([2](#veloc_note_1))</td><!-- CUDA -->
+      <td class="na" markdown="span">([2](#veloc_note_1))</td><!-- ROCm -->
     </tr>
     <tr>
       <td markdown="span">
         [Ascent][Ascent]
       </td>
       <td class="verified"></td><!-- CPU -->
-      <td class="verified" markdown="span">([2](#ascent_note_1))</td><!-- CUDA -->
-      <td class="na" markdown="span">([3](#ascent_note_2))</td><!-- ROCm -->
+      <td class="failing" markdown="span">([3](#ascent_note_1))</td><!-- CUDA -->
+      <td class="na" markdown="span">([4](#ascent_note_2))</td><!-- ROCm -->
     </tr>
     <tr>
       <td markdown="span">
@@ -158,8 +172,8 @@ The following projects are included as part of the Data and Visualization SDK:
         [ParaView][ParaView]
       </td>
       <td class="verified"></td><!-- CPU -->
-      <td class="verified" markdown="span">([4](#paraview_note_1))</td><!-- CUDA -->
-      <td class="na" markdown="span">([5](#paraview_note_2))</td><!-- ROCm -->
+      <td class="verified" markdown="span">([5](#paraview_note_1))</td><!-- CUDA -->
+      <td class="in_progress" markdown="span">([6](#paraview_note_2))</td><!-- ROCm -->
     </tr>
     <tr>
       <td markdown="span">
@@ -174,7 +188,7 @@ The following projects are included as part of the Data and Visualization SDK:
         [VisIt][VisIt]
       </td>
       <td class="verified"></td><!-- CPU -->
-      <td class="na" markdown="span">([6](#visit_note_1))</td><!-- CUDA -->
+      <td class="na" markdown="span">([7](#visit_note_1))</td><!-- CUDA -->
       <td class="na"></td><!-- ROCm -->
     </tr>
     <tr>
@@ -190,7 +204,15 @@ The following projects are included as part of the Data and Visualization SDK:
         [SZ][SZ]
       </td>
       <td class="verified"></td><!-- CPU -->
-      <td class="na" markdown="span">([7](#sz_note_1))</td><!-- CUDA -->
+      <td class="na"></td><!-- CUDA -->
+      <td class="na"></td><!-- ROCm -->
+    </tr>
+    <tr>
+      <td markdown="span">
+        [cuSZ][cuSZ]
+      </td>
+      <td class="na"></td><!-- CPU -->
+      <td class="verified"></td><!-- CUDA -->
       <td class="na"></td><!-- ROCm -->
     </tr>
     <tr>
@@ -198,7 +220,7 @@ The following projects are included as part of the Data and Visualization SDK:
         [ZFP][ZFP]
       </td>
       <td class="verified"></td><!-- CPU -->
-      <td class="verified"></td><!-- CUD -->
+      <td class="verified"></td><!-- CUDA -->
       <td class="na" markdown="span">([8](#zfp_note_1))</td><!-- ROCm -->
     </tr>
     <tr>
@@ -208,6 +230,7 @@ The following projects are included as part of the Data and Visualization SDK:
           <tr>
             <td class="verified" style="color: white">Available</td>
             <td class="na" style="color: white">Not Available</td>
+            <td class="failing" style="color: white">Failing</td>
           </tr>
         </table>
       </td>
@@ -234,7 +257,7 @@ The following projects are included as part of the Data and Visualization SDK:
       </td>
       <td class="verified"></td><!-- CPU -->
       <td class="verified"></td><!-- CUDA -->
-      <td class="na"></td><!-- ROCm -->
+      <td class="na" markdown="span">([1](#adios2_note_1))</td><!-- ROCm --><!-- ROCm -->
       <td class="na"></td><!-- OneAPI -->
     </tr>
     <tr>
@@ -278,8 +301,8 @@ The following projects are included as part of the Data and Visualization SDK:
         [VeloC][VeloC]
       </td>
       <td class="verified"></td><!-- CPU -->
-      <td class="na"></td><!-- CUDA -->
-      <td class="na"></td><!-- ROCm -->
+      <td class="na" markdown="span">([2](#veloc_note_1))</td><!-- CUDA -->
+      <td class="na" markdown="span">([2](#veloc_note_1))</td><!-- ROCm -->
       <td class="na"></td><!-- OneAPI -->
     </tr>
     <tr>
@@ -287,8 +310,8 @@ The following projects are included as part of the Data and Visualization SDK:
         [Ascent][Ascent]
       </td>
       <td class="verified"></td><!-- CPU -->
-      <td class="verified"></td><!-- CUDA -->
-      <td class="na"></td><!-- ROCm -->
+      <td class="failing" markdown="span">([3](#ascent_note_1))</td><!-- CUDA -->
+      <td class="na" markdown="span">([4](#ascent_note_2))</td><!-- ROCm -->
       <td class="na"></td><!-- OneAPI -->
     </tr>
     <tr>
@@ -305,8 +328,8 @@ The following projects are included as part of the Data and Visualization SDK:
         [ParaView][ParaView]
       </td>
       <td class="verified"></td><!-- CPU -->
-      <td class="in_progress"></td><!-- CUDA -->
-      <td class="in_progress"></td><!-- ROCm -->
+      <td class="in_progress" markdown="span">([5](#paraview_note_1))</td><!-- CUDA -->
+      <td class="in_progress" markdown="span">([6](#paraview_note_2))</td><!-- ROCm -->
       <td class="na"></td><!-- OneAPI -->
     </tr>
     <tr>
@@ -323,7 +346,7 @@ The following projects are included as part of the Data and Visualization SDK:
         [VisIt][VisIt]
       </td>
       <td class="verified"></td><!-- CPU -->
-      <td class="na"></td><!-- CUDA -->
+      <td class="na" markdown="span">([7](#visit_note_1))</td><!-- CUDA -->
       <td class="na"></td><!-- ROCm -->
       <td class="na"></td><!-- OneAPI -->
     </tr>
@@ -341,6 +364,15 @@ The following projects are included as part of the Data and Visualization SDK:
         [SZ][SZ]
       </td>
       <td class="verified"></td><!-- CPU -->
+      <td class="na"></td><!-- CUDA -->
+      <td class="na"></td><!-- ROCm -->
+      <td class="na"></td><!-- OneAPI -->
+    </tr>
+    <tr>
+      <td markdown="span">
+        [cuSZ][cuSZ]
+      </td>
+      <td class="na"></td><!-- CPU -->
       <td class="in_progress"></td><!-- CUDA -->
       <td class="na"></td><!-- ROCm -->
       <td class="na"></td><!-- OneAPI -->
@@ -351,7 +383,7 @@ The following projects are included as part of the Data and Visualization SDK:
       </td>
       <td class="verified"></td><!-- CPU -->
       <td class="verified"></td><!-- CUDA -->
-      <td class="na"></td><!-- ROCm -->
+      <td class="na" markdown="span">([8](#zfp_note_1))</td><!-- ROCm -->
       <td class="na"></td><!-- OneAPI -->
     </tr>
     <tr>
@@ -397,8 +429,8 @@ more details on the facility deployments.
       <td class="verified"></td><!-- Desktop -->
       <td class="verified"></td><!-- Docker -->
       <td class="verified"></td><!-- Pre-Frontier -->
-      <td class="in_progress"></td><!-- Perlmutter -->
-      <td class="na"></td><!-- Pre-Aurora -->
+      <td class="verified"></td><!-- Perlmutter -->
+      <td class="in_progress"></td><!-- Pre-Aurora -->
     </tr>
     <tr>
       <td markdown="span">
@@ -408,7 +440,7 @@ more details on the facility deployments.
       <td class="verified"></td><!-- Docker -->
       <td class="verified"></td><!-- Pre-Frontier -->
       <td class="verified"></td><!-- Perlmutter -->
-      <td class="na"></td><!-- Pre-Aurora -->
+      <td class="in_progress"></td><!-- Pre-Aurora -->
     </tr>
     <tr>
       <td markdown="span">
@@ -417,8 +449,8 @@ more details on the facility deployments.
       <td class="verified"></td><!-- Desktop -->
       <td class="verified"></td><!-- Docker -->
       <td class="verified"></td><!-- Pre-Frontier -->
-      <td class="in_progress"></td><!-- Perlmutter -->
-      <td class="na"></td><!-- Pre-Aurora -->
+      <td class="verified"></td><!-- Perlmutter -->
+      <td class="in_progress"></td><!-- Pre-Aurora -->
     </tr>
     <tr>
       <td markdown="span">
@@ -428,7 +460,7 @@ more details on the facility deployments.
       <td class="verified"></td><!-- Docker -->
       <td class="verified"></td><!-- Pre-Frontier -->
       <td class="verified"></td><!-- Perlmutter -->
-      <td class="na"></td><!-- Pre-Aurora -->
+      <td class="in_progress"></td><!-- Pre-Aurora -->
     </tr>
     <tr>
       <td markdown="span">
@@ -438,7 +470,7 @@ more details on the facility deployments.
       <td class="failing" markdown="span">([10](#unify_fs_note_1))</td><!-- Docker -->
       <td class="verified"></td><!-- Pre-Frontier -->
       <td class="verified"></td><!-- Perlmutter -->
-      <td class="na"></td><!-- Pre-Aurora -->
+      <td class="in_progress"></td><!-- Pre-Aurora -->
     </tr>
     <tr>
       <td markdown="span">
@@ -448,7 +480,7 @@ more details on the facility deployments.
       <td class="verified"></td><!-- Docker -->
       <td class="verified"></td><!-- Pre-Frontier -->
       <td class="verified"></td><!-- Perlmutter -->
-      <td class="na"></td><!-- Pre-Aurora -->
+      <td class="in_progress"></td><!-- Pre-Aurora -->
     </tr>
     <tr>
       <td markdown="span">
@@ -458,7 +490,7 @@ more details on the facility deployments.
       <td class="verified"></td><!-- Docker -->
       <td class="failing" markdown="span">([11](#ascent_note_3))</td><!-- Pre-Frontier -->
       <td class="failing" markdown="span">([12](#ascent_note_4))</td><!-- Perlmutter -->
-      <td class="na"></td><!-- Pre-Aurora -->
+      <td class="in_progress"></td><!-- Pre-Aurora -->
     </tr>
     <tr>
       <td markdown="span">
@@ -468,7 +500,7 @@ more details on the facility deployments.
       <td class="verified"></td><!-- Docker -->
       <td class="verified"></td><!-- Pre-Frontier -->
       <td class="verified"></td><!-- Perlmutter -->
-      <td class="na"></td><!-- Pre-Aurora -->
+      <td class="in_progress"></td><!-- Pre-Aurora -->
     </tr>
     <tr>
       <td markdown="span">
@@ -476,9 +508,9 @@ more details on the facility deployments.
       </td>
       <td class="verified"></td><!-- Desktop -->
       <td class="verified"></td><!-- Docker -->
-      <td class="in_progress"></td><!-- Pre-Frontier -->
-      <td class="in_progress"></td><!-- Perlmutter -->
-      <td class="na"></td><!-- Pre-Aurora -->
+      <td class="verified"></td><!-- Pre-Frontier -->
+      <td class="verified"></td><!-- Perlmutter -->
+      <td class="in_progress"></td><!-- Pre-Aurora -->
     </tr>
     <tr>
       <td markdown="span">
@@ -488,7 +520,7 @@ more details on the facility deployments.
       <td class="verified"></td><!-- Docker -->
       <td class="verified"></td><!-- Pre-Frontier -->
       <td class="verified"></td><!-- Perlmutter -->
-      <td class="na"></td><!-- Pre-Aurora -->
+      <td class="in_progress"></td><!-- Pre-Aurora -->
     </tr>
     <tr>
       <td markdown="span">
@@ -498,7 +530,7 @@ more details on the facility deployments.
       <td class="verified"></td><!-- Docker -->
       <td class="verified"></td><!-- Pre-Frontier -->
       <td class="verified"></td><!-- Perlmutter -->
-      <td class="na"></td><!-- Pre-Aurora -->
+      <td class="in_progress"></td><!-- Pre-Aurora -->
     </tr>
     <tr>
       <td markdown="span">
@@ -506,9 +538,9 @@ more details on the facility deployments.
       </td>
       <td class="verified"></td><!-- Desktop -->
       <td class="verified"></td><!-- Docker -->
-      <td class="in_progress"></td><!-- Pre-Frontier -->
-      <td class="in_progress"></td><!-- Perlmutter -->
-      <td class="na"></td><!-- Pre-Aurora -->
+      <td class="verified"></td><!-- Pre-Frontier -->
+      <td class="verified"></td><!-- Perlmutter -->
+      <td class="in_progress"></td><!-- Pre-Aurora -->
     </tr>
     <tr>
       <td markdown="span">
@@ -518,6 +550,16 @@ more details on the facility deployments.
       <td class="verified"></td><!-- Docker -->
       <td class="verified"></td><!-- Pre-Frontier -->
       <td class="verified"></td><!-- Perlmutter -->
+      <td class="in_progress"></td><!-- Pre-Aurora -->
+    </tr>
+    <tr>
+      <td markdown="span">
+        [cuSZ][cuSZ]
+      </td>
+      <td class="in_progress"></td><!-- Desktop -->
+      <td class="in_progress"></td><!-- Docker -->
+      <td class="na"></td><!-- Pre-Frontier -->
+      <td class="in_progress"></td><!-- Perlmutter -->
       <td class="na"></td><!-- Pre-Aurora -->
     </tr>
     <tr>
@@ -528,7 +570,7 @@ more details on the facility deployments.
       <td class="verified"></td><!-- Docker -->
       <td class="verified"></td><!-- Pre-Frontier -->
       <td class="verified"></td><!-- Perlmutter -->
-      <td class="na"></td><!-- Pre-Aurora -->
+      <td class="in_progress"></td><!-- Pre-Aurora -->
     </tr>
     <tr>
       <td style="background-color: #373737; color: white">Legend</td>
@@ -747,6 +789,17 @@ for the CCE and AMD compilers, in particular how they wrap MPI and HIP.
     </tr>
     <tr>
       <td markdown="span">
+        [cuSZ][cuSZ]
+      </td>
+      <td class="na"></td><!-- GCC -->
+      <td class="na"></td><!-- GCC + ROCm -->
+      <td class="na"></td><!-- CCE -->
+      <td class="na"></td><!-- CCE + ROCm -->
+      <td class="na"></td><!-- AMD -->
+      <td class="na"></td><!-- AMD + ROCm -->
+    </tr>
+    <tr>
+      <td markdown="span">
         [ZFP][ZFP]
       </td>
       <td class="verified"></td><!-- GCC -->
@@ -870,7 +923,7 @@ for the CCE and AMD compilers, in particular how they wrap MPI and HIP.
         [Ascent][Ascent]
       </td>
       <td class="verified"></td><!-- GCC -->
-      <td class="failing" markdown="span">([2])</td><!-- GCC + CUDA -->
+      <td class="failing" markdown="span">([3](#ascent_note_1))</td><!-- GCC + CUDA -->
       <td class="in_progress"></td><!-- NVHPC + CUDA -->
     </tr>
     <tr>
@@ -919,6 +972,14 @@ for the CCE and AMD compilers, in particular how they wrap MPI and HIP.
       </td>
       <td class="verified"></td><!-- GCC -->
       <td class="na"></td><!-- GCC + CUDA -->
+      <td class="na"></td><!-- NVHPC + CUDA -->
+    </tr>
+    <tr>
+      <td markdown="span">
+        [cuSZ][cuSZ]
+      </td>
+      <td class="na"></td><!-- GCC -->
+      <td class="in_progress"></td><!-- GCC + CUDA -->
       <td class="in_progress"></td><!-- NVHPC + CUDA -->
     </tr>
     <tr>
@@ -959,13 +1020,18 @@ In progress.
 
 <span id="adios2_note_1">1. </span>ROCm/HIP support is in progress.
 
+### VeloC
+
+<span id="veloc_note_1">2. </span>GPU support for VeloC is anticipated to land
+in February 2023.
+
 ### Ascent
 
-<span id="ascent_note_1">2. </span> The lastest available verison in the spack
+<span id="ascent_note_1">3. </span> The lastest available verison in the spack
 package depends on an older version of VTK-m which doesn't properly implement
 CUDA with shared libraries, which is required by the SDK.
 
-<span id="ascent_note_2">3. </span>The lastest available verison in spack does
+<span id="ascent_note_2">4. </span>The lastest available verison in spack does
 not have support for ROCm, but it is in the Ascent upstream and planned for
 release before the end of 2022.
 
@@ -980,17 +1046,13 @@ developed.
 
 ### ParaView
 
-<span id="paraview_note_1">4. </span> While CUDA can be enabled in ParaView it
+<span id="paraview_note_1">5. </span> While CUDA can be enabled in ParaView it
 requires some recent patches to the `master` branch to work correctly.  We are
-iterating with the ParaView team to get this enabled in Spack.
+iterating with the ParaView team to get this enabled in Spack (`spack install
+paraview@master`).
 
-<span id="paraview_note_2">5. </span>ROCm support will be available in the
+<span id="paraview_note_2">6. </span>ROCm support will be available in the
 5.11.0 release.
-
-### SZ
-
-<span id="sz_note_1">7. </span> GPU support for SZ will require the use of new
-libraries SZ stacks.
 
 ### UnifyFS
 
@@ -1000,7 +1062,7 @@ version of glibc.
 
 ### VisIt
 
-<span id="visit_note_1">6. </span>VTK-m enabled GPU support is planned for VisIt
+<span id="visit_note_1">7. </span>VTK-m enabled GPU support is planned for VisIt
 by early 2023.
 
 ### VTK-m
@@ -1011,7 +1073,7 @@ by early 2023.
 
 ### ZFP
 
-<span id="zfp_note_1">8. </span>ROCm support is planned for EOY 2022
+<span id="zfp_note_1">8. </span>ROCm support is planned for EOY 2022.
 
 ### OneAPI
 
