@@ -274,7 +274,7 @@ The following projects are included as part of the Data and Visualization SDK:
         [HDF5][HDF5]
       </td>
       <td class="verified"></td><!-- CPU -->
-      <td class="in_progress"></td><!-- CUDA -->
+      <td class="verified"></td><!-- CUDA -->
       <td class="na"></td><!-- ROCm -->
       <td class="na"></td><!-- OneAPI -->
     </tr>
