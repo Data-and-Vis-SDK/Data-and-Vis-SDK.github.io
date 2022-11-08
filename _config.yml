@@ -8,3 +8,8 @@ url: ""
 remote_theme: pages-themes/slate@v0.2.0
 plugins:
   - jekyll-remote-theme
+
+# See https://github.com/pages-themes/slate/blob/a185c0dde883863779be4856421ba0b2390f44a4/_layouts/default.html#L19
+# On deployment "View on GitHub" was not showing.
+github:
+  is_project_page: true
