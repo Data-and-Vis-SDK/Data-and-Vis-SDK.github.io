@@ -933,7 +933,7 @@ for the CCE and AMD compilers, in particular how they wrap MPI and HIP.
       </td>
       <td class="verified"></td><!-- GCC -->
       <td class="na" markdown="span">([2](#veloc_note_1))</td><!-- GCC + CUDA -->
-      <td class="in_progress"></td><!-- NVHPC + CUDA -->
+      <td class="in_progress" markdown="span">([2](#veloc_note_1))</td><!-- NVHPC + CUDA -->
     </tr>
     <tr>
       <td markdown="span">
@@ -941,7 +941,7 @@ for the CCE and AMD compilers, in particular how they wrap MPI and HIP.
       </td>
       <td class="verified"></td><!-- GCC -->
       <td class="failing" markdown="span">([3](#ascent_note_1))</td><!-- GCC + CUDA -->
-      <td class="in_progress"></td><!-- NVHPC + CUDA -->
+      <td class="in_progress" markdown="span">([3](#ascent_note_1))</td><!-- NVHPC + CUDA -->
     </tr>
     <tr>
       <td markdown="span">
@@ -957,7 +957,7 @@ for the CCE and AMD compilers, in particular how they wrap MPI and HIP.
       </td>
       <td class="verified"></td><!-- GCC -->
       <td class="na" markdown="span">([5](#paraview_note_1))</td><!-- GCC + CUDA -->
-      <td class="in_progress"></td><!-- NVHPC + CUDA -->
+      <td class="in_progress" markdown="span">([5](#paraview_note_1))</td><!-- NVHPC + CUDA -->
     </tr>
     <tr>
       <td markdown="span">
@@ -973,7 +973,7 @@ for the CCE and AMD compilers, in particular how they wrap MPI and HIP.
       </td>
       <td class="verified"></td><!-- GCC -->
       <td class="na" markdown="span">([7](#visit_note_1))</td><!-- GCC + CUDA -->
-      <td class="in_progress"></td><!-- NVHPC + CUDA -->
+      <td class="in_progress" markdown="span">([7](#visit_note_1))</td><!-- NVHPC + CUDA -->
     </tr>
     <tr>
       <td markdown="span">
