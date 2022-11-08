@@ -2,15 +2,16 @@
 {:.no_toc}
 
 The Data and Visualization SDK is an integration effort for the collection of
-I/O, compression, visualization, and analysis software developed under the DOE's
-Exascale Computing Program (ECP).  Software developed under ECP targets using
-[Spack](https://spack.io), an HPC targeted source-based package manager, for
-installation on HPC platforms.  The primary product of this project is the
-[`ecp-data-vis-sdk` Spack meta-package][spack_package] which allows the set of
-SDK member packages to be built together in a way that enables optimal features
-for ECP target environments as well as interoperable features provided by other
-packages within the SDK.
+I/O, compression, visualization, and analysis software developed under the
+[DOE's Exascale Computing Program (ECP)][doe_ecp].  Software developed under ECP
+targets using [Spack](https://spack.io), an HPC targeted source-based package
+manager, for installation on HPC platforms.  The primary product of this project
+is the [`ecp-data-vis-sdk` Spack meta-package][spack_package] which allows the
+set of SDK member packages to be built together in a way that enables optimal
+features for ECP target environments as well as interoperable features provided
+by other packages within the SDK.
 
+[doe_ecp]: https://www.exascaleproject.org/
 [spack_package]: https://github.com/spack/spack/blob/develop/var/spack/repos/builtin/packages/ecp-data-vis-sdk/package.py
 
 * TOC bullet point is replaced by kramdown to generate table of contents.
