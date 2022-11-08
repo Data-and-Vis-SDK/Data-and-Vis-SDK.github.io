@@ -239,7 +239,7 @@ The following projects are included as part of the Data and Visualization SDK:
   </tbody>
 </table>
 
-## ECP SDK Support
+## ECP DAV SDK Support
 
 <table class="status_table">
   <thead>
@@ -259,7 +259,7 @@ The following projects are included as part of the Data and Visualization SDK:
       <td class="verified"></td><!-- CPU -->
       <td class="verified"></td><!-- CUDA -->
       <td class="na" markdown="span">([1](#adios2_note_1))</td><!-- ROCm --><!-- ROCm -->
-      <td class="na"></td><!-- OneAPI -->
+      <td class="in_progress"></td><!-- OneAPI -->
     </tr>
     <tr>
       <td markdown="span">
@@ -268,7 +268,7 @@ The following projects are included as part of the Data and Visualization SDK:
       <td class="verified"></td><!-- CPU -->
       <td class="na"></td><!-- CUDA -->
       <td class="na"></td><!-- ROCm -->
-      <td class="na"></td><!-- OneAPI -->
+      <td class="in_progress"></td><!-- OneAPI -->
     </tr>
     <tr>
       <td markdown="span">
@@ -277,7 +277,7 @@ The following projects are included as part of the Data and Visualization SDK:
       <td class="verified"></td><!-- CPU -->
       <td class="verified"></td><!-- CUDA -->
       <td class="na"></td><!-- ROCm -->
-      <td class="na"></td><!-- OneAPI -->
+      <td class="in_progress"></td><!-- OneAPI -->
     </tr>
     <tr>
       <td markdown="span">
@@ -286,7 +286,7 @@ The following projects are included as part of the Data and Visualization SDK:
       <td class="verified"></td><!-- CPU -->
       <td class="na"></td><!-- CUDA -->
       <td class="na"></td><!-- ROCm -->
-      <td class="na"></td><!-- OneAPI -->
+      <td class="in_progress"></td><!-- OneAPI -->
     </tr>
     <tr>
       <td markdown="span">
@@ -295,7 +295,7 @@ The following projects are included as part of the Data and Visualization SDK:
       <td class="verified"></td><!-- CPU -->
       <td class="na"></td><!-- CUDA -->
       <td class="na"></td><!-- ROCm -->
-      <td class="na"></td><!-- OneAPI -->
+      <td class="in_progress"></td><!-- OneAPI -->
     </tr>
     <tr>
       <td markdown="span">
@@ -304,7 +304,7 @@ The following projects are included as part of the Data and Visualization SDK:
       <td class="verified"></td><!-- CPU -->
       <td class="na" markdown="span">([2](#veloc_note_1))</td><!-- CUDA -->
       <td class="na" markdown="span">([2](#veloc_note_1))</td><!-- ROCm -->
-      <td class="na"></td><!-- OneAPI -->
+      <td class="in_progress"></td><!-- OneAPI -->
     </tr>
     <tr>
       <td markdown="span">
@@ -313,7 +313,7 @@ The following projects are included as part of the Data and Visualization SDK:
       <td class="verified"></td><!-- CPU -->
       <td class="failing" markdown="span">([3](#ascent_note_1))</td><!-- CUDA -->
       <td class="na" markdown="span">([4](#ascent_note_2))</td><!-- ROCm -->
-      <td class="na"></td><!-- OneAPI -->
+      <td class="in_progress"></td><!-- OneAPI -->
     </tr>
     <tr>
       <td markdown="span">
@@ -322,7 +322,7 @@ The following projects are included as part of the Data and Visualization SDK:
       <td class="verified"></td><!-- CPU -->
       <td class="na"></td><!-- CUDA -->
       <td class="na"></td><!-- ROCm -->
-      <td class="na"></td><!-- OneAPI -->
+      <td class="in_progress"></td><!-- OneAPI -->
     </tr>
     <tr>
       <td markdown="span">
@@ -331,7 +331,7 @@ The following projects are included as part of the Data and Visualization SDK:
       <td class="verified"></td><!-- CPU -->
       <td class="in_progress" markdown="span">([5](#paraview_note_1))</td><!-- CUDA -->
       <td class="in_progress" markdown="span">([6](#paraview_note_2))</td><!-- ROCm -->
-      <td class="na"></td><!-- OneAPI -->
+      <td class="in_progress"></td><!-- OneAPI -->
     </tr>
     <tr>
       <td markdown="span">
@@ -340,7 +340,7 @@ The following projects are included as part of the Data and Visualization SDK:
       <td class="verified"></td><!-- CPU -->
       <td class="na"></td><!-- CUDA -->
       <td class="na"></td><!-- ROCm -->
-      <td class="na"></td><!-- OneAPI -->
+      <td class="in_progress"></td><!-- OneAPI -->
     </tr>
     <tr>
       <td markdown="span">
@@ -349,7 +349,7 @@ The following projects are included as part of the Data and Visualization SDK:
       <td class="verified"></td><!-- CPU -->
       <td class="na" markdown="span">([7](#visit_note_1))</td><!-- CUDA -->
       <td class="na"></td><!-- ROCm -->
-      <td class="na"></td><!-- OneAPI -->
+      <td class="in_progress"></td><!-- OneAPI -->
     </tr>
     <tr>
       <td markdown="span">
@@ -358,7 +358,7 @@ The following projects are included as part of the Data and Visualization SDK:
       <td class="verified"></td><!-- CPU -->
       <td class="verified"></td><!-- CUDA -->
       <td class="verified"></td><!-- ROCm -->
-      <td class="na"></td><!-- OneAPI -->
+      <td class="in_progress"></td><!-- OneAPI -->
     </tr>
     <tr>
       <td markdown="span">
@@ -367,7 +367,7 @@ The following projects are included as part of the Data and Visualization SDK:
       <td class="verified"></td><!-- CPU -->
       <td class="na"></td><!-- CUDA -->
       <td class="na"></td><!-- ROCm -->
-      <td class="na"></td><!-- OneAPI -->
+      <td class="in_progress"></td><!-- OneAPI -->
     </tr>
     <tr>
       <td markdown="span">
@@ -376,7 +376,7 @@ The following projects are included as part of the Data and Visualization SDK:
       <td class="na"></td><!-- CPU -->
       <td class="in_progress"></td><!-- CUDA -->
       <td class="na"></td><!-- ROCm -->
-      <td class="na"></td><!-- OneAPI -->
+      <td class="in_progress"></td><!-- OneAPI -->
     </tr>
     <tr>
       <td markdown="span">
@@ -385,7 +385,7 @@ The following projects are included as part of the Data and Visualization SDK:
       <td class="verified"></td><!-- CPU -->
       <td class="verified"></td><!-- CUDA -->
       <td class="na" markdown="span">([8](#zfp_note_1))</td><!-- ROCm -->
-      <td class="na"></td><!-- OneAPI -->
+      <td class="in_progress"></td><!-- OneAPI -->
     </tr>
     <tr>
       <td style="background-color: #373737; color: white">Legend</td>
@@ -420,6 +420,7 @@ more details on the facility deployments.
       <th>Pre-Frontier</th>
       <th>Perlmutter</th>
       <th>Pre-Aurora</th>
+      <th>Smoke Test</th>
     </tr>
   </thead>
   <tbody>
@@ -432,6 +433,7 @@ more details on the facility deployments.
       <td class="verified"></td><!-- Pre-Frontier -->
       <td class="verified"></td><!-- Perlmutter -->
       <td class="in_progress"></td><!-- Pre-Aurora -->
+      <td class="in_progress"></td><!-- Smoke Test -->
     </tr>
     <tr>
       <td markdown="span">
@@ -442,6 +444,7 @@ more details on the facility deployments.
       <td class="verified"></td><!-- Pre-Frontier -->
       <td class="verified"></td><!-- Perlmutter -->
       <td class="in_progress"></td><!-- Pre-Aurora -->
+      <td class="in_progress"></td><!-- Smoke Test -->
     </tr>
     <tr>
       <td markdown="span">
@@ -452,6 +455,7 @@ more details on the facility deployments.
       <td class="verified"></td><!-- Pre-Frontier -->
       <td class="verified"></td><!-- Perlmutter -->
       <td class="in_progress"></td><!-- Pre-Aurora -->
+      <td class="in_progress"></td><!-- Smoke Test -->
     </tr>
     <tr>
       <td markdown="span">
@@ -462,6 +466,7 @@ more details on the facility deployments.
       <td class="verified"></td><!-- Pre-Frontier -->
       <td class="verified"></td><!-- Perlmutter -->
       <td class="in_progress"></td><!-- Pre-Aurora -->
+      <td class="in_progress"></td><!-- Smoke Test -->
     </tr>
     <tr>
       <td markdown="span">
@@ -472,6 +477,7 @@ more details on the facility deployments.
       <td class="verified"></td><!-- Pre-Frontier -->
       <td class="verified"></td><!-- Perlmutter -->
       <td class="in_progress"></td><!-- Pre-Aurora -->
+      <td class="in_progress"></td><!-- Smoke Test -->
     </tr>
     <tr>
       <td markdown="span">
@@ -482,6 +488,7 @@ more details on the facility deployments.
       <td class="verified"></td><!-- Pre-Frontier -->
       <td class="verified"></td><!-- Perlmutter -->
       <td class="in_progress"></td><!-- Pre-Aurora -->
+      <td class="in_progress"></td><!-- Smoke Test -->
     </tr>
     <tr>
       <td markdown="span">
@@ -492,6 +499,7 @@ more details on the facility deployments.
       <td class="failing" markdown="span">([11](#ascent_note_3))</td><!-- Pre-Frontier -->
       <td class="failing" markdown="span">([12](#ascent_note_4))</td><!-- Perlmutter -->
       <td class="in_progress"></td><!-- Pre-Aurora -->
+      <td class="in_progress"></td><!-- Smoke Test -->
     </tr>
     <tr>
       <td markdown="span">
@@ -502,6 +510,7 @@ more details on the facility deployments.
       <td class="verified"></td><!-- Pre-Frontier -->
       <td class="verified"></td><!-- Perlmutter -->
       <td class="in_progress"></td><!-- Pre-Aurora -->
+      <td class="in_progress"></td><!-- Smoke Test -->
     </tr>
     <tr>
       <td markdown="span">
@@ -512,6 +521,7 @@ more details on the facility deployments.
       <td class="verified"></td><!-- Pre-Frontier -->
       <td class="verified"></td><!-- Perlmutter -->
       <td class="in_progress"></td><!-- Pre-Aurora -->
+      <td class="in_progress"></td><!-- Smoke Test -->
     </tr>
     <tr>
       <td markdown="span">
@@ -522,6 +532,7 @@ more details on the facility deployments.
       <td class="verified"></td><!-- Pre-Frontier -->
       <td class="verified"></td><!-- Perlmutter -->
       <td class="in_progress"></td><!-- Pre-Aurora -->
+      <td class="in_progress"></td><!-- Smoke Test -->
     </tr>
     <tr>
       <td markdown="span">
@@ -532,6 +543,7 @@ more details on the facility deployments.
       <td class="verified"></td><!-- Pre-Frontier -->
       <td class="verified"></td><!-- Perlmutter -->
       <td class="in_progress"></td><!-- Pre-Aurora -->
+      <td class="in_progress"></td><!-- Smoke Test -->
     </tr>
     <tr>
       <td markdown="span">
@@ -542,6 +554,7 @@ more details on the facility deployments.
       <td class="verified"></td><!-- Pre-Frontier -->
       <td class="verified"></td><!-- Perlmutter -->
       <td class="in_progress"></td><!-- Pre-Aurora -->
+      <td class="verified"></td><!-- Smoke Test -->
     </tr>
     <tr>
       <td markdown="span">
@@ -552,6 +565,7 @@ more details on the facility deployments.
       <td class="verified"></td><!-- Pre-Frontier -->
       <td class="verified"></td><!-- Perlmutter -->
       <td class="in_progress"></td><!-- Pre-Aurora -->
+      <td class="in_progress"></td><!-- Smoke Test -->
     </tr>
     <tr>
       <td markdown="span">
@@ -562,6 +576,7 @@ more details on the facility deployments.
       <td class="na"></td><!-- Pre-Frontier -->
       <td class="in_progress"></td><!-- Perlmutter -->
       <td class="na"></td><!-- Pre-Aurora -->
+      <td class="in_progress"></td><!-- Smoke Test -->
     </tr>
     <tr>
       <td markdown="span">
@@ -572,10 +587,11 @@ more details on the facility deployments.
       <td class="verified"></td><!-- Pre-Frontier -->
       <td class="verified"></td><!-- Perlmutter -->
       <td class="in_progress"></td><!-- Pre-Aurora -->
+      <td class="in_progress"></td><!-- Smoke Test -->
     </tr>
     <tr>
       <td style="background-color: #373737; color: white">Legend</td>
-      <td colspan="5">
+      <td colspan="6">
         <table class="status_table_legend">
           <tr>
             <th class="verified" style="color: white;">Verified</th>
@@ -650,11 +666,11 @@ for the CCE and AMD compilers, in particular how they wrap MPI and HIP.
         [ADIOS2][ADIOS2]
       </td>
       <td class="verified"></td><!-- GCC -->
-      <td class="na"></td><!-- GCC + ROCm -->
+      <td class="na" markdown="span">([1](#adios2_note_1))</td><!-- GCC + ROCm -->
       <td class="in_progress"></td><!-- CCE -->
-      <td class="na"></td><!-- CCE + ROCm -->
+      <td class="na" markdown="span">([1](#adios2_note_1))</td><!-- CCE + ROCm -->
       <td class="in_progress"></td><!-- AMD -->
-      <td class="na"></td><!-- AMD + ROCm -->
+      <td class="na" markdown="span">([1](#adios2_note_1))</td><!-- AMD + ROCm -->
     </tr>
     <tr>
       <td markdown="span">
@@ -705,22 +721,22 @@ for the CCE and AMD compilers, in particular how they wrap MPI and HIP.
         [VeloC][VeloC]
       </td>
       <td class="verified"></td><!-- GCC -->
-      <td class="na"></td><!-- GCC + ROCm -->
+      <td class="na" markdown="span">([2](#veloc_note_1))</td><!-- GCC + ROCm -->
       <td class="in_progress"></td><!-- CCE -->
-      <td class="na"></td><!-- CCE + ROCm -->
+      <td class="na" markdown="span">([2](#veloc_note_1))</td><!-- CCE + ROCm -->
       <td class="in_progress"></td><!-- AMD -->
-      <td class="na"></td><!-- AMD + ROCm -->
+      <td class="na" markdown="span">([2](#veloc_note_1))</td><!-- AMD + ROCm -->
     </tr>
     <tr>
       <td markdown="span">
         [Ascent][Ascent]
       </td>
       <td class="verified"></td><!-- GCC -->
-      <td class="na"></td><!-- GCC + ROCm -->
+      <td class="na" markdown="span">([4](#ascent_note_2))</td><!-- GCC + ROCm -->
       <td class="in_progress"></td><!-- CCE -->
-      <td class="na"></td><!-- CCE + ROCm -->
+      <td class="na" markdown="span">([4](#ascent_note_2))</td><!-- CCE + ROCm -->
       <td class="in_progress"></td><!-- AMD -->
-      <td class="na"></td><!-- AMD + ROCm -->
+      <td class="na" markdown="span">([4](#ascent_note_2))</td><!-- AMD + ROCm -->
     </tr>
     <tr>
       <td markdown="span">
@@ -738,11 +754,11 @@ for the CCE and AMD compilers, in particular how they wrap MPI and HIP.
         [ParaView][ParaView]
       </td>
       <td class="verified"></td><!-- GCC -->
-      <td class="na"></td><!-- GCC + ROCm -->
+      <td class="na" markdown="span">([6](#paraview_note_2))</td><!-- GCC + ROCm -->
       <td class="in_progress"></td><!-- CCE -->
-      <td class="na"></td><!-- CCE + ROCm -->
+      <td class="na" markdown="span">([6](#paraview_note_2))</td><!-- CCE + ROCm -->
       <td class="in_progress"></td><!-- AMD -->
-      <td class="na"></td><!-- AMD + ROCm -->
+      <td class="na" markdown="span">([6](#paraview_note_2))</td><!-- AMD + ROCm -->
     </tr>
     <tr>
       <td markdown="span">
@@ -804,11 +820,11 @@ for the CCE and AMD compilers, in particular how they wrap MPI and HIP.
         [ZFP][ZFP]
       </td>
       <td class="verified"></td><!-- GCC -->
-      <td class="na"></td><!-- GCC + ROCm -->
+      <td class="na" markdown="span">([8](#zfp_note_1))</td><!-- GCC + ROCm -->
       <td class="verified"></td><!-- CCE -->
-      <td class="na"></td><!-- CCE + ROCm -->
+      <td class="na" markdown="span">([8](#zfp_note_1))</td><!-- CCE + ROCm -->
       <td class="verified"></td><!-- AMD -->
-      <td class="na"></td><!-- AMD + ROCm -->
+      <td class="na" markdown="span">([8](#zfp_note_1))</td><!-- AMD + ROCm -->
     </tr>
     <tr>
       <td style="background-color: #373737; color: white">Legend</td>
@@ -916,7 +932,7 @@ for the CCE and AMD compilers, in particular how they wrap MPI and HIP.
         [VeloC][VeloC]
       </td>
       <td class="verified"></td><!-- GCC -->
-      <td class="na"></td><!-- GCC + CUDA -->
+      <td class="na" markdown="span">([2](#veloc_note_1))</td><!-- GCC + CUDA -->
       <td class="in_progress"></td><!-- NVHPC + CUDA -->
     </tr>
     <tr>
@@ -940,7 +956,7 @@ for the CCE and AMD compilers, in particular how they wrap MPI and HIP.
         [ParaView][ParaView]
       </td>
       <td class="verified"></td><!-- GCC -->
-      <td class="na"></td><!-- GCC + CUDA -->
+      <td class="na" markdown="span">([5](#paraview_note_1))</td><!-- GCC + CUDA -->
       <td class="in_progress"></td><!-- NVHPC + CUDA -->
     </tr>
     <tr>
@@ -956,7 +972,7 @@ for the CCE and AMD compilers, in particular how they wrap MPI and HIP.
         [VisIt][VisIt]
       </td>
       <td class="verified"></td><!-- GCC -->
-      <td class="na"></td><!-- GCC + CUDA -->
+      <td class="na" markdown="span">([7](#visit_note_1))</td><!-- GCC + CUDA -->
       <td class="in_progress"></td><!-- NVHPC + CUDA -->
     </tr>
     <tr>
