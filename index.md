@@ -473,7 +473,7 @@ more details on the facility deployments.
         [UnifyFS][UnifyFS]
       </td>
       <td class="verified"></td><!-- Desktop -->
-      <td class="failing" markdown="span">([10](#unify_fs_note_1))</td><!-- Docker -->
+      <td class="verified"></td><!-- Docker -->
       <td class="verified"></td><!-- Pre-Frontier -->
       <td class="verified"></td><!-- Perlmutter -->
       <td class="in_progress"></td><!-- Pre-Aurora -->
@@ -667,9 +667,9 @@ for the CCE and AMD compilers, in particular how they wrap MPI and HIP.
       </td>
       <td class="verified"></td><!-- GCC -->
       <td class="na" markdown="span">([1](#adios2_note_1))</td><!-- GCC + ROCm -->
-      <td class="in_progress"></td><!-- CCE -->
+      <td class="verified"></td><!-- CCE -->
       <td class="na" markdown="span">([1](#adios2_note_1))</td><!-- CCE + ROCm -->
-      <td class="in_progress"></td><!-- AMD -->
+      <td class="verified"></td><!-- AMD -->
       <td class="na" markdown="span">([1](#adios2_note_1))</td><!-- AMD + ROCm -->
     </tr>
     <tr>
@@ -678,9 +678,9 @@ for the CCE and AMD compilers, in particular how they wrap MPI and HIP.
       </td>
       <td class="verified"></td><!-- GCC -->
       <td class="na"></td><!-- GCC + ROCm -->
-      <td class="in_progress"></td><!-- CCE -->
+      <td class="verified"></td><!-- CCE -->
       <td class="na"></td><!-- CCE + ROCm -->
-      <td class="in_progress"></td><!-- AMD -->
+      <td class="verified"></td><!-- AMD -->
       <td class="na"></td><!-- AMD + ROCm -->
     </tr>
     <tr>
@@ -689,9 +689,9 @@ for the CCE and AMD compilers, in particular how they wrap MPI and HIP.
       </td>
       <td class="verified"></td><!-- GCC -->
       <td class="na"></td><!-- GCC + ROCm -->
-      <td class="in_progress"></td><!-- CCE -->
+      <td class="verified"></td><!-- CCE -->
       <td class="na"></td><!-- CCE + ROCm -->
-      <td class="in_progress"></td><!-- AMD -->
+      <td class="verified"></td><!-- AMD -->
       <td class="na"></td><!-- AMD + ROCm -->
     </tr>
     <tr>
@@ -700,9 +700,9 @@ for the CCE and AMD compilers, in particular how they wrap MPI and HIP.
       </td>
       <td class="verified"></td><!-- GCC -->
       <td class="na"></td><!-- GCC + ROCm -->
-      <td class="in_progress"></td><!-- CCE -->
+      <td class="verified"></td><!-- CCE -->
       <td class="na"></td><!-- CCE + ROCm -->
-      <td class="in_progress"></td><!-- AMD -->
+      <td class="verified"></td><!-- AMD -->
       <td class="na"></td><!-- AMD + ROCm -->
     </tr>
     <tr>
@@ -711,9 +711,9 @@ for the CCE and AMD compilers, in particular how they wrap MPI and HIP.
       </td>
       <td class="verified"></td><!-- GCC -->
       <td class="na"></td><!-- GCC + ROCm -->
-      <td class="in_progress"></td><!-- CCE -->
+      <td class="verified"></td><!-- CCE -->
       <td class="na"></td><!-- CCE + ROCm -->
-      <td class="in_progress"></td><!-- AMD -->
+      <td class="verified"></td><!-- AMD -->
       <td class="na"></td><!-- AMD + ROCm -->
     </tr>
     <tr>
@@ -722,9 +722,9 @@ for the CCE and AMD compilers, in particular how they wrap MPI and HIP.
       </td>
       <td class="verified"></td><!-- GCC -->
       <td class="na" markdown="span">([2](#veloc_note_1))</td><!-- GCC + ROCm -->
-      <td class="in_progress"></td><!-- CCE -->
+      <td class="verified"></td><!-- CCE -->
       <td class="na" markdown="span">([2](#veloc_note_1))</td><!-- CCE + ROCm -->
-      <td class="in_progress"></td><!-- AMD -->
+      <td class="verified"></td><!-- AMD -->
       <td class="na" markdown="span">([2](#veloc_note_1))</td><!-- AMD + ROCm -->
     </tr>
     <tr>
@@ -732,11 +732,11 @@ for the CCE and AMD compilers, in particular how they wrap MPI and HIP.
         [Ascent][Ascent]
       </td>
       <td class="verified"></td><!-- GCC -->
-      <td class="na" markdown="span">([4](#ascent_note_2))</td><!-- GCC + ROCm -->
-      <td class="in_progress"></td><!-- CCE -->
-      <td class="na" markdown="span">([4](#ascent_note_2))</td><!-- CCE + ROCm -->
-      <td class="in_progress"></td><!-- AMD -->
-      <td class="na" markdown="span">([4](#ascent_note_2))</td><!-- AMD + ROCm -->
+      <td class="in_progress" markdown="span">([4](#ascent_note_2))</td><!-- GCC + ROCm -->
+      <td class="verified"></td><!-- CCE -->
+      <td class="in_progress" markdown="span">([4](#ascent_note_2))</td><!-- CCE + ROCm -->
+      <td class="verified"></td><!-- AMD -->
+      <td class="in_progress" markdown="span">([4](#ascent_note_2))</td><!-- AMD + ROCm -->
     </tr>
     <tr>
       <td markdown="span">
@@ -744,9 +744,9 @@ for the CCE and AMD compilers, in particular how they wrap MPI and HIP.
       </td>
       <td class="verified"></td><!-- GCC -->
       <td class="na"></td><!-- GCC + ROCm -->
-      <td class="in_progress"></td><!-- CCE -->
+      <td class="verified"></td><!-- CCE -->
       <td class="na"></td><!-- CCE + ROCm -->
-      <td class="in_progress"></td><!-- AMD -->
+      <td class="verified"></td><!-- AMD -->
       <td class="na"></td><!-- AMD + ROCm -->
     </tr>
     <tr>
@@ -754,11 +754,11 @@ for the CCE and AMD compilers, in particular how they wrap MPI and HIP.
         [ParaView][ParaView]
       </td>
       <td class="verified"></td><!-- GCC -->
-      <td class="na" markdown="span">([6](#paraview_note_2))</td><!-- GCC + ROCm -->
-      <td class="in_progress"></td><!-- CCE -->
-      <td class="na" markdown="span">([6](#paraview_note_2))</td><!-- CCE + ROCm -->
-      <td class="in_progress"></td><!-- AMD -->
-      <td class="na" markdown="span">([6](#paraview_note_2))</td><!-- AMD + ROCm -->
+      <td class="in_progress" markdown="span">([6](#paraview_note_2))</td><!-- GCC + ROCm -->
+      <td class="verified"></td><!-- CCE -->
+      <td class="in_progress" markdown="span">([6](#paraview_note_2))</td><!-- CCE + ROCm -->
+      <td class="verified"></td><!-- AMD -->
+      <td class="in_progress" markdown="span">([6](#paraview_note_2))</td><!-- AMD + ROCm -->
     </tr>
     <tr>
       <td markdown="span">
@@ -777,9 +777,9 @@ for the CCE and AMD compilers, in particular how they wrap MPI and HIP.
       </td>
       <td class="verified"></td><!-- GCC -->
       <td class="na"></td><!-- GCC + ROCm -->
-      <td class="in_progress"></td><!-- CCE -->
+      <td class="verified"></td><!-- CCE -->
       <td class="na"></td><!-- CCE + ROCm -->
-      <td class="in_progress"></td><!-- AMD -->
+      <td class="verified"></td><!-- AMD -->
       <td class="na"></td><!-- AMD + ROCm -->
     </tr>
     <tr>
@@ -788,10 +788,10 @@ for the CCE and AMD compilers, in particular how they wrap MPI and HIP.
       </td>
       <td class="verified"></td><!-- GCC -->
       <td class="verified"></td><!-- GCC + ROCm -->
-      <td class="in_progress"></td><!-- CCE -->
-      <td class="failing" markdown="span">([13](#vtk_m_note_1))</td><!-- CCE + ROCm -->
-      <td class="in_progress"></td><!-- AMD -->
-      <td class="failing" markdown="span">([13](#vtk_m_note_1))</td><!-- AMD + ROCm -->
+      <td class="verified"></td><!-- CCE -->
+      <td class="verified"></td><!-- CCE + ROCm -->
+      <td class="verified"></td><!-- AMD -->
+      <td class="verified" ></td><!-- AMD + ROCm -->
     </tr>
     <tr>
       <td markdown="span">
@@ -1035,7 +1035,7 @@ In progress.
 
 ### ADIOS2
 
-<span id="adios2_note_1">1. </span>ROCm/HIP support is in progress.
+<span id="adios2_note_1">1. </span>ROCm/HIP support is not expected in near term release.
 
 ### VeloC
 
@@ -1068,14 +1068,8 @@ requires some recent patches to the `master` branch to work correctly.  We are
 iterating with the ParaView team to get this enabled in Spack (`spack install
 paraview@master`).
 
-<span id="paraview_note_2">6. </span>ROCm support will be available in the
+<span id="paraview_note_2">6. </span>ROCm support is available in the
 5.11.0 release.
-
-### UnifyFS
-
-<span id="unify_fs_note_1">10. </span>E4S Container deployment requires a
-downgrade to allow building dependencies of UnifyFS that require an older
-version of glibc.
 
 ### VisIt
 
@@ -1087,16 +1081,12 @@ by early 2023.
 <span id="vtk_m_note_1">13. </span> Spack configurations when using MPI + HIP
 (ROCm) are not yet compatible with the Cray compiler wrappers.
 
-
 ### ZFP
 
-<span id="zfp_note_1">8. </span>ROCm support is planned for EOY 2022.
+<span id="zfp_note_1">8. </span>ROCm support is planned for 2023.
 
 ### OneAPI
 
 <span id="one_api_note_1">9. </span>OneAPI is currently not tested by the SDK.
 Plans to begin testing with OneAPI will begin when Aurora pre-release system
 become available.
-
-
-
