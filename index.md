@@ -174,7 +174,7 @@ The following projects are included as part of the Data and Visualization SDK:
       </td>
       <td class="verified"></td><!-- CPU -->
       <td class="verified" markdown="span">([5](#paraview_note_1))</td><!-- CUDA -->
-      <td class="in_progress" markdown="span">([6](#paraview_note_2))</td><!-- ROCm -->
+      <td class="verified"></td><!-- ROCm -->
     </tr>
     <tr>
       <td markdown="span">
@@ -330,7 +330,7 @@ The following projects are included as part of the Data and Visualization SDK:
       </td>
       <td class="verified"></td><!-- CPU -->
       <td class="in_progress" markdown="span">([5](#paraview_note_1))</td><!-- CUDA -->
-      <td class="in_progress" markdown="span">([6](#paraview_note_2))</td><!-- ROCm -->
+      <td class="verified"></td><!-- ROCm -->
       <td class="in_progress"></td><!-- OneAPI -->
     </tr>
     <tr>
@@ -1071,7 +1071,7 @@ iterating with the ParaView team to get this enabled in Spack (`spack install
 paraview@master`).
 
 <span id="paraview_note_2">6. </span>ROCm support is available in the
-5.11.0 release.
+5.11.0 release. Planned for E4S 23.2.
 
 ### VisIt
 
