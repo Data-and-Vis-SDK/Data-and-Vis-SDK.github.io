@@ -150,7 +150,7 @@ The following projects are included as part of the Data and Visualization SDK:
       </td>
       <td class="verified"></td><!-- CPU -->
       <td class="na" markdown="span">([2](#veloc_note_1))</td><!-- CUDA -->
-      <td class="na" markdown="span">([2](#veloc_note_1))</td><!-- ROCm -->
+      <td class="na" markdown="span">([10](#veloc_note_2))</td><!-- ROCm -->
     </tr>
     <tr>
       <td markdown="span">
@@ -174,7 +174,7 @@ The following projects are included as part of the Data and Visualization SDK:
       </td>
       <td class="verified"></td><!-- CPU -->
       <td class="verified" markdown="span">([5](#paraview_note_1))</td><!-- CUDA -->
-      <td class="in_progress" markdown="span">([6](#paraview_note_2))</td><!-- ROCm -->
+      <td class="verified"></td><!-- ROCm -->
     </tr>
     <tr>
       <td markdown="span">
@@ -303,7 +303,7 @@ The following projects are included as part of the Data and Visualization SDK:
       </td>
       <td class="verified"></td><!-- CPU -->
       <td class="na" markdown="span">([2](#veloc_note_1))</td><!-- CUDA -->
-      <td class="na" markdown="span">([2](#veloc_note_1))</td><!-- ROCm -->
+      <td class="na" markdown="span">([10](#veloc_note_2))</td><!-- ROCm -->
       <td class="in_progress"></td><!-- OneAPI -->
     </tr>
     <tr>
@@ -330,7 +330,7 @@ The following projects are included as part of the Data and Visualization SDK:
       </td>
       <td class="verified"></td><!-- CPU -->
       <td class="in_progress" markdown="span">([5](#paraview_note_1))</td><!-- CUDA -->
-      <td class="in_progress" markdown="span">([6](#paraview_note_2))</td><!-- ROCm -->
+      <td class="verified"></td><!-- ROCm -->
       <td class="in_progress"></td><!-- OneAPI -->
     </tr>
     <tr>
@@ -721,11 +721,11 @@ for the CCE and AMD compilers, in particular how they wrap MPI and HIP.
         [VeloC][VeloC]
       </td>
       <td class="verified"></td><!-- GCC -->
-      <td class="na" markdown="span">([2](#veloc_note_1))</td><!-- GCC + ROCm -->
+      <td class="na">([10](#veloc_note_2))</td><!-- GCC + ROCm -->
       <td class="verified"></td><!-- CCE -->
-      <td class="na" markdown="span">([2](#veloc_note_1))</td><!-- CCE + ROCm -->
+      <td class="na"></td><!-- CCE + ROCm -->
       <td class="verified"></td><!-- AMD -->
-      <td class="na" markdown="span">([2](#veloc_note_1))</td><!-- AMD + ROCm -->
+      <td class="na"></td><!-- AMD + ROCm -->
     </tr>
     <tr>
       <td markdown="span">
@@ -933,7 +933,7 @@ for the CCE and AMD compilers, in particular how they wrap MPI and HIP.
       </td>
       <td class="verified"></td><!-- GCC -->
       <td class="na" markdown="span">([2](#veloc_note_1))</td><!-- GCC + CUDA -->
-      <td class="in_progress" markdown="span">([2](#veloc_note_1))</td><!-- NVHPC + CUDA -->
+      <td class="na" markdown="span">([2](#veloc_note_1))</td><!-- NVHPC + CUDA -->
     </tr>
     <tr>
       <td markdown="span">
@@ -956,7 +956,7 @@ for the CCE and AMD compilers, in particular how they wrap MPI and HIP.
         [ParaView][ParaView]
       </td>
       <td class="verified"></td><!-- GCC -->
-      <td class="na" markdown="span">([5](#paraview_note_1))</td><!-- GCC + CUDA -->
+      <td class="na"></td><!-- GCC + CUDA -->
       <td class="in_progress" markdown="span">([5](#paraview_note_1))</td><!-- NVHPC + CUDA -->
     </tr>
     <tr>
@@ -1039,8 +1039,10 @@ In progress.
 
 ### VeloC
 
-<span id="veloc_note_1">2. </span>GPU support for VeloC is anticipated to land
+<span id="veloc_note_1">2. </span>CUDA support for VeloC is anticipated to land
 in February 2023.
+
+<span id="veloc_note_2">10. </span>Kokkos/ROCm support for VeloC is experimental in [kokkos-resilience](https://github.com/kokkos/kokkos-resilience)
 
 ### Ascent
 
@@ -1069,17 +1071,12 @@ iterating with the ParaView team to get this enabled in Spack (`spack install
 paraview@master`).
 
 <span id="paraview_note_2">6. </span>ROCm support is available in the
-5.11.0 release.
+5.11.0 release. Planned for E4S 23.2.
 
 ### VisIt
 
 <span id="visit_note_1">7. </span>VTK-m enabled GPU support is planned for VisIt
 by early 2023.
-
-### VTK-m
-
-<span id="vtk_m_note_1">13. </span> Spack configurations when using MPI + HIP
-(ROCm) are not yet compatible with the Cray compiler wrappers.
 
 ### ZFP
 
