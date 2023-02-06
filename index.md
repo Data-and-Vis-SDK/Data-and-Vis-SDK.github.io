@@ -721,7 +721,7 @@ for the CCE and AMD compilers, in particular how they wrap MPI and HIP.
         [VeloC][VeloC]
       </td>
       <td class="verified"></td><!-- GCC -->
-      <td class="na">([10](#veloc_note_2))</td><!-- GCC + ROCm -->
+      <td class="na" markdown="span">([10](#veloc_note_2))</td><!-- GCC + ROCm -->
       <td class="verified"></td><!-- CCE -->
       <td class="na"></td><!-- CCE + ROCm -->
       <td class="verified"></td><!-- AMD -->
