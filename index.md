@@ -1025,7 +1025,136 @@ for the CCE and AMD compilers, in particular how they wrap MPI and HIP.
 
 ### Pre-Aurora Toolchains
 
-In progress.
+<table class="toolchain_table">
+  <thead>
+    <tr>
+      <th>Info</th>
+      <th>OneAPI</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        Version
+      </td>  <!-- Info -->
+      <td>v2023.0.0</td>  <!-- OneAPI Toolchain -->
+    </tr>
+  </tbody>
+</table>
+
+<table class="status_table">
+  <thead>
+    <tr>
+      <th>Project</th>
+      <th>OneAPI</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td markdown="span">
+        [ADIOS2][ADIOS2]
+      </td>
+      <td class="in_progress"></td><!-- OneApi -->
+    </tr>
+    <tr>
+      <td markdown="span">
+        [Darshan][Darshan]
+      </td>
+      <td class="in_progress"></td><!-- OneApi -->
+    </tr>
+    <tr>
+      <td markdown="span">
+        [HDF5][HDF5]
+      </td>
+      <td class="in_progress"></td><!-- OneApi -->
+    </tr>
+    <tr>
+      <td markdown="span">
+        [PNetCDF][PNetCDF]
+      </td>
+      <td class="in_progress"></td><!-- OneApi -->
+    </tr>
+    <tr>
+      <td markdown="span">
+        [UnifyFS][UnifyFS]
+      </td>
+      <td class="in_progress"></td><!-- OneApi -->
+    </tr>
+    <tr>
+      <td markdown="span">
+        [VeloC][VeloC]
+      </td>
+      <td class="in_progress"></td><!-- OneApi -->
+    </tr>
+    <tr>
+      <td markdown="span">
+        [Ascent][Ascent]
+      </td>
+      <td class="in_progress"></td><!-- OneApi -->
+    </tr>
+    <tr>
+      <td markdown="span">
+        [Cinema][Cinema]
+      </td>
+      <td class="in_progress"></td><!-- OneApi -->
+    </tr>
+    <tr>
+      <td markdown="span">
+        [ParaView][ParaView]
+      </td>
+      <td class="in_progress"></td><!-- OneApi -->
+    </tr>
+    <tr>
+      <td markdown="span">
+        [SENSEI][SENSEI]
+      </td>
+      <td class="in_progress"></td><!-- OneApi -->
+    </tr>
+    <tr>
+      <td markdown="span">
+        [VisIt][VisIt]
+      </td>
+      <td class="in_progress"></td><!-- OneApi -->
+    </tr>
+    <tr>
+      <td markdown="span">
+        [VTK-m][VTK-m]
+      </td>
+      <td class="in_progress"></td><!-- OneApi -->
+    </tr>
+    <tr>
+      <td markdown="span">
+        [SZ][SZ]
+      </td>
+      <td class="in_progress"></td><!-- OneApi -->
+    </tr>
+    <tr>
+      <td markdown="span">
+        [cuSZ][cuSZ]
+      </td>
+      <td class="in_progress"></td><!-- OneApi -->
+    </tr>
+    <tr>
+      <td markdown="span">
+        [ZFP][ZFP]
+      </td>
+      <td class="in_progress"></td><!-- OneApi -->
+    </tr>
+    <tr>
+      <td style="background-color: #373737; color: white">Legend</td>
+      <td colspan="3">
+        <table class="status_table_legend">
+          <tr>
+            <th class="verified" style="color: white;">Verified</th>
+            <th class="in_progress" style="color: white;">In Progress</th>
+            <th class="na" style="color: white;">Not Applicable</th>
+            <th class="failing" style="color: white;">Failing</th>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 ## Notes
 
