@@ -417,7 +417,7 @@ more details on the facility deployments.
       <th>Project</th>
       <th>Desktop</th>
       <th>Docker</th>
-      <th>Pre-Frontier</th>
+      <th>Frontier</th>
       <th>Perlmutter</th>
       <th>Pre-Aurora</th>
       <th>Smoke Test</th>
@@ -430,7 +430,7 @@ more details on the facility deployments.
       </td>
       <td class="verified"></td><!-- Desktop -->
       <td class="verified"></td><!-- Docker -->
-      <td class="verified"></td><!-- Pre-Frontier -->
+      <td class="verified"></td><!-- Frontier -->
       <td class="verified"></td><!-- Perlmutter -->
       <td class="in_progress"></td><!-- Pre-Aurora -->
       <td class="in_progress"></td><!-- Smoke Test -->
@@ -441,7 +441,7 @@ more details on the facility deployments.
       </td>
       <td class="verified"></td><!-- Desktop -->
       <td class="verified"></td><!-- Docker -->
-      <td class="verified"></td><!-- Pre-Frontier -->
+      <td class="verified"></td><!-- Frontier -->
       <td class="verified"></td><!-- Perlmutter -->
       <td class="in_progress"></td><!-- Pre-Aurora -->
       <td class="in_progress"></td><!-- Smoke Test -->
@@ -452,7 +452,7 @@ more details on the facility deployments.
       </td>
       <td class="verified"></td><!-- Desktop -->
       <td class="verified"></td><!-- Docker -->
-      <td class="verified"></td><!-- Pre-Frontier -->
+      <td class="verified"></td><!-- Frontier -->
       <td class="verified"></td><!-- Perlmutter -->
       <td class="in_progress"></td><!-- Pre-Aurora -->
       <td class="in_progress"></td><!-- Smoke Test -->
@@ -463,7 +463,7 @@ more details on the facility deployments.
       </td>
       <td class="verified"></td><!-- Desktop -->
       <td class="verified"></td><!-- Docker -->
-      <td class="verified"></td><!-- Pre-Frontier -->
+      <td class="verified"></td><!-- Frontier -->
       <td class="verified"></td><!-- Perlmutter -->
       <td class="in_progress"></td><!-- Pre-Aurora -->
       <td class="in_progress"></td><!-- Smoke Test -->
@@ -474,7 +474,7 @@ more details on the facility deployments.
       </td>
       <td class="verified"></td><!-- Desktop -->
       <td class="verified"></td><!-- Docker -->
-      <td class="verified"></td><!-- Pre-Frontier -->
+      <td class="verified"></td><!-- Frontier -->
       <td class="verified"></td><!-- Perlmutter -->
       <td class="in_progress"></td><!-- Pre-Aurora -->
       <td class="in_progress"></td><!-- Smoke Test -->
@@ -485,7 +485,7 @@ more details on the facility deployments.
       </td>
       <td class="verified"></td><!-- Desktop -->
       <td class="verified"></td><!-- Docker -->
-      <td class="verified"></td><!-- Pre-Frontier -->
+      <td class="verified"></td><!-- Frontier -->
       <td class="verified"></td><!-- Perlmutter -->
       <td class="in_progress"></td><!-- Pre-Aurora -->
       <td class="in_progress"></td><!-- Smoke Test -->
@@ -496,7 +496,7 @@ more details on the facility deployments.
       </td>
       <td class="verified"></td><!-- Desktop -->
       <td class="verified"></td><!-- Docker -->
-      <td class="failing" markdown="span">([11](#ascent_note_3))</td><!-- Pre-Frontier -->
+      <td class="verified"></td><!-- Frontier -->
       <td class="failing" markdown="span">([12](#ascent_note_4))</td><!-- Perlmutter -->
       <td class="in_progress"></td><!-- Pre-Aurora -->
       <td class="in_progress"></td><!-- Smoke Test -->
@@ -507,7 +507,7 @@ more details on the facility deployments.
       </td>
       <td class="verified"></td><!-- Desktop -->
       <td class="verified"></td><!-- Docker -->
-      <td class="verified"></td><!-- Pre-Frontier -->
+      <td class="verified"></td><!-- Frontier -->
       <td class="verified"></td><!-- Perlmutter -->
       <td class="in_progress"></td><!-- Pre-Aurora -->
       <td class="in_progress"></td><!-- Smoke Test -->
@@ -518,7 +518,7 @@ more details on the facility deployments.
       </td>
       <td class="verified"></td><!-- Desktop -->
       <td class="verified"></td><!-- Docker -->
-      <td class="verified"></td><!-- Pre-Frontier -->
+      <td class="verified"></td><!-- Frontier -->
       <td class="verified"></td><!-- Perlmutter -->
       <td class="in_progress"></td><!-- Pre-Aurora -->
       <td class="in_progress"></td><!-- Smoke Test -->
@@ -529,7 +529,7 @@ more details on the facility deployments.
       </td>
       <td class="verified"></td><!-- Desktop -->
       <td class="verified"></td><!-- Docker -->
-      <td class="verified"></td><!-- Pre-Frontier -->
+      <td class="verified"></td><!-- Frontier -->
       <td class="verified"></td><!-- Perlmutter -->
       <td class="in_progress"></td><!-- Pre-Aurora -->
       <td class="in_progress"></td><!-- Smoke Test -->
@@ -540,7 +540,7 @@ more details on the facility deployments.
       </td>
       <td class="verified"></td><!-- Desktop -->
       <td class="verified"></td><!-- Docker -->
-      <td class="verified"></td><!-- Pre-Frontier -->
+      <td class="verified"></td><!-- Frontier -->
       <td class="verified"></td><!-- Perlmutter -->
       <td class="in_progress"></td><!-- Pre-Aurora -->
       <td class="in_progress"></td><!-- Smoke Test -->
@@ -551,7 +551,7 @@ more details on the facility deployments.
       </td>
       <td class="verified"></td><!-- Desktop -->
       <td class="verified"></td><!-- Docker -->
-      <td class="verified"></td><!-- Pre-Frontier -->
+      <td class="verified"></td><!-- Frontier -->
       <td class="verified"></td><!-- Perlmutter -->
       <td class="in_progress"></td><!-- Pre-Aurora -->
       <td class="verified"></td><!-- Smoke Test -->
@@ -562,7 +562,7 @@ more details on the facility deployments.
       </td>
       <td class="verified"></td><!-- Desktop -->
       <td class="verified"></td><!-- Docker -->
-      <td class="verified"></td><!-- Pre-Frontier -->
+      <td class="verified"></td><!-- Frontier -->
       <td class="verified"></td><!-- Perlmutter -->
       <td class="in_progress"></td><!-- Pre-Aurora -->
       <td class="in_progress"></td><!-- Smoke Test -->
@@ -573,7 +573,7 @@ more details on the facility deployments.
       </td>
       <td class="in_progress"></td><!-- Desktop -->
       <td class="in_progress"></td><!-- Docker -->
-      <td class="na"></td><!-- Pre-Frontier -->
+      <td class="na"></td><!-- Frontier -->
       <td class="in_progress"></td><!-- Perlmutter -->
       <td class="na"></td><!-- Pre-Aurora -->
       <td class="in_progress"></td><!-- Smoke Test -->
@@ -584,7 +584,7 @@ more details on the facility deployments.
       </td>
       <td class="verified"></td><!-- Desktop -->
       <td class="verified"></td><!-- Docker -->
-      <td class="verified"></td><!-- Pre-Frontier -->
+      <td class="verified"></td><!-- Frontier -->
       <td class="verified"></td><!-- Perlmutter -->
       <td class="in_progress"></td><!-- Pre-Aurora -->
       <td class="in_progress"></td><!-- Smoke Test -->
@@ -605,10 +605,9 @@ more details on the facility deployments.
   </tbody>
 </table>
 
-### Pre-Frontier
+### Frontier
 
-Pre-Frontier here means "Crusher", which is assumed to be a system that matches the system software and architecture
-of the target facility system Frontier. On of the primary challenges on this system is handling the compiler wrappers
+One of the primary challenges on Frontier is handling the compiler wrappers
 for the CCE and AMD compilers, in particular how they wrap MPI and HIP.
 
 <table class="toolchain_table">
@@ -626,24 +625,24 @@ for the CCE and AMD compilers, in particular how they wrap MPI and HIP.
         Version
       </td>  <!-- Info -->
       <td>v11.2</td>  <!-- GCC Toolchain -->
-      <td>v1.1.1</td>  <!-- CCE Toolchain -->
-      <td>v5.2.3</td>  <!-- AMD Toolchain -->
+      <td>v14.0.2</td>  <!-- CCE Toolchain -->
+      <td>v5.3.0</td>  <!-- AMD Toolchain -->
     </tr>
     <tr>
       <td>
         Cray MPICH
       </td>  <!-- Info -->
-      <td>v8.2.3</td>  <!-- GCC Toolchain -->
-      <td>v8.2.3</td>  <!-- CCE Toolchain -->
-      <td>v8.2.3</td>  <!-- AMD Toolchain -->
+      <td>v8.1.23</td>  <!-- GCC Toolchain -->
+      <td>v8.1.23</td>  <!-- CCE Toolchain -->
+      <td>v8.1.23</td>  <!-- AMD Toolchain -->
     </tr>
     <tr>
       <td>
         ROCm
       </td>  <!-- Info -->
-      <td>v5.2.3</td>  <!-- GCC Toolchain -->
-      <td>v5.2.3</td>  <!-- CCE Toolchain -->
-      <td>v5.2.3</td>  <!-- AMD Toolchain -->
+      <td>v5.3.0</td>  <!-- GCC Toolchain -->
+      <td>v5.3.0</td>  <!-- CCE Toolchain -->
+      <td>v5.3.0</td>  <!-- AMD Toolchain -->
     </tr>
   </tbody>
 </table>
@@ -754,11 +753,11 @@ for the CCE and AMD compilers, in particular how they wrap MPI and HIP.
         [ParaView][ParaView]
       </td>
       <td class="verified"></td><!-- GCC -->
-      <td class="in_progress" markdown="span">([6](#paraview_note_2))</td><!-- GCC + ROCm -->
+      <td class="verified"></td><!-- GCC + ROCm -->
       <td class="verified"></td><!-- CCE -->
-      <td class="in_progress" markdown="span">([6](#paraview_note_2))</td><!-- CCE + ROCm -->
+      <td class="verified"></td><!-- CCE + ROCm -->
       <td class="verified"></td><!-- AMD -->
-      <td class="in_progress" markdown="span">([6](#paraview_note_2))</td><!-- AMD + ROCm -->
+      <td class="verified"></td><!-- AMD + ROCm -->
     </tr>
     <tr>
       <td markdown="span">
@@ -1054,11 +1053,6 @@ CUDA with shared libraries, which is required by the SDK.
 not have support for ROCm, but it is in the Ascent upstream and planned for
 release before the end of 2022.
 
-<span id="ascent_note_3">11. </span> the "+rocm" permutation of the SDK fails
-due conflicting version requirements with VTK-m. Ascent 0.9.0 will have fixes
-for this. The CPU version with Ascent in the SDK builds on Crusher
-(Pre-Frontier) with the older version of VTK-m.
-
 <span id="ascent_note_4">12. </span> The way MPI is set up on Perlmutter
 conflicts with Ascent's spack recipe and CMake. Fixes for this are being
 developed.
@@ -1069,9 +1063,6 @@ developed.
 requires some recent patches to the `master` branch to work correctly.  We are
 iterating with the ParaView team to get this enabled in Spack (`spack install
 paraview@master`).
-
-<span id="paraview_note_2">6. </span>ROCm support is available in the
-5.11.0 release. Planned for E4S 23.2.
 
 ### VisIt
 
