@@ -39,8 +39,14 @@ The following projects are included as part of the Data and Visualization SDK:
           the ADIOS2 VOL is installed (by the `adios2` package).
         * [hdf5-vol-cache](https://github.com/hpc-io/vol-cache),
           [hdf5-vol-async](https://github.com/hpc-io/vol-async), and
-          [hdf5-vol-log](https://github.com/DataLib-ECP/vol-log-based) **are
-          planned to be installed** when `ecp-data-vis-sdk +hdf5` is installed.
+          [hdf5-vol-log](https://github.com/DataLib-ECP/vol-log-based) are
+          installed** when `ecp-data-vis-sdk +hdf5 ^hdf5@1.14:` is installed.
+          [13](#hdf5_vols_oneapi)
+        * [hdf5-vol-daos](https://github.com/HDFGroup/vol-daos) is a VOL adapter
+          used for direct interfacing with the Distributed Asynchronous Object
+          Storage (DAOS) system, bypassing both MPI I/O and POSIX for efficient
+          and scalable I/O. This VOL adapter is currently being tested on Pre-Aurora
+          systems with DAOS support.
 * [PNetCDF][PNetCDF]: A high-performance parallel I/O library for accessing
   Unidata's NetCDF, files in classic formats, specifically the formats of CDF-1,
    2, and 5.
@@ -248,7 +254,7 @@ The following projects are included as part of the Data and Visualization SDK:
       <th>CPU</th>
       <th>CUDA</th>
       <th>ROCm</th>
-      <th markdown="span">OneAPI ([9](#one_api_note_1))</th>
+      <th>OneAPI</th>
     </tr>
   </thead>
   <tbody>
@@ -1224,10 +1230,6 @@ by early 2023.
 async and cache VOL adapters currently do not.
 
 ### OneAPI
-
-<span id="one_api_note_1">9. </span>OneAPI is currently not tested by the SDK.
-Plans to begin testing with OneAPI will begin when Aurora pre-release system
-become available.
 
 <span id="vtkm_oneapi_sycl">6.</span>VTKm does not fully support building SYCL kernels
 in currently released versions, but has some support on the "master" branch.
