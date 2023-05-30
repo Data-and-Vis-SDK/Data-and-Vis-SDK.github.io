@@ -259,7 +259,7 @@ The following projects are included as part of the Data and Visualization SDK:
       <td class="verified"></td><!-- CPU -->
       <td class="verified"></td><!-- CUDA -->
       <td class="na" markdown="span">([1](#adios2_note_1))</td><!-- ROCm --><!-- ROCm -->
-      <td class="in_progress"></td><!-- OneAPI -->
+      <td class="verified"></td><!-- OneAPI -->
     </tr>
     <tr>
       <td markdown="span">
@@ -268,7 +268,7 @@ The following projects are included as part of the Data and Visualization SDK:
       <td class="verified"></td><!-- CPU -->
       <td class="na"></td><!-- CUDA -->
       <td class="na"></td><!-- ROCm -->
-      <td class="in_progress"></td><!-- OneAPI -->
+      <td class="verified"></td><!-- OneAPI -->
     </tr>
     <tr>
       <td markdown="span">
@@ -277,7 +277,7 @@ The following projects are included as part of the Data and Visualization SDK:
       <td class="verified"></td><!-- CPU -->
       <td class="verified"></td><!-- CUDA -->
       <td class="na"></td><!-- ROCm -->
-      <td class="in_progress"></td><!-- OneAPI -->
+      <td class="verified"></td><!-- OneAPI -->
     </tr>
     <tr>
       <td markdown="span">
@@ -286,7 +286,7 @@ The following projects are included as part of the Data and Visualization SDK:
       <td class="verified"></td><!-- CPU -->
       <td class="na"></td><!-- CUDA -->
       <td class="na"></td><!-- ROCm -->
-      <td class="in_progress"></td><!-- OneAPI -->
+      <td class="verified"></td><!-- OneAPI -->
     </tr>
     <tr>
       <td markdown="span">
@@ -295,7 +295,7 @@ The following projects are included as part of the Data and Visualization SDK:
       <td class="verified"></td><!-- CPU -->
       <td class="na"></td><!-- CUDA -->
       <td class="na"></td><!-- ROCm -->
-      <td class="in_progress"></td><!-- OneAPI -->
+      <td class="verified"></td><!-- OneAPI -->
     </tr>
     <tr>
       <td markdown="span">
@@ -304,7 +304,7 @@ The following projects are included as part of the Data and Visualization SDK:
       <td class="verified"></td><!-- CPU -->
       <td class="na" markdown="span">([2](#veloc_note_1))</td><!-- CUDA -->
       <td class="na" markdown="span">([10](#veloc_note_2))</td><!-- ROCm -->
-      <td class="in_progress"></td><!-- OneAPI -->
+      <td class="verified"></td><!-- OneAPI -->
     </tr>
     <tr>
       <td markdown="span">
@@ -313,7 +313,7 @@ The following projects are included as part of the Data and Visualization SDK:
       <td class="verified"></td><!-- CPU -->
       <td class="failing" markdown="span">([3](#ascent_note_1))</td><!-- CUDA -->
       <td class="na" markdown="span">([4](#ascent_note_2))</td><!-- ROCm -->
-      <td class="in_progress"></td><!-- OneAPI -->
+      <td class="verified"></td><!-- OneAPI -->
     </tr>
     <tr>
       <td markdown="span">
@@ -340,7 +340,7 @@ The following projects are included as part of the Data and Visualization SDK:
       <td class="verified"></td><!-- CPU -->
       <td class="na"></td><!-- CUDA -->
       <td class="na"></td><!-- ROCm -->
-      <td class="in_progress"></td><!-- OneAPI -->
+      <td class="verified"></td><!-- OneAPI -->
     </tr>
     <tr>
       <td markdown="span">
@@ -358,7 +358,7 @@ The following projects are included as part of the Data and Visualization SDK:
       <td class="verified"></td><!-- CPU -->
       <td class="verified"></td><!-- CUDA -->
       <td class="verified"></td><!-- ROCm -->
-      <td class="in_progress"></td><!-- OneAPI -->
+      <td class="verified" markdown="span">([6](#vtkm_oneapi_sycl))</td><!-- OneAPI -->
     </tr>
     <tr>
       <td markdown="span">
@@ -367,7 +367,7 @@ The following projects are included as part of the Data and Visualization SDK:
       <td class="verified"></td><!-- CPU -->
       <td class="na"></td><!-- CUDA -->
       <td class="na"></td><!-- ROCm -->
-      <td class="in_progress"></td><!-- OneAPI -->
+      <td class="verified"></td><!-- OneAPI -->
     </tr>
     <tr>
       <td markdown="span">
@@ -376,7 +376,7 @@ The following projects are included as part of the Data and Visualization SDK:
       <td class="na"></td><!-- CPU -->
       <td class="in_progress"></td><!-- CUDA -->
       <td class="na"></td><!-- ROCm -->
-      <td class="in_progress"></td><!-- OneAPI -->
+      <td class="na"></td><!-- OneAPI -->
     </tr>
     <tr>
       <td markdown="span">
@@ -385,7 +385,7 @@ The following projects are included as part of the Data and Visualization SDK:
       <td class="verified"></td><!-- CPU -->
       <td class="verified"></td><!-- CUDA -->
       <td class="na" markdown="span">([8](#zfp_note_1))</td><!-- ROCm -->
-      <td class="in_progress"></td><!-- OneAPI -->
+      <td class="verified"></td><!-- OneAPI -->
     </tr>
     <tr>
       <td style="background-color: #373737; color: white">Legend</td>
@@ -1047,6 +1047,7 @@ for the CCE and AMD compilers, in particular how they wrap MPI and HIP.
     <tr>
       <th>Project</th>
       <th>OneAPI</th>
+      <th markdown="span">OneAPI +SYCL (GPU) [11](#oneapi_sycl)</th>
     </tr>
   </thead>
   <tbody>
@@ -1054,91 +1055,106 @@ for the CCE and AMD compilers, in particular how they wrap MPI and HIP.
       <td markdown="span">
         [ADIOS2][ADIOS2]
       </td>
-      <td class="in_progress"></td><!-- OneApi -->
+      <td class="verified"></td><!-- OneApi -->
+      <td class="na"></td><!-- OneApi -->
     </tr>
     <tr>
       <td markdown="span">
         [Darshan][Darshan]
       </td>
-      <td class="in_progress"></td><!-- OneApi -->
+      <td class="verified"></td><!-- OneApi -->
+      <td class="na"></td><!-- OneApi -->
     </tr>
     <tr>
       <td markdown="span">
         [HDF5][HDF5]
       </td>
-      <td class="in_progress"></td><!-- OneApi -->
+      <td class="verified"></td><!-- OneApi -->
+      <td class="na"></td><!-- OneApi -->
     </tr>
     <tr>
       <td markdown="span">
         [PNetCDF][PNetCDF]
       </td>
-      <td class="in_progress"></td><!-- OneApi -->
+      <td class="verified"></td><!-- OneApi -->
+      <td class="na"></td><!-- OneApi -->
     </tr>
     <tr>
       <td markdown="span">
         [UnifyFS][UnifyFS]
       </td>
-      <td class="in_progress"></td><!-- OneApi -->
+      <td class="verified"></td><!-- OneApi -->
+      <td class="na"></td><!-- OneApi -->
     </tr>
     <tr>
       <td markdown="span">
         [VeloC][VeloC]
       </td>
-      <td class="in_progress"></td><!-- OneApi -->
+      <td class="verified"></td><!-- OneApi -->
+      <td class="na"></td><!-- OneApi -->
     </tr>
     <tr>
       <td markdown="span">
         [Ascent][Ascent]
       </td>
-      <td class="in_progress"></td><!-- OneApi -->
+      <td class="verified"></td><!-- OneApi -->
+      <td class="na"></td><!-- OneApi -->
     </tr>
     <tr>
       <td markdown="span">
         [Cinema][Cinema]
       </td>
       <td class="in_progress"></td><!-- OneApi -->
+      <td class="na"></td><!-- OneApi -->
     </tr>
     <tr>
       <td markdown="span">
         [ParaView][ParaView]
       </td>
       <td class="in_progress"></td><!-- OneApi -->
+      <td class="na"></td><!-- OneApi -->
     </tr>
     <tr>
       <td markdown="span">
         [SENSEI][SENSEI]
       </td>
-      <td class="in_progress"></td><!-- OneApi -->
+      <td class="verified"></td><!-- OneApi -->
+      <td class="na"></td><!-- OneApi -->
     </tr>
     <tr>
       <td markdown="span">
         [VisIt][VisIt]
       </td>
       <td class="in_progress"></td><!-- OneApi -->
+      <td class="na"></td><!-- OneApi -->
     </tr>
     <tr>
       <td markdown="span">
         [VTK-m][VTK-m]
       </td>
-      <td class="in_progress"></td><!-- OneApi -->
+      <td class="verified"></td><!-- OneApi -->
+      <td class="in_progress" markdown="span">[6](#vtkm_oneapi_sycl)</td><!-- OneApi -->
     </tr>
     <tr>
       <td markdown="span">
         [SZ][SZ]
       </td>
-      <td class="in_progress"></td><!-- OneApi -->
+      <td class="verified"></td><!-- OneApi -->
+      <td class="na"></td><!-- OneApi -->
     </tr>
     <tr>
       <td markdown="span">
         [cuSZ][cuSZ]
       </td>
-      <td class="in_progress"></td><!-- OneApi -->
+      <td class="na"></td><!-- OneApi -->
+      <td class="na"></td><!-- OneApi -->
     </tr>
     <tr>
       <td markdown="span">
         [ZFP][ZFP]
       </td>
-      <td class="in_progress"></td><!-- OneApi -->
+      <td class="verified"></td><!-- OneApi -->
+      <td class="na"></td><!-- OneApi -->
     </tr>
     <tr>
       <td style="background-color: #373737; color: white">Legend</td>
@@ -1207,3 +1223,12 @@ by early 2023.
 <span id="one_api_note_1">9. </span>OneAPI is currently not tested by the SDK.
 Plans to begin testing with OneAPI will begin when Aurora pre-release system
 become available.
+
+<span id="vtkm_oneapi_sycl">6.</span>VTKm does not fully support building SYCL kernels
+in currently released versions, but has some support on the "master" branch.
+
+<span id="oneapi_sycl">11.</span>SYCL support from OneAPI is provided to most SDK
+packages via Kokkos. Other packages may have some support for SYCL via this
+mechanism but do not currently provide configurations for those integrations
+via Spack and have been marked as N/A until those features have been exposed.
+
