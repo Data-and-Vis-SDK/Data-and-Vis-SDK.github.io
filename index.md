@@ -432,7 +432,7 @@ more details on the facility deployments.
       <td class="verified"></td><!-- Docker -->
       <td class="verified"></td><!-- Frontier -->
       <td class="verified"></td><!-- Perlmutter -->
-      <td class="in_progress"></td><!-- Pre-Aurora -->
+      <td class="verified"></td><!-- Pre-Aurora -->
       <td class="in_progress"></td><!-- Smoke Test -->
     </tr>
     <tr>
@@ -443,7 +443,7 @@ more details on the facility deployments.
       <td class="verified"></td><!-- Docker -->
       <td class="verified"></td><!-- Frontier -->
       <td class="verified"></td><!-- Perlmutter -->
-      <td class="in_progress"></td><!-- Pre-Aurora -->
+      <td class="verified"></td><!-- Pre-Aurora -->
       <td class="in_progress"></td><!-- Smoke Test -->
     </tr>
     <tr>
@@ -454,7 +454,7 @@ more details on the facility deployments.
       <td class="verified"></td><!-- Docker -->
       <td class="verified"></td><!-- Frontier -->
       <td class="verified"></td><!-- Perlmutter -->
-      <td class="in_progress"></td><!-- Pre-Aurora -->
+      <td class="in_progress" markdown="span">[13](#hdf5_vols_oneapi)</td><!-- Pre-Aurora -->
       <td class="in_progress"></td><!-- Smoke Test -->
     </tr>
     <tr>
@@ -465,7 +465,7 @@ more details on the facility deployments.
       <td class="verified"></td><!-- Docker -->
       <td class="verified"></td><!-- Frontier -->
       <td class="verified"></td><!-- Perlmutter -->
-      <td class="in_progress"></td><!-- Pre-Aurora -->
+      <td class="verified"></td><!-- Pre-Aurora -->
       <td class="in_progress"></td><!-- Smoke Test -->
     </tr>
     <tr>
@@ -476,7 +476,7 @@ more details on the facility deployments.
       <td class="verified"></td><!-- Docker -->
       <td class="verified"></td><!-- Frontier -->
       <td class="verified"></td><!-- Perlmutter -->
-      <td class="in_progress"></td><!-- Pre-Aurora -->
+      <td class="verified"></td><!-- Pre-Aurora -->
       <td class="in_progress"></td><!-- Smoke Test -->
     </tr>
     <tr>
@@ -487,7 +487,7 @@ more details on the facility deployments.
       <td class="verified"></td><!-- Docker -->
       <td class="verified"></td><!-- Frontier -->
       <td class="verified"></td><!-- Perlmutter -->
-      <td class="in_progress"></td><!-- Pre-Aurora -->
+      <td class="verified"></td><!-- Pre-Aurora -->
       <td class="in_progress"></td><!-- Smoke Test -->
     </tr>
     <tr>
@@ -498,7 +498,7 @@ more details on the facility deployments.
       <td class="verified"></td><!-- Docker -->
       <td class="verified"></td><!-- Frontier -->
       <td class="failing" markdown="span">([12](#ascent_note_4))</td><!-- Perlmutter -->
-      <td class="in_progress"></td><!-- Pre-Aurora -->
+      <td class="verified"></td><!-- Pre-Aurora -->
       <td class="in_progress"></td><!-- Smoke Test -->
     </tr>
     <tr>
@@ -531,7 +531,7 @@ more details on the facility deployments.
       <td class="verified"></td><!-- Docker -->
       <td class="verified"></td><!-- Frontier -->
       <td class="verified"></td><!-- Perlmutter -->
-      <td class="in_progress"></td><!-- Pre-Aurora -->
+      <td class="verified"></td><!-- Pre-Aurora -->
       <td class="in_progress"></td><!-- Smoke Test -->
     </tr>
     <tr>
@@ -553,7 +553,7 @@ more details on the facility deployments.
       <td class="verified"></td><!-- Docker -->
       <td class="verified"></td><!-- Frontier -->
       <td class="verified"></td><!-- Perlmutter -->
-      <td class="in_progress"></td><!-- Pre-Aurora -->
+      <td class="in_progress" markdown="span">[6](#vtkm_oneapi_sycl)</td><!-- Pre-Aurora -->
       <td class="verified"></td><!-- Smoke Test -->
     </tr>
     <tr>
@@ -564,7 +564,7 @@ more details on the facility deployments.
       <td class="verified"></td><!-- Docker -->
       <td class="verified"></td><!-- Frontier -->
       <td class="verified"></td><!-- Perlmutter -->
-      <td class="in_progress"></td><!-- Pre-Aurora -->
+      <td class="verified"></td><!-- Pre-Aurora -->
       <td class="in_progress"></td><!-- Smoke Test -->
     </tr>
     <tr>
@@ -586,7 +586,7 @@ more details on the facility deployments.
       <td class="verified"></td><!-- Docker -->
       <td class="verified"></td><!-- Frontier -->
       <td class="verified"></td><!-- Perlmutter -->
-      <td class="in_progress"></td><!-- Pre-Aurora -->
+      <td class="verified"></td><!-- Pre-Aurora -->
       <td class="in_progress"></td><!-- Smoke Test -->
     </tr>
     <tr>
@@ -1217,6 +1217,11 @@ by early 2023.
 ### ZFP
 
 <span id="zfp_note_1">8. </span>ROCm support is planned for 2023.
+
+### HDF5
+
+<span id="hdf5_vols_oneapi">13. </span>HDF5 v1.14 builds with OneAPI, but the
+async and cache VOL adapters currently do not.
 
 ### OneAPI
 
