@@ -1079,7 +1079,7 @@ for the CCE and AMD compilers, in particular how they wrap MPI and HIP.
       <td markdown="span">
         [HDF5][HDF5]
       </td>
-      <td class="verified">([6](#hdf5_vols_oneapi))</td><!-- OneApi -->
+      <td class="verified" markdown="span">([6](#hdf5_vols_oneapi))</td><!-- OneApi -->
       <td class="na"></td><!-- OneApi -->
     </tr>
     <tr>
