@@ -1057,7 +1057,7 @@ for the CCE and AMD compilers, in particular how they wrap MPI and HIP.
     <tr>
       <th>Project</th>
       <th>OneAPI</th>
-      <th markdown="span">OneAPI +SYCL (GPU)</th>
+      <th markdown="span">OneAPI + SYCL</th>
     </tr>
   </thead>
   <tbody>
