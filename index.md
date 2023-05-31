@@ -689,7 +689,7 @@ for the CCE and AMD compilers, in particular how they wrap MPI and HIP.
       <td class="na" markdown="span">([1](#adios2_rocm))</td><!-- GCC + ROCm -->
       <td class="verified"></td><!-- CCE -->
       <td class="na" markdown="span">([1](#adios2_rocm))</td><!-- CCE + ROCm -->
-      <td class="verified"></td><!-- AMD -->
+      <td class="in_progress"></td><!-- AMD -->
       <td class="na" markdown="span">([1](#adios2_rocm))</td><!-- AMD + ROCm -->
     </tr>
     <tr>
@@ -700,7 +700,7 @@ for the CCE and AMD compilers, in particular how they wrap MPI and HIP.
       <td class="na"></td><!-- GCC + ROCm -->
       <td class="verified"></td><!-- CCE -->
       <td class="na"></td><!-- CCE + ROCm -->
-      <td class="verified"></td><!-- AMD -->
+      <td class="in_progress"></td><!-- AMD -->
       <td class="na"></td><!-- AMD + ROCm -->
     </tr>
     <tr>
@@ -711,7 +711,7 @@ for the CCE and AMD compilers, in particular how they wrap MPI and HIP.
       <td class="na"></td><!-- GCC + ROCm -->
       <td class="verified"></td><!-- CCE -->
       <td class="na"></td><!-- CCE + ROCm -->
-      <td class="verified"></td><!-- AMD -->
+      <td class="in_progress"></td><!-- AMD -->
       <td class="na"></td><!-- AMD + ROCm -->
     </tr>
     <tr>
