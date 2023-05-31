@@ -206,8 +206,8 @@ The following projects are included as part of the Data and Visualization SDK:
       </td>
       <td class="failing" markdown="span">([15](#visit_hdf5_conflict))</td><!-- CPU -->
       <td class="na" markdown="span">([16](#visit_vtkm_support))</td><!-- CUDA -->
-      <td class="na"markdown="span">([16](#visit_vtkm_support))</td><!-- ROCm -->
-      <td class="na" markdown="span"></td><!-- OneAPI + SYCL -->
+      <td class="na" markdown="span">([16](#visit_vtkm_support))</td><!-- ROCm -->
+      <td class="na" markdown="span">([16](#visit_vtkm_support))</td><!-- OneAPI + SYCL -->
     </tr>
     <tr>
       <td markdown="span">
@@ -367,7 +367,7 @@ The following projects are included as part of the Data and Visualization SDK:
       <td markdown="span">
         [VisIt][VisIt]
       </td>
-      <td class="failing">([15](#visit_hdf5_conflict))</td><!-- CPU -->
+      <td class="failing" markdown="span">([15](#visit_hdf5_conflict))</td><!-- CPU -->
       <td class="in_progress" markdown="span">([16](#visit_vtkm_support))</td><!-- CUDA -->
       <td class="in_progress" markdown="span">([16](#visit_vtkm_support))</td><!-- ROCm -->
       <td class="in_progress" markdown="span">([7](#paraview_oneapi_sycl))</td><!-- OneAPI + SYCL -->
