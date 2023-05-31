@@ -517,7 +517,7 @@ more details on the facility deployments.
       </td>
       <td class="verified"></td><!-- Desktop -->
       <td class="verified"></td><!-- Docker -->
-      <td class="verified"></td><!-- Frontier -->
+      <td class="in_progress" markdown="span">([21](#ascent_find_mpi_frontier))</td><!-- Frontier -->
       <td class="failing" markdown="span">([4](#ascent_perlmutter_mpi))</td><!-- Perlmutter -->
       <td class="verified"></td><!-- Pre-Aurora -->
       <td class="in_progress"></td><!-- Smoke Test -->
@@ -722,7 +722,7 @@ for the CCE and AMD compilers, in particular how they wrap MPI and HIP.
       <td class="na"></td><!-- GCC + ROCm -->
       <td class="verified"></td><!-- CCE -->
       <td class="na"></td><!-- CCE + ROCm -->
-      <td class="verified"></td><!-- AMD -->
+      <td class="in_progress"></td><!-- AMD -->
       <td class="na"></td><!-- AMD + ROCm -->
     </tr>
     <tr>
@@ -733,7 +733,7 @@ for the CCE and AMD compilers, in particular how they wrap MPI and HIP.
       <td class="na"></td><!-- GCC + ROCm -->
       <td class="verified"></td><!-- CCE -->
       <td class="na"></td><!-- CCE + ROCm -->
-      <td class="verified"></td><!-- AMD -->
+      <td class="in_progress"></td><!-- AMD -->
       <td class="na"></td><!-- AMD + ROCm -->
     </tr>
     <tr>
@@ -744,7 +744,7 @@ for the CCE and AMD compilers, in particular how they wrap MPI and HIP.
       <td class="na" markdown="span">([14](#veloc_rocm))</td><!-- GCC + ROCm -->
       <td class="verified"></td><!-- CCE -->
       <td class="na"></td><!-- CCE + ROCm -->
-      <td class="verified"></td><!-- AMD -->
+      <td class="in_progress"></td><!-- AMD -->
       <td class="na"></td><!-- AMD + ROCm -->
     </tr>
     <tr>
@@ -753,9 +753,9 @@ for the CCE and AMD compilers, in particular how they wrap MPI and HIP.
       </td>
       <td class="verified"></td><!-- GCC -->
       <td class="in_progress" markdown="span">([3](#ascent_rocm))</td><!-- GCC + ROCm -->
-      <td class="verified"></td><!-- CCE -->
+      <td class="in_progress" markdown="span">([21](#ascent_find_mpi_frontier))</td><!-- CCE -->
       <td class="in_progress" markdown="span">([3](#ascent_rocm))</td><!-- CCE + ROCm -->
-      <td class="verified"></td><!-- AMD -->
+      <td class="in_progress"></td><!-- AMD -->
       <td class="in_progress" markdown="span">([3](#ascent_rocm))</td><!-- AMD + ROCm -->
     </tr>
     <tr>
@@ -766,7 +766,7 @@ for the CCE and AMD compilers, in particular how they wrap MPI and HIP.
       <td class="na"></td><!-- GCC + ROCm -->
       <td class="verified"></td><!-- CCE -->
       <td class="na"></td><!-- CCE + ROCm -->
-      <td class="verified"></td><!-- AMD -->
+      <td class="in_progress"></td><!-- AMD -->
       <td class="na"></td><!-- AMD + ROCm -->
     </tr>
     <tr>
@@ -777,8 +777,8 @@ for the CCE and AMD compilers, in particular how they wrap MPI and HIP.
       <td class="verified"></td><!-- GCC + ROCm -->
       <td class="verified" markdown="span">([8](#paraview_no_ospray))</td><!-- CCE -->
       <td class="verified" markdown="span">([8](#paraview_no_ospray))</td><!-- CCE + ROCm -->
-      <td class="verified"></td><!-- AMD -->
-      <td class="verified"></td><!-- AMD + ROCm -->
+      <td class="in_progress"></td><!-- AMD -->
+      <td class="in_progress"></td><!-- AMD + ROCm -->
     </tr>
     <tr>
       <td markdown="span">
@@ -810,8 +810,8 @@ for the CCE and AMD compilers, in particular how they wrap MPI and HIP.
       <td class="verified" markdown="span">([18](#vtkm_rocm_openmp))</td><!-- GCC + ROCm -->
       <td class="verified"></td><!-- CCE -->
       <td class="verified" markdown="span">([18](#vtkm_rocm_openmp)) ([19](#vtkm_cray_wrapper_workaround))</td><!-- CCE + ROCm -->
-      <td class="verified"></td><!-- AMD -->
-      <td class="verified" markdown="span">([18](#vtkm_rocm_openmp)) ([19](#vtkm_cray_wrapper_workaround))</td><!-- AMD + ROCm -->
+      <td class="in_progress"></td><!-- AMD -->
+      <td class="in_progress" markdown="span">([18](#vtkm_rocm_openmp)) ([19](#vtkm_cray_wrapper_workaround))</td><!-- AMD + ROCm -->
     </tr>
     <tr>
       <td markdown="span">
@@ -821,7 +821,7 @@ for the CCE and AMD compilers, in particular how they wrap MPI and HIP.
       <td class="na"></td><!-- GCC + ROCm -->
       <td class="verified"></td><!-- CCE -->
       <td class="na"></td><!-- CCE + ROCm -->
-      <td class="verified"></td><!-- AMD -->
+      <td class="in_progress"></td><!-- AMD -->
       <td class="na"></td><!-- AMD + ROCm -->
     </tr>
     <tr>
@@ -832,7 +832,7 @@ for the CCE and AMD compilers, in particular how they wrap MPI and HIP.
       <td class="na" markdown="span">([20](#zfp_rocm))</td><!-- GCC + ROCm -->
       <td class="verified"></td><!-- CCE -->
       <td class="na" markdown="span">([20](#zfp_rocm))</td><!-- CCE + ROCm -->
-      <td class="verified"></td><!-- AMD -->
+      <td class="in_progress"></td><!-- AMD -->
       <td class="na" markdown="span">([20](#zfp_rocm))</td><!-- AMD + ROCm -->
     </tr>
     <tr>
@@ -1057,7 +1057,7 @@ for the CCE and AMD compilers, in particular how they wrap MPI and HIP.
     <tr>
       <th>Project</th>
       <th>OneAPI</th>
-      <th markdown="span">OneAPI + SYCL</th>
+      <th>OneAPI + SYCL</th>
     </tr>
   </thead>
   <tbody>
@@ -1194,6 +1194,9 @@ It is in under development in the Alpine Spack fork.
 <span id="ascent_perlmutter_mpi">4. </span> The way MPI is set up on Perlmutter
 conflicts with Ascent's spack recipe and CMake. Fixes for this are being
 developed.
+
+<span id="ascent_find_mpi_frontier">21. </span>Using the CCE toolchain has issues locating
+MPI with CMake.
 
 ### Cinema
 
