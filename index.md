@@ -553,7 +553,7 @@ more details on the facility deployments.
       <td class="in_progress" markdown="span">([12](#sensei_catalyst_backend))</td><!-- Frontier -->
       <td class="in_progress" markdown="span">([12](#sensei_catalyst_backend))</td><!-- Perlmutter -->
       <td class="in_progress" markdown="span">([12](#sensei_catalyst_backend))</td><!-- Pre-Aurora -->
-      <td class="in_progress" markdown="span">([12](#sensei_catalyst_backend))</td><!-- Smoke Test -->
+      <td class="in_progress"></td><!-- Smoke Test -->
     </tr>
     <tr>
       <td markdown="span">
@@ -785,11 +785,11 @@ for the CCE and AMD compilers, in particular how they wrap MPI and HIP.
         [SENSEI][SENSEI]
       </td>
       <td class="in_progress" markdown="span">([12](#sensei_catalyst_backend))</td><!-- GCC -->
-      <td class="in_progress"></td><!-- GCC + ROCm -->
-      <td class="in_progress"></td><!-- CCE -->
-      <td class="in_progress"></td><!-- CCE + ROCm -->
-      <td class="in_progress"></td><!-- AMD -->
-      <td class="in_progress"></td><!-- AMD + ROCm -->
+      <td class="in_progress" markdown="span">([12](#sensei_catalyst_backend))</td><!-- GCC + ROCm -->
+      <td class="in_progress" markdown="span">([12](#sensei_catalyst_backend))</td><!-- CCE -->
+      <td class="in_progress" markdown="span">([12](#sensei_catalyst_backend))</td><!-- CCE + ROCm -->
+      <td class="in_progress" markdown="span">([12](#sensei_catalyst_backend))</td><!-- AMD -->
+      <td class="in_progress" markdown="span">([12](#sensei_catalyst_backend))</td><!-- AMD + ROCm -->
     </tr>
     <tr>
       <td markdown="span">
