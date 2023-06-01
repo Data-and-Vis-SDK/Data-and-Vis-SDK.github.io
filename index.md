@@ -106,7 +106,7 @@ The following projects are included as part of the Data and Visualization SDK:
       <th>CPU</th>
       <th>CUDA</th>
       <th>ROCm</th>
-      <th>SYCL ([*](#oneapi_sycl))</th>
+      <th markdown="span">SYCL ([*](#oneapi_sycl))</th>
     </tr>
   </thead>
   <tbody>
@@ -247,7 +247,7 @@ The following projects are included as part of the Data and Visualization SDK:
     </tr>
     <tr>
       <td style="background-color: #373737; color: white">Legend</td>
-      <td colspan="3">
+      <td colspan="4">
         <table class="status_table_legend">
           <tr>
             <td class="verified" style="color: white">Available</td>
@@ -269,7 +269,7 @@ The following projects are included as part of the Data and Visualization SDK:
       <th>CPU</th>
       <th>CUDA</th>
       <th>ROCm</th>
-      <th>SYCL ([*](#oneapi_sycl))</th>
+      <th markdown="span">SYCL ([*](#oneapi_sycl))</th>
     </tr>
   </thead>
   <tbody>
@@ -359,9 +359,9 @@ The following projects are included as part of the Data and Visualization SDK:
         [SENSEI][SENSEI]
       </td>
       <td class="in_progress" markdown="span">([12](#sensei_catalyst_backend))</td><!-- CPU -->
-      <td class="in_progress" markdown="span">([11](#sensei_kokkos))</td><!-- CUDA -->
-      <td class="in_progress" markdown="span">([11](#sensei_kokkos))</td><!-- ROCm -->
-      <td class="in_progress" markdown="span">([11](#sensei_kokkos))</td><!-- SYCL -->
+      <td class="in_progress" markdown="span">([11](#sensei_kokkos)) ([12](#sensei_catalyst_backend))</td><!-- CUDA -->
+      <td class="in_progress" markdown="span">([11](#sensei_kokkos)) ([12](#sensei_catalyst_backend))/td><!-- ROCm -->
+      <td class="in_progress" markdown="span">([11](#sensei_kokkos)) ([12](#sensei_catalyst_backend))/td><!-- SYCL -->
     </tr>
     <tr>
       <td markdown="span">
@@ -549,21 +549,21 @@ more details on the facility deployments.
         [SENSEI][SENSEI]
       </td>
       <td class="in_progress" markdown="span">([12](#sensei_catalyst_backend))</td><!-- Desktop -->
-      <td class="in_progress"></td><!-- Docker -->
-      <td class="in_progress"></td><!-- Frontier -->
-      <td class="in_progress"></td><!-- Perlmutter -->
-      <td class="in_progress"></td><!-- Pre-Aurora -->
-      <td class="in_progress"></td><!-- Smoke Test -->
+      <td class="in_progress" markdown="span">([12](#sensei_catalyst_backend))</td><!-- Docker -->
+      <td class="in_progress" markdown="span">([12](#sensei_catalyst_backend))</td><!-- Frontier -->
+      <td class="in_progress" markdown="span">([12](#sensei_catalyst_backend))</td><!-- Perlmutter -->
+      <td class="in_progress" markdown="span">([12](#sensei_catalyst_backend))</td><!-- Pre-Aurora -->
+      <td class="in_progress" markdown="span">([12](#sensei_catalyst_backend))</td><!-- Smoke Test -->
     </tr>
     <tr>
       <td markdown="span">
         [VisIt][VisIt]
       </td>
-      <td class="failing"></td><!-- Desktop -->
-      <td class="failing"></td><!-- Docker -->
-      <td class="failing"></td><!-- Frontier -->
-      <td class="failing"></td><!-- Perlmutter -->
-      <td class="failing" markdown="span"></td><!-- Pre-Aurora -->
+      <td class="failing" markdown="span">([15](#visit_hdf5_conflict))</td><!-- Desktop -->
+      <td class="failing" markdown="span">([15](#visit_hdf5_conflict))</td><!-- Docker -->
+      <td class="failing" markdown="span">([15](#visit_hdf5_conflict))</td><!-- Frontier -->
+      <td class="failing" markdown="span">([15](#visit_hdf5_conflict))</td><!-- Perlmutter -->
+      <td class="failing" markdown="span">([15](#visit_hdf5_conflict))</td><!-- Pre-Aurora -->
       <td class="in_progress"></td><!-- Smoke Test -->
     </tr>
     <tr>
@@ -980,9 +980,9 @@ for the CCE and AMD compilers, in particular how they wrap MPI and HIP.
       <td markdown="span">
         [VisIt][VisIt]
       </td>
-      <td class="failing"></td><!-- GCC -->
-      <td class="na" markdown="span">([16](#visit_vtkm_support))</td><!-- GCC + CUDA -->
-      <td class="na" markdown="span">([16](#visit_vtkm_support))</td><!-- NVHPC + CUDA -->
+      <td class="failing" markdown="span">([15](#visit_hdf5_conflict))</td><!-- GCC -->
+      <td class="na" markdown="span">([15](#visit_hdf5_conflict)) ([16](#visit_vtkm_support))</td><!-- GCC + CUDA -->
+      <td class="na" markdown="span">([15](#visit_hdf5_conflict)) ([16](#visit_vtkm_support))</td><!-- NVHPC + CUDA -->
     </tr>
     <tr>
       <td markdown="span">
@@ -1057,7 +1057,7 @@ for the CCE and AMD compilers, in particular how they wrap MPI and HIP.
     <tr>
       <th>Project</th>
       <th>OneAPI</th>
-      <th>SYCL ([*](#oneapi_sycl))</th>
+      <th markdown="span">SYCL ([*](#oneapi_sycl))</th>
     </tr>
   </thead>
   <tbody>
@@ -1129,7 +1129,7 @@ for the CCE and AMD compilers, in particular how they wrap MPI and HIP.
         [SENSEI][SENSEI]
       </td>
       <td class="in_progress" markdown="span">([10](#sensei_ospray)) ([12](#sensei_catalyst_backend))</td><!-- OneApi -->
-      <td class="in_progress" markdown="span">([11](#sensei_kokkos))</td><!-- OneApi -->
+      <td class="in_progress" markdown="span">([11](#sensei_kokkos)) ([12](#sensei_catalyst_backend))</td><!-- OneApi -->
     </tr>
     <tr>
       <td markdown="span">
@@ -1161,7 +1161,7 @@ for the CCE and AMD compilers, in particular how they wrap MPI and HIP.
     </tr>
     <tr>
       <td style="background-color: #373737; color: white">Legend</td>
-      <td colspan="3">
+      <td colspan="2">
         <table class="status_table_legend">
           <tr>
             <th class="verified" style="color: white;">Verified</th>
