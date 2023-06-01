@@ -106,7 +106,7 @@ The following projects are included as part of the Data and Visualization SDK:
       <th>CPU</th>
       <th>CUDA</th>
       <th>ROCm</th>
-      <th>OneAPI + SYCL</th>
+      <th>SYCL ([*](#oneapi_sycl))</th>
     </tr>
   </thead>
   <tbody>
@@ -117,7 +117,7 @@ The following projects are included as part of the Data and Visualization SDK:
       <td class="verified"></td><!-- CPU -->
       <td class="verified"></td><!-- CUDA -->
       <td class="na" markdown="span">([1](#adios2_rocm))</td><!-- ROCm -->
-      <td class="na"></td><!-- OneAPI + SYCL -->
+      <td class="na"></td><!-- SYCL -->
     </tr>
     <tr>
       <td markdown="span">
@@ -126,7 +126,7 @@ The following projects are included as part of the Data and Visualization SDK:
       <td class="verified"></td><!-- CPU -->
       <td class="na"></td><!-- CUDA -->
       <td class="na"></td><!-- ROCm -->
-      <td class="na"></td><!-- OneAPI + SYCL -->
+      <td class="na"></td><!-- SYCL -->
     </tr>
     <tr>
       <td markdown="span">
@@ -135,7 +135,7 @@ The following projects are included as part of the Data and Visualization SDK:
       <td class="verified"></td><!-- CPU -->
       <td class="verified"></td><!-- CUDA -->
       <td class="na"></td><!-- ROCm -->
-      <td class="na"></td><!-- OneAPI + SYCL -->
+      <td class="na"></td><!-- SYCL -->
     </tr>
     <tr>
       <td markdown="span">
@@ -144,7 +144,7 @@ The following projects are included as part of the Data and Visualization SDK:
       <td class="verified"></td><!-- CPU -->
       <td class="na"></td><!-- CUDA -->
       <td class="na"></td><!-- ROCm -->
-      <td class="na"></td><!-- OneAPI + SYCL -->
+      <td class="na"></td><!-- SYCL -->
     </tr>
     <tr>
       <td markdown="span">
@@ -153,7 +153,7 @@ The following projects are included as part of the Data and Visualization SDK:
       <td class="verified"></td><!-- CPU -->
       <td class="na"></td><!-- CUDA -->
       <td class="na"></td><!-- ROCm -->
-      <td class="na"></td><!-- OneAPI + SYCL -->
+      <td class="na"></td><!-- SYCL -->
     </tr>
     <tr>
       <td markdown="span">
@@ -162,7 +162,7 @@ The following projects are included as part of the Data and Visualization SDK:
       <td class="verified"></td><!-- CPU -->
       <td class="na" markdown="span">([13](#veloc_cuda))</td><!-- CUDA -->
       <td class="na" markdown="span">([14](#veloc_rocm))</td><!-- ROCm -->
-      <td class="na"></td><!-- OneAPI + SYCL -->
+      <td class="na"></td><!-- SYCL -->
     </tr>
     <tr>
       <td markdown="span">
@@ -170,8 +170,8 @@ The following projects are included as part of the Data and Visualization SDK:
       </td>
       <td class="verified"></td><!-- CPU -->
       <td class="failing" markdown="span">([2](#ascent_cuda_raja))</td><!-- CUDA -->
-      <td class="na" markdown="span">([3](#ascent_rocm))</td><!-- ROCm -->
-      <td class="na"></td><!-- OneAPI + SYCL -->
+      <td class="in_progress" markdown="span">([3](#ascent_rocm))</td><!-- ROCm -->
+      <td class="na" markdown="span">([22](#ascent_no_sycl))</td><!-- SYCL -->
     </tr>
     <tr>
       <td markdown="span">
@@ -180,7 +180,7 @@ The following projects are included as part of the Data and Visualization SDK:
       <td class="verified"></td><!-- CPU -->
       <td class="na"></td><!-- CUDA -->
       <td class="na"></td><!-- ROCm -->
-      <td class="na"></td><!-- OneAPI + SYCL -->
+      <td class="na"></td><!-- SYCL -->
     </tr>
     <tr>
       <td markdown="span">
@@ -189,7 +189,7 @@ The following projects are included as part of the Data and Visualization SDK:
       <td class="verified"></td><!-- CPU -->
       <td class="verified"></td><!-- CUDA -->
       <td class="verified"></td><!-- ROCm -->
-      <td class="na" markdown="span">([7](#paraview_oneapi_sycl))</td><!-- OneAPI + SYCL -->
+      <td class="na" markdown="span">([7](#paraview_oneapi_sycl))</td><!-- SYCL -->
     </tr>
     <tr>
       <td markdown="span">
@@ -198,16 +198,16 @@ The following projects are included as part of the Data and Visualization SDK:
       <td class="verified" markdown="span">([10](#sensei_ospray))</td><!-- CPU -->
       <td class="na" markdown="span">([11](#sensei_kokkos))</td><!-- CUDA -->
       <td class="na" markdown="span">([11](#sensei_kokkos))</td><!-- ROCm -->
-      <td class="na" markdown="span">([11](#sensei_kokkos))</td><!-- OneAPI + SYCL -->
+      <td class="na" markdown="span">([11](#sensei_kokkos))</td><!-- SYCL -->
     </tr>
     <tr>
       <td markdown="span">
         [VisIt][VisIt]
       </td>
-      <td class="failing" markdown="span">([15](#visit_hdf5_conflict))</td><!-- CPU -->
-      <td class="na" markdown="span">([16](#visit_vtkm_support))</td><!-- CUDA -->
-      <td class="na" markdown="span">([16](#visit_vtkm_support))</td><!-- ROCm -->
-      <td class="na" markdown="span">([16](#visit_vtkm_support))</td><!-- OneAPI + SYCL -->
+      <td class="verified"></td><!-- CPU -->
+      <td class="verified" markdown="span">([16](#visit_vtkm_support))</td><!-- CUDA -->
+      <td class="verified" markdown="span">([16](#visit_vtkm_support))</td><!-- ROCm -->
+      <td class="na" markdown="span">([16](#visit_vtkm_support))</td><!-- SYCL -->
     </tr>
     <tr>
       <td markdown="span">
@@ -216,7 +216,7 @@ The following projects are included as part of the Data and Visualization SDK:
       <td class="verified"></td><!-- CPU -->
       <td class="verified"></td><!-- CUDA -->
       <td class="verified"></td><!-- ROCm -->
-      <td class="na"></td><!-- OneAPI + SYCL -->
+      <td class="failing" markdown="span">([17](#vtkm_oneapi_sycl))</td><!-- SYCL -->
     </tr>
     <tr>
       <td markdown="span">
@@ -225,7 +225,7 @@ The following projects are included as part of the Data and Visualization SDK:
       <td class="verified"></td><!-- CPU -->
       <td class="na"></td><!-- CUDA -->
       <td class="na"></td><!-- ROCm -->
-      <td class="na"></td><!-- OneAPI + SYCL -->
+      <td class="na"></td><!-- SYCL -->
     </tr>
     <tr>
       <td markdown="span">
@@ -234,7 +234,7 @@ The following projects are included as part of the Data and Visualization SDK:
       <td class="na"></td><!-- CPU -->
       <td class="verified"></td><!-- CUDA -->
       <td class="na"></td><!-- ROCm -->
-      <td class="na"></td><!-- OneAPI + SYCL -->
+      <td class="na"></td><!-- SYCL -->
     </tr>
     <tr>
       <td markdown="span">
@@ -243,7 +243,7 @@ The following projects are included as part of the Data and Visualization SDK:
       <td class="verified"></td><!-- CPU -->
       <td class="verified"></td><!-- CUDA -->
       <td class="na" markdown="span">([20](#zfp_rocm))</td><!-- ROCm -->
-      <td class="na"></td><!-- OneAPI + SYCL -->
+      <td class="na"></td><!-- SYCL -->
     </tr>
     <tr>
       <td style="background-color: #373737; color: white">Legend</td>
@@ -269,7 +269,7 @@ The following projects are included as part of the Data and Visualization SDK:
       <th>CPU</th>
       <th>CUDA</th>
       <th>ROCm</th>
-      <th>OneAPI + SYCL</th>
+      <th>SYCL ([*](#oneapi_sycl))</th>
     </tr>
   </thead>
   <tbody>
@@ -280,7 +280,7 @@ The following projects are included as part of the Data and Visualization SDK:
       <td class="verified"></td><!-- CPU -->
       <td class="verified"></td><!-- CUDA -->
       <td class="na" markdown="span">([1](#adios2_rocm))</td><!-- ROCm --><!-- ROCm -->
-      <td class="na"></td><!-- OneAPI + SYCL -->
+      <td class="na"></td><!-- SYCL -->
     </tr>
     <tr>
       <td markdown="span">
@@ -289,7 +289,7 @@ The following projects are included as part of the Data and Visualization SDK:
       <td class="verified"></td><!-- CPU -->
       <td class="na"></td><!-- CUDA -->
       <td class="na"></td><!-- ROCm -->
-      <td class="na"></td><!-- OneAPI + SYCL -->
+      <td class="na"></td><!-- SYCL -->
     </tr>
     <tr>
       <td markdown="span">
@@ -298,7 +298,7 @@ The following projects are included as part of the Data and Visualization SDK:
       <td class="verified"></td><!-- CPU -->
       <td class="verified"></td><!-- CUDA -->
       <td class="na"></td><!-- ROCm -->
-      <td class="na"></td><!-- OneAPI + SYCL -->
+      <td class="na"></td><!-- SYCL -->
     </tr>
     <tr>
       <td markdown="span">
@@ -307,7 +307,7 @@ The following projects are included as part of the Data and Visualization SDK:
       <td class="verified"></td><!-- CPU -->
       <td class="na"></td><!-- CUDA -->
       <td class="na"></td><!-- ROCm -->
-      <td class="na"></td><!-- OneAPI + SYCL -->
+      <td class="na"></td><!-- SYCL -->
     </tr>
     <tr>
       <td markdown="span">
@@ -316,7 +316,7 @@ The following projects are included as part of the Data and Visualization SDK:
       <td class="verified"></td><!-- CPU -->
       <td class="na"></td><!-- CUDA -->
       <td class="na"></td><!-- ROCm -->
-      <td class="na"></td><!-- OneAPI + SYCL -->
+      <td class="na"></td><!-- SYCL -->
     </tr>
     <tr>
       <td markdown="span">
@@ -325,7 +325,7 @@ The following projects are included as part of the Data and Visualization SDK:
       <td class="verified"></td><!-- CPU -->
       <td class="na" markdown="span">([13](#veloc_cuda))</td><!-- CUDA -->
       <td class="na" markdown="span">([14](#veloc_rocm))</td><!-- ROCm -->
-      <td class="na"></td><!-- OneAPI + SYCL -->
+      <td class="na"></td><!-- SYCL -->
     </tr>
     <tr>
       <td markdown="span">
@@ -333,8 +333,8 @@ The following projects are included as part of the Data and Visualization SDK:
       </td>
       <td class="verified"></td><!-- CPU -->
       <td class="failing" markdown="span">([2](#ascent_cuda_raja))</td><!-- CUDA -->
-      <td class="na" markdown="span">([3](#ascent_rocm))</td><!-- ROCm -->
-      <td class="na"></td><!-- OneAPI + SYCL -->
+      <td class="in_progress" markdown="span">([3](#ascent_rocm))</td><!-- ROCm -->
+      <td class="na" markdown="span">([22](#ascent_no_sycl))</td><!-- SYCL -->
     </tr>
     <tr>
       <td markdown="span">
@@ -343,7 +343,7 @@ The following projects are included as part of the Data and Visualization SDK:
       <td class="verified"></td><!-- CPU -->
       <td class="na"></td><!-- CUDA -->
       <td class="na"></td><!-- ROCm -->
-      <td class="na"></td><!-- OneAPI + SYCL -->
+      <td class="na"></td><!-- SYCL -->
     </tr>
     <tr>
       <td markdown="span">
@@ -352,7 +352,7 @@ The following projects are included as part of the Data and Visualization SDK:
       <td class="verified"></td><!-- CPU -->
       <td class="in_progress"></td><!-- CUDA -->
       <td class="verified"></td><!-- ROCm -->
-      <td class="in_progress" markdown="span">([7](#paraview_oneapi_sycl))</td><!-- OneAPI + SYCL -->
+      <td class="in_progress" markdown="span">([7](#paraview_oneapi_sycl))</td><!-- SYCL -->
     </tr>
     <tr>
       <td markdown="span">
@@ -361,16 +361,16 @@ The following projects are included as part of the Data and Visualization SDK:
       <td class="in_progress" markdown="span">([12](#sensei_catalyst_backend))</td><!-- CPU -->
       <td class="in_progress" markdown="span">([11](#sensei_kokkos))</td><!-- CUDA -->
       <td class="in_progress" markdown="span">([11](#sensei_kokkos))</td><!-- ROCm -->
-      <td class="in_progress" markdown="span">([11](#sensei_kokkos))</td><!-- OneAPI + SYCL -->
+      <td class="in_progress" markdown="span">([11](#sensei_kokkos))</td><!-- SYCL -->
     </tr>
     <tr>
       <td markdown="span">
         [VisIt][VisIt]
       </td>
       <td class="failing" markdown="span">([15](#visit_hdf5_conflict))</td><!-- CPU -->
-      <td class="in_progress" markdown="span">([16](#visit_vtkm_support))</td><!-- CUDA -->
-      <td class="in_progress" markdown="span">([16](#visit_vtkm_support))</td><!-- ROCm -->
-      <td class="in_progress" markdown="span">([7](#paraview_oneapi_sycl))</td><!-- OneAPI + SYCL -->
+      <td class="failing" markdown="span">([15](#visit_hdf5_conflict)) ([16](#visit_vtkm_support))</td><!-- CUDA -->
+      <td class="failing" markdown="span">([15](#visit_hdf5_conflict)) ([16](#visit_vtkm_support))</td><!-- ROCm -->
+      <td class="na" markdown="span">([7](#paraview_oneapi_sycl))</td><!-- SYCL -->
     </tr>
     <tr>
       <td markdown="span">
@@ -379,7 +379,7 @@ The following projects are included as part of the Data and Visualization SDK:
       <td class="verified"></td><!-- CPU -->
       <td class="verified"></td><!-- CUDA -->
       <td class="verified"></td><!-- ROCm -->
-      <td class="in_progress" markdown="span">([17](#vtkm_oneapi_sycl))</td><!-- OneAPI + SYCL -->
+      <td class="in_progress" markdown="span">([17](#vtkm_oneapi_sycl))</td><!-- SYCL -->
     </tr>
     <tr>
       <td markdown="span">
@@ -388,7 +388,7 @@ The following projects are included as part of the Data and Visualization SDK:
       <td class="verified"></td><!-- CPU -->
       <td class="na"></td><!-- CUDA -->
       <td class="na"></td><!-- ROCm -->
-      <td class="na"></td><!-- OneAPI + SYCL -->
+      <td class="na"></td><!-- SYCL -->
     </tr>
     <tr>
       <td markdown="span">
@@ -397,7 +397,7 @@ The following projects are included as part of the Data and Visualization SDK:
       <td class="na"></td><!-- CPU -->
       <td class="in_progress"></td><!-- CUDA -->
       <td class="na"></td><!-- ROCm -->
-      <td class="na"></td><!-- OneAPI + SYCL -->
+      <td class="na"></td><!-- SYCL -->
     </tr>
     <tr>
       <td markdown="span">
@@ -406,7 +406,7 @@ The following projects are included as part of the Data and Visualization SDK:
       <td class="verified"></td><!-- CPU -->
       <td class="verified"></td><!-- CUDA -->
       <td class="na" markdown="span">([20](#zfp_rocm))</td><!-- ROCm -->
-      <td class="na"></td><!-- OneAPI + SYCL -->
+      <td class="na"></td><!-- SYCL -->
     </tr>
     <tr>
       <td style="background-color: #373737; color: white">Legend</td>
@@ -563,7 +563,7 @@ more details on the facility deployments.
       <td class="failing"></td><!-- Docker -->
       <td class="failing"></td><!-- Frontier -->
       <td class="failing"></td><!-- Perlmutter -->
-      <td class="in_progress" markdown="span"></td><!-- Pre-Aurora -->
+      <td class="failing" markdown="span"></td><!-- Pre-Aurora -->
       <td class="in_progress"></td><!-- Smoke Test -->
     </tr>
     <tr>
@@ -796,11 +796,11 @@ for the CCE and AMD compilers, in particular how they wrap MPI and HIP.
         [VisIt][VisIt]
       </td>
       <td class="failing" markdown="span">([15](#visit_hdf5_conflict))</td><!-- GCC -->
-      <td class="in_progress" markdown="span">([16](#visit_vtkm_support))</td><!-- GCC + ROCm -->
+      <td class="failing" markdown="span">([15](#visit_hdf5_conflict)) ([16](#visit_vtkm_support))</td><!-- GCC + ROCm -->
       <td class="failing" markdown="span">([15](#visit_hdf5_conflict))</td><!-- CCE -->
-      <td class="in_progress" markdown="span">([16](#visit_vtkm_support))</td><!-- CCE + ROCm -->
+      <td class="failing" markdown="span">([15](#visit_hdf5_conflict)) ([16](#visit_vtkm_support))</td><!-- CCE + ROCm -->
       <td class="failing" markdown="span">([15](#visit_hdf5_conflict))</td><!-- AMD -->
-      <td class="in_progress" markdown="span">([16](#visit_vtkm_support))</td><!-- AMD + ROCm -->
+      <td class="failing" markdown="span">([15](#visit_hdf5_conflict)) ([16](#visit_vtkm_support))</td><!-- AMD + ROCm -->
     </tr>
     <tr>
       <td markdown="span">
@@ -980,7 +980,7 @@ for the CCE and AMD compilers, in particular how they wrap MPI and HIP.
       <td markdown="span">
         [VisIt][VisIt]
       </td>
-      <td class="verified"></td><!-- GCC -->
+      <td class="failing"></td><!-- GCC -->
       <td class="na" markdown="span">([16](#visit_vtkm_support))</td><!-- GCC + CUDA -->
       <td class="na" markdown="span">([16](#visit_vtkm_support))</td><!-- NVHPC + CUDA -->
     </tr>
@@ -1057,7 +1057,7 @@ for the CCE and AMD compilers, in particular how they wrap MPI and HIP.
     <tr>
       <th>Project</th>
       <th>OneAPI</th>
-      <th>OneAPI + SYCL</th>
+      <th>SYCL ([*](#oneapi_sycl))</th>
     </tr>
   </thead>
   <tbody>
@@ -1136,7 +1136,7 @@ for the CCE and AMD compilers, in particular how they wrap MPI and HIP.
         [VisIt][VisIt]
       </td>
       <td class="failing" markdown="span">([15](#visit_hdf5_conflict))</td><!-- OneApi -->
-      <td class="in_progress" markdown="span">([16](#visit_vtkm_support))</td><!-- OneApi -->
+      <td class="failing" markdown="span">([15](#visit_hdf5_conflict)) ([16](#visit_vtkm_support))</td><!-- OneApi -->
     </tr>
     <tr>
       <td markdown="span">
@@ -1180,6 +1180,9 @@ for the CCE and AMD compilers, in particular how they wrap MPI and HIP.
 <!-- NOTE: we want to group the notes and link to them from the table, so we
      will be creating anchor "span"s with id attributes to href to above. -->
 
+<span id="oneapi_sycl">\* </span>SYCL extensions are implemented and tested using OneAPI.
+
+
 ### ADIOS2
 
 <span id="adios2_rocm">1. </span>ROCm/HIP support is not expected in near term release.
@@ -1198,6 +1201,9 @@ developed.
 <span id="ascent_find_mpi_frontier">21. </span>Using the CCE toolchain has issues locating
 MPI with CMake.
 
+<span id="ascent_no_sycl">22. </span>Ascent currently does not have any known plans for explicit
+SYCL support.
+
 ### Cinema
 
 <span id="cinema_oneapi_python">5. </span>Failure to build a number of Python modules with OneAPI.
@@ -1209,7 +1215,7 @@ async, cache, and log VOL adapters are currently disabled due to build errors.
 
 ### ParaView
 
-<span id="paraview_oneapi_sycl">7. </span>ParaView does support building SYCL kernels for VTKm
+<span id="paraview_oneapi_sycl">7. </span>ParaView and VisIt do not support building SYCL kernels for VTKm
 filters in released versions.
 
 <span id="paraview_no_ospray">8. </span>OSPRay support has been disabled due to build errors.
@@ -1235,7 +1241,8 @@ filters in released versions.
 <span id="visit_hdf5_conflict">15. </span>VisIt utilizes a VTK version locked to a Python that
 is not compatible with the Python requirements of PyH5, the HDF5 python interface used by Cinema.
 
-<span id="visit_vtkm_support">16. </span>VTK-m enabled GPU support is available VisIt.
+<span id="visit_vtkm_support">16. </span>VTK-m enabled GPU support is available VisIt, but
+is not officially tested as part of the Data and Vis SDK due to ([15](#visit_hdf5_conflict)).
 
 ### VTK-m
 
