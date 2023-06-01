@@ -360,8 +360,8 @@ The following projects are included as part of the Data and Visualization SDK:
       </td>
       <td class="in_progress" markdown="span">([12](#sensei_catalyst_backend))</td><!-- CPU -->
       <td class="in_progress" markdown="span">([11](#sensei_kokkos)) ([12](#sensei_catalyst_backend))</td><!-- CUDA -->
-      <td class="in_progress" markdown="span">([11](#sensei_kokkos)) ([12](#sensei_catalyst_backend))/td><!-- ROCm -->
-      <td class="in_progress" markdown="span">([11](#sensei_kokkos)) ([12](#sensei_catalyst_backend))/td><!-- SYCL -->
+      <td class="in_progress" markdown="span">([11](#sensei_kokkos)) ([12](#sensei_catalyst_backend))</td><!-- ROCm -->
+      <td class="in_progress" markdown="span">([11](#sensei_kokkos)) ([12](#sensei_catalyst_backend))</td><!-- SYCL -->
     </tr>
     <tr>
       <td markdown="span">
