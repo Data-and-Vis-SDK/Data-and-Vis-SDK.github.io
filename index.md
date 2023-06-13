@@ -733,7 +733,7 @@ for the CCE and AMD compilers, in particular how they wrap MPI and HIP.
       <td class="na"></td><!-- GCC + ROCm -->
       <td class="in_progress" markdown="span">([23](#unifyfs_frontier))</td><!-- CCE -->
       <td class="na"></td><!-- CCE + ROCm -->
-      <td class="in_progress"markdown="span">([23](#unifyfs_frontier))</td><!-- AMD -->
+      <td class="in_progress" markdown="span">([23](#unifyfs_frontier))</td><!-- AMD -->
       <td class="na"></td><!-- AMD + ROCm -->
     </tr>
     <tr>
