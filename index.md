@@ -646,7 +646,7 @@ for the CCE and AMD compilers, in particular how they wrap MPI and HIP.
         Version
       </td>  <!-- Info -->
       <td>v11.2</td>  <!-- GCC Toolchain -->
-      <td>v14.0.2</td>  <!-- CCE Toolchain -->
+      <td>v15.0.0</td>  <!-- CCE Toolchain -->
       <td>v5.3.0</td>  <!-- AMD Toolchain -->
     </tr>
     <tr>
@@ -731,9 +731,9 @@ for the CCE and AMD compilers, in particular how they wrap MPI and HIP.
       </td>
       <td class="verified"></td><!-- GCC -->
       <td class="na"></td><!-- GCC + ROCm -->
-      <td class="verified"></td><!-- CCE -->
+      <td class="in_progress" markdown="span">([23](#unifyfs_frontier))</td><!-- CCE -->
       <td class="na"></td><!-- CCE + ROCm -->
-      <td class="in_progress"></td><!-- AMD -->
+      <td class="in_progress"markdown="span">([23](#unifyfs_frontier))</td><!-- AMD -->
       <td class="na"></td><!-- AMD + ROCm -->
     </tr>
     <tr>
@@ -755,7 +755,7 @@ for the CCE and AMD compilers, in particular how they wrap MPI and HIP.
       <td class="in_progress" markdown="span">([3](#ascent_rocm))</td><!-- GCC + ROCm -->
       <td class="in_progress" markdown="span">([21](#ascent_find_mpi_frontier))</td><!-- CCE -->
       <td class="in_progress" markdown="span">([3](#ascent_rocm))</td><!-- CCE + ROCm -->
-      <td class="in_progress"></td><!-- AMD -->
+      <td class="in_progress" markdown="span">([21](#ascent_find_mpi_frontier))</td><!-- AMD -->
       <td class="in_progress" markdown="span">([3](#ascent_rocm))</td><!-- AMD + ROCm -->
     </tr>
     <tr>
@@ -810,8 +810,8 @@ for the CCE and AMD compilers, in particular how they wrap MPI and HIP.
       <td class="verified" markdown="span">([18](#vtkm_rocm_openmp))</td><!-- GCC + ROCm -->
       <td class="verified"></td><!-- CCE -->
       <td class="verified" markdown="span">([18](#vtkm_rocm_openmp)) ([19](#vtkm_cray_wrapper_workaround))</td><!-- CCE + ROCm -->
-      <td class="in_progress"></td><!-- AMD -->
-      <td class="in_progress" markdown="span">([18](#vtkm_rocm_openmp)) ([19](#vtkm_cray_wrapper_workaround))</td><!-- AMD + ROCm -->
+      <td class="verified"></td><!-- AMD -->
+      <td class="verified" markdown="span">([18](#vtkm_rocm_openmp)) ([19](#vtkm_cray_wrapper_workaround))</td><!-- AMD + ROCm -->
     </tr>
     <tr>
       <td markdown="span">
@@ -1229,6 +1229,10 @@ filters in released versions.
 <span id="sensei_kokkos">11. </span>SENSEI is developing Kokkos support for ROCm, CUDA, and SYCL interop.
 
 <span id="sensei_catalyst_backend">12. </span>SENSEI is developing updates to support ParaView v5.11 and Catalyst 2.
+
+### UnifyFS
+
+<span id="unifyfs_frontier">23, </span>UnifyFS has a link error when using the Cray wrappers for the Cray and AMD toolchains.
 
 ### VeloC
 
