@@ -286,7 +286,7 @@ The following projects are included as part of the Data and Visualization SDK:
       <td markdown="span">
         [Darshan][Darshan]
       </td>
-      <td class="verified"></td><!-- CPU -->
+      <td class="verified" markdown="span">([25](#darshan_runtime_hdf5))</td><!-- CPU -->
       <td class="na"></td><!-- CUDA -->
       <td class="na"></td><!-- ROCm -->
       <td class="na"></td><!-- SYCL -->
@@ -689,7 +689,7 @@ for the CCE and AMD compilers, in particular how they wrap MPI and HIP.
       <td class="na" markdown="span">([1](#adios2_rocm))</td><!-- GCC + ROCm -->
       <td class="verified"></td><!-- CCE -->
       <td class="na" markdown="span">([1](#adios2_rocm))</td><!-- CCE + ROCm -->
-      <td class="in_progress"></td><!-- AMD -->
+      <td class="verified"></td><!-- AMD -->
       <td class="na" markdown="span">([1](#adios2_rocm))</td><!-- AMD + ROCm -->
     </tr>
     <tr>
@@ -700,7 +700,7 @@ for the CCE and AMD compilers, in particular how they wrap MPI and HIP.
       <td class="na"></td><!-- GCC + ROCm -->
       <td class="verified"></td><!-- CCE -->
       <td class="na"></td><!-- CCE + ROCm -->
-      <td class="in_progress"></td><!-- AMD -->
+      <td class="verified"></td><!-- AMD -->
       <td class="na"></td><!-- AMD + ROCm -->
     </tr>
     <tr>
@@ -711,7 +711,7 @@ for the CCE and AMD compilers, in particular how they wrap MPI and HIP.
       <td class="na"></td><!-- GCC + ROCm -->
       <td class="verified"></td><!-- CCE -->
       <td class="na"></td><!-- CCE + ROCm -->
-      <td class="in_progress"></td><!-- AMD -->
+      <td class="verified"></td><!-- AMD -->
       <td class="na"></td><!-- AMD + ROCm -->
     </tr>
     <tr>
@@ -722,7 +722,7 @@ for the CCE and AMD compilers, in particular how they wrap MPI and HIP.
       <td class="na"></td><!-- GCC + ROCm -->
       <td class="verified"></td><!-- CCE -->
       <td class="na"></td><!-- CCE + ROCm -->
-      <td class="in_progress"></td><!-- AMD -->
+      <td class="verified"></td><!-- AMD -->
       <td class="na"></td><!-- AMD + ROCm -->
     </tr>
     <tr>
@@ -744,7 +744,7 @@ for the CCE and AMD compilers, in particular how they wrap MPI and HIP.
       <td class="na" markdown="span">([14](#veloc_rocm))</td><!-- GCC + ROCm -->
       <td class="verified"></td><!-- CCE -->
       <td class="na"></td><!-- CCE + ROCm -->
-      <td class="in_progress"></td><!-- AMD -->
+      <td class="verified"></td><!-- AMD -->
       <td class="na"></td><!-- AMD + ROCm -->
     </tr>
     <tr>
@@ -764,9 +764,9 @@ for the CCE and AMD compilers, in particular how they wrap MPI and HIP.
       </td>
       <td class="verified"></td><!-- GCC -->
       <td class="na"></td><!-- GCC + ROCm -->
-      <td class="verified"></td><!-- CCE -->
+      <td class="in_progress" markdown="span">([25](#cinema_frontier_python))</td><!-- CCE -->
       <td class="na"></td><!-- CCE + ROCm -->
-      <td class="in_progress"></td><!-- AMD -->
+      <td class="verified"></td><!-- AMD -->
       <td class="na"></td><!-- AMD + ROCm -->
     </tr>
     <tr>
@@ -777,8 +777,8 @@ for the CCE and AMD compilers, in particular how they wrap MPI and HIP.
       <td class="verified"></td><!-- GCC + ROCm -->
       <td class="verified" markdown="span">([8](#paraview_no_ospray))</td><!-- CCE -->
       <td class="verified" markdown="span">([8](#paraview_no_ospray))</td><!-- CCE + ROCm -->
-      <td class="in_progress"></td><!-- AMD -->
-      <td class="in_progress"></td><!-- AMD + ROCm -->
+      <td class="verified">([8](#paraview_no_ospray))</td><!-- AMD -->
+      <td class="verified">([8](#paraview_no_ospray))</td><!-- AMD + ROCm -->
     </tr>
     <tr>
       <td markdown="span">
@@ -821,7 +821,7 @@ for the CCE and AMD compilers, in particular how they wrap MPI and HIP.
       <td class="na"></td><!-- GCC + ROCm -->
       <td class="verified"></td><!-- CCE -->
       <td class="na"></td><!-- CCE + ROCm -->
-      <td class="in_progress"></td><!-- AMD -->
+      <td class="verified"></td><!-- AMD -->
       <td class="na"></td><!-- AMD + ROCm -->
     </tr>
     <tr>
@@ -832,7 +832,7 @@ for the CCE and AMD compilers, in particular how they wrap MPI and HIP.
       <td class="na" markdown="span">([20](#zfp_rocm))</td><!-- GCC + ROCm -->
       <td class="verified"></td><!-- CCE -->
       <td class="na" markdown="span">([20](#zfp_rocm))</td><!-- CCE + ROCm -->
-      <td class="in_progress"></td><!-- AMD -->
+      <td class="verified"></td><!-- AMD -->
       <td class="na" markdown="span">([20](#zfp_rocm))</td><!-- AMD + ROCm -->
     </tr>
     <tr>
@@ -1207,6 +1207,13 @@ SYCL support.
 ### Cinema
 
 <span id="cinema_oneapi_python">5. </span>Failure to build a number of Python modules with OneAPI.
+
+<span id="cinema_frontier_python">25. </span>Failure to build working python modules for some of Cinemas dependency modules.
+
+### Darshan
+
+<span id="darshan_runtime_hdf5">24. </span>Darshan with HDF5 integration enabled does not support use cases that do not
+link HDF5 in the same runtime environment.
 
 ### HDF5
 
