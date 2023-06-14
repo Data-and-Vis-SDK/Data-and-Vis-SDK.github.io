@@ -777,8 +777,8 @@ for the CCE and AMD compilers, in particular how they wrap MPI and HIP.
       <td class="verified"></td><!-- GCC + ROCm -->
       <td class="verified" markdown="span">([8](#paraview_no_ospray))</td><!-- CCE -->
       <td class="verified" markdown="span">([8](#paraview_no_ospray))</td><!-- CCE + ROCm -->
-      <td class="verified">([8](#paraview_no_ospray))</td><!-- AMD -->
-      <td class="verified">([8](#paraview_no_ospray))</td><!-- AMD + ROCm -->
+      <td class="verified" markdown="span">([8](#paraview_no_ospray))</td><!-- AMD -->
+      <td class="verified" markdown="span">([8](#paraview_no_ospray))</td><!-- AMD + ROCm -->
     </tr>
     <tr>
       <td markdown="span">
