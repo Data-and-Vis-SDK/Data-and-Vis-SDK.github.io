@@ -216,7 +216,7 @@ The following projects are included as part of the Data and Visualization SDK:
       <td class="verified"></td><!-- CPU -->
       <td class="verified"></td><!-- CUDA -->
       <td class="verified"></td><!-- ROCm -->
-      <td class="failing" markdown="span">([17](#vtkm_oneapi_sycl))</td><!-- SYCL -->
+      <td class="verified"></td><!-- SYCL -->
     </tr>
     <tr>
       <td markdown="span">
@@ -367,9 +367,9 @@ The following projects are included as part of the Data and Visualization SDK:
       <td markdown="span">
         [VisIt][VisIt]
       </td>
-      <td class="failing" markdown="span">([15](#visit_hdf5_conflict))</td><!-- CPU -->
-      <td class="failing" markdown="span">([15](#visit_hdf5_conflict)) ([16](#visit_vtkm_support))</td><!-- CUDA -->
-      <td class="failing" markdown="span">([15](#visit_hdf5_conflict)) ([16](#visit_vtkm_support))</td><!-- ROCm -->
+      <td class="verified">([15]</td><!-- CPU -->
+      <td class="na" markdown="span">([16](#visit_vtkm_support))</td><!-- CUDA -->
+      <td class="na" markdown="span">([16](#visit_vtkm_support))</td><!-- ROCm -->
       <td class="na" markdown="span">([7](#paraview_oneapi_sycl))</td><!-- SYCL -->
     </tr>
     <tr>
@@ -379,7 +379,7 @@ The following projects are included as part of the Data and Visualization SDK:
       <td class="verified"></td><!-- CPU -->
       <td class="verified"></td><!-- CUDA -->
       <td class="verified"></td><!-- ROCm -->
-      <td class="in_progress" markdown="span">([17](#vtkm_oneapi_sycl))</td><!-- SYCL -->
+      <td class="in_progress"></td><!-- SYCL -->
     </tr>
     <tr>
       <td markdown="span">
@@ -542,7 +542,7 @@ more details on the facility deployments.
       <td class="verified"></td><!-- Frontier -->
       <td class="verified"></td><!-- Perlmutter -->
       <td class="in_progress" markdown="span">([8](#paraview_no_ospray)) ([9](#paraview_oneapi_python))</td><!-- Pre-Aurora -->
-      <td class="in_progress"></td><!-- Smoke Test -->
+      <td class="verified"></td><!-- Smoke Test -->
     </tr>
     <tr>
       <td markdown="span">
@@ -559,11 +559,11 @@ more details on the facility deployments.
       <td markdown="span">
         [VisIt][VisIt]
       </td>
-      <td class="failing" markdown="span">([15](#visit_hdf5_conflict))</td><!-- Desktop -->
-      <td class="failing" markdown="span">([15](#visit_hdf5_conflict))</td><!-- Docker -->
-      <td class="failing" markdown="span">([15](#visit_hdf5_conflict))</td><!-- Frontier -->
-      <td class="failing" markdown="span">([15](#visit_hdf5_conflict))</td><!-- Perlmutter -->
-      <td class="failing" markdown="span">([15](#visit_hdf5_conflict))</td><!-- Pre-Aurora -->
+      <td class="verified" ></td><!-- Desktop -->
+      <td class="verified" ></td><!-- Docker -->
+      <td class="verified" ></td><!-- Frontier -->
+      <td class="in_progress" ></td><!-- Perlmutter -->
+      <td class="in_progress" ></td><!-- Pre-Aurora -->
       <td class="in_progress"></td><!-- Smoke Test -->
     </tr>
     <tr>
@@ -574,7 +574,7 @@ more details on the facility deployments.
       <td class="verified"></td><!-- Docker -->
       <td class="verified"></td><!-- Frontier -->
       <td class="verified"></td><!-- Perlmutter -->
-      <td class="in_progress" markdown="span">([17](#vtkm_oneapi_sycl))</td><!-- Pre-Aurora -->
+      <td class="in_progress"></td><!-- Pre-Aurora -->
       <td class="verified"></td><!-- Smoke Test -->
     </tr>
     <tr>
@@ -795,12 +795,12 @@ for the CCE and AMD compilers, in particular how they wrap MPI and HIP.
       <td markdown="span">
         [VisIt][VisIt]
       </td>
-      <td class="failing" markdown="span">([15](#visit_hdf5_conflict))</td><!-- GCC -->
-      <td class="failing" markdown="span">([15](#visit_hdf5_conflict)) ([16](#visit_vtkm_support))</td><!-- GCC + ROCm -->
-      <td class="failing" markdown="span">([15](#visit_hdf5_conflict))</td><!-- CCE -->
-      <td class="failing" markdown="span">([15](#visit_hdf5_conflict)) ([16](#visit_vtkm_support))</td><!-- CCE + ROCm -->
-      <td class="failing" markdown="span">([15](#visit_hdf5_conflict))</td><!-- AMD -->
-      <td class="failing" markdown="span">([15](#visit_hdf5_conflict)) ([16](#visit_vtkm_support))</td><!-- AMD + ROCm -->
+      <td class="verified"></td><!-- GCC -->
+      <td class="na" markdown="span">([16](#visit_vtkm_support))</td><!-- GCC + ROCm -->
+      <td class="in_progress"></td><!-- CCE -->
+      <td class="na" markdown="span">([16](#visit_vtkm_support))</td><!-- CCE + ROCm -->
+      <td class="in_progress"></td><!-- AMD -->
+      <td class="na" markdown="span">([16](#visit_vtkm_support))</td><!-- AMD + ROCm -->
     </tr>
     <tr>
       <td markdown="span">
@@ -980,9 +980,9 @@ for the CCE and AMD compilers, in particular how they wrap MPI and HIP.
       <td markdown="span">
         [VisIt][VisIt]
       </td>
-      <td class="failing" markdown="span">([15](#visit_hdf5_conflict))</td><!-- GCC -->
-      <td class="na" markdown="span">([15](#visit_hdf5_conflict)) ([16](#visit_vtkm_support))</td><!-- GCC + CUDA -->
-      <td class="na" markdown="span">([15](#visit_hdf5_conflict)) ([16](#visit_vtkm_support))</td><!-- NVHPC + CUDA -->
+      <td class="in_progress"></td><!-- GCC -->
+      <td class="na" markdown="span">([16](#visit_vtkm_support))</td><!-- GCC + CUDA -->
+      <td class="na" markdown="span">([16](#visit_vtkm_support))</td><!-- NVHPC + CUDA -->
     </tr>
     <tr>
       <td markdown="span">
@@ -1033,12 +1033,13 @@ for the CCE and AMD compilers, in particular how they wrap MPI and HIP.
 </table>
 
 
-### Pre-Aurora Toolchains
+### Aurora/Sunspot Toolchains
 
 <table class="toolchain_table">
   <thead>
     <tr>
       <th>Info</th>
+      <th>GCC</th>
       <th>OneAPI</th>
     </tr>
   </thead>
@@ -1047,6 +1048,7 @@ for the CCE and AMD compilers, in particular how they wrap MPI and HIP.
       <td>
         Version
       </td>  <!-- Info -->
+      <td>v11.2.0</td>  <!-- GCC Toolchain -->
       <td>v2023.0.0</td>  <!-- OneAPI Toolchain -->
     </tr>
   </tbody>
@@ -1056,6 +1058,7 @@ for the CCE and AMD compilers, in particular how they wrap MPI and HIP.
   <thead>
     <tr>
       <th>Project</th>
+      <th>GCC</th>
       <th>OneAPI</th>
       <th markdown="span">SYCL ([*](#oneapi_sycl))</th>
     </tr>
@@ -1065,55 +1068,63 @@ for the CCE and AMD compilers, in particular how they wrap MPI and HIP.
       <td markdown="span">
         [ADIOS2][ADIOS2]
       </td>
-      <td class="verified"></td><!-- OneApi -->
+      <td class="verified" markdown="span">([**](#verified_on_sunspot))</td><!-- GCC -->
+      <td class="verified" markdown="span">([**](#verified_on_sunspot))</td><!-- OneApi -->
       <td class="na"></td><!-- OneApi -->
     </tr>
     <tr>
       <td markdown="span">
         [Darshan][Darshan]
       </td>
-      <td class="verified"></td><!-- OneApi -->
+      <td class="verified" markdown="span">([**](#verified_on_sunspot))</td><!-- GCC -->
+      <td class="verified" markdown="span">([**](#verified_on_sunspot))</td><!-- OneApi -->
       <td class="na"></td><!-- OneApi -->
     </tr>
     <tr>
       <td markdown="span">
         [HDF5][HDF5]
       </td>
-      <td class="in_progress" markdown="span">([6](#hdf5_vols_oneapi))</td><!-- OneApi -->
+      <td class="verified" markdown="span">([**](#verified_on_sunspot))</td><!-- GCC -->
+      <td class="verified" markdown="span">([**](#verified_on_sunspot))</td><!-- OneApi -->
       <td class="na"></td><!-- OneApi -->
     </tr>
     <tr>
       <td markdown="span">
         [PNetCDF][PNetCDF]
       </td>
-      <td class="verified"></td><!-- OneApi -->
+      <td class="verified" markdown="span">([**](#verified_on_sunspot))</td><!-- GCC -->
+      <td class="verified" markdown="span">([**](#verified_on_sunspot))</td><!-- OneApi -->
       <td class="na"></td><!-- OneApi -->
     </tr>
     <tr>
       <td markdown="span">
         [UnifyFS][UnifyFS]
       </td>
-      <td class="verified"></td><!-- OneApi -->
+      <td class="verified" markdown="span">([**](#verified_on_sunspot))</td><!-- GCC -->
+      <td class="verified" markdown="span">([**](#verified_on_sunspot))</td><!-- OneApi -->
       <td class="na"></td><!-- OneApi -->
     </tr>
     <tr>
       <td markdown="span">
         [VeloC][VeloC]
       </td>
-      <td class="verified"></td><!-- OneApi -->
+      <td class="verified" markdown="span">([**](#verified_on_sunspot))</td><!-- GCC -->
+      <td class="verified" markdown="span">([**](#verified_on_sunspot))</td><!-- OneApi -->
       <td class="na"></td><!-- OneApi -->
     </tr>
     <tr>
       <td markdown="span">
         [Ascent][Ascent]
       </td>
-      <td class="verified"></td><!-- OneApi -->
+      <td class="verified" markdown="span">([**](#verified_on_sunspot))</td><!-- GCC -->
+      <td class="verified" markdown="span">([**](#verified_on_sunspot))</td><!-- OneApi -->
       <td class="na"></td><!-- OneApi -->
     </tr>
     <tr>
       <td markdown="span">
         [Cinema][Cinema]
       </td>
+      <td class="verified" markdown="span">([**](#verified_on_sunspot))</td><!-- GCC -->
       <td class="in_progress" markdown="span">([5](#cinema_oneapi_python))</td><!-- OneApi -->
       <td class="na"></td><!-- OneApi -->
     </tr>
@@ -1121,6 +1132,7 @@ for the CCE and AMD compilers, in particular how they wrap MPI and HIP.
       <td markdown="span">
         [ParaView][ParaView]
       </td>
+      <td class="in_progress"></td><!-- GCC -->
       <td class="in_progress" markdown="span">([8](#paraview_no_ospray)) ([9](#paraview_oneapi_python))</td><!-- OneApi -->
       <td class="in_progress" markdown="span">([7](#paraview_oneapi_sycl))</td><!-- OneApi -->
     </tr>
@@ -1128,6 +1140,7 @@ for the CCE and AMD compilers, in particular how they wrap MPI and HIP.
       <td markdown="span">
         [SENSEI][SENSEI]
       </td>
+      <td class="in_progress"></td><!-- GCC -->
       <td class="in_progress" markdown="span">([10](#sensei_ospray)) ([12](#sensei_catalyst_backend))</td><!-- OneApi -->
       <td class="in_progress" markdown="span">([11](#sensei_kokkos)) ([12](#sensei_catalyst_backend))</td><!-- OneApi -->
     </tr>
@@ -1135,33 +1148,37 @@ for the CCE and AMD compilers, in particular how they wrap MPI and HIP.
       <td markdown="span">
         [VisIt][VisIt]
       </td>
-      <td class="failing" markdown="span">([15](#visit_hdf5_conflict))</td><!-- OneApi -->
-      <td class="failing" markdown="span">([15](#visit_hdf5_conflict)) ([16](#visit_vtkm_support))</td><!-- OneApi -->
+      <td class="in_progress"></td><!-- GCC -->
+      <td class="in_progress"></td><!-- OneApi -->
+      <td class="in_progress" markdown="span">([16](#visit_vtkm_support))</td><!-- OneApi -->
     </tr>
     <tr>
       <td markdown="span">
         [VTK-m][VTK-m]
       </td>
-      <td class="verified"></td><!-- OneApi -->
-      <td class="in_progress" markdown="span">([17](#vtkm_oneapi_sycl))</td><!-- OneApi -->
+      <td class="verified" markdown="span">([**](#verified_on_sunspot))</td><!-- GCC -->
+      <td class="verified" markdown="span">([**](#verified_on_sunspot))</td><!-- OneApi -->
+      <td class="in_progress"></td><!-- OneApi -->
     </tr>
     <tr>
       <td markdown="span">
         [SZ][SZ]
       </td>
-      <td class="verified"></td><!-- OneApi -->
+      <td class="verified" markdown="span">([**](#verified_on_sunspot))</td><!-- GCC -->
+      <td class="verified" markdown="span">([**](#verified_on_sunspot))</td><!-- OneApi -->
       <td class="na"></td><!-- OneApi -->
     </tr>
     <tr>
       <td markdown="span">
         [ZFP][ZFP]
       </td>
-      <td class="verified"></td><!-- OneApi -->
+      <td class="verified" markdown="span">([**](#verified_on_sunspot))</td><!-- GCC -->
+      <td class="verified" markdown="span">([**](#verified_on_sunspot))</td><!-- OneApi -->
       <td class="na"></td><!-- OneApi -->
     </tr>
     <tr>
       <td style="background-color: #373737; color: white">Legend</td>
-      <td colspan="2">
+      <td colspan="3">
         <table class="status_table_legend">
           <tr>
             <th class="verified" style="color: white;">Verified</th>
@@ -1181,6 +1198,10 @@ for the CCE and AMD compilers, in particular how they wrap MPI and HIP.
      will be creating anchor "span"s with id attributes to href to above. -->
 
 <span id="oneapi_sycl">\* </span>SYCL extensions are implemented and tested using OneAPI.
+
+<span id="verified_on_sunspot">\*\* </span> Due to the similarity between the toolchains on Aurora and Sunspot,
+the results for the Aurora system are currently marked as verified as builds on Aurora progress. As issues are
+found on Aurora, these values will be updated to reflect the target system status.
 
 
 ### ADIOS2
@@ -1215,11 +1236,6 @@ SYCL support.
 <span id="darshan_runtime_hdf5">24. </span>Darshan with HDF5 integration enabled does not support use cases that do not
 link HDF5 in the same runtime environment.
 
-### HDF5
-
-<span id="hdf5_vols_oneapi">6. </span>HDF5 v1.14 builds with OneAPI, but the
-async, cache, and log VOL adapters are currently disabled due to build errors.
-
 ### ParaView
 
 <span id="paraview_oneapi_sycl">7. </span>ParaView and VisIt do not support building SYCL kernels for VTKm
@@ -1253,12 +1269,10 @@ filters in released versions.
 is not compatible with the Python requirements of PyH5, the HDF5 python interface used by Cinema.
 
 <span id="visit_vtkm_support">16. </span>VTK-m enabled GPU support is available VisIt, but
-is not officially tested as part of the Data and Vis SDK due to ([15](#visit_hdf5_conflict)).
+is not officially tested as part of the Data and Vis SDK due to ([15](#visit_hdf5_conflict)) only
+recently being resolved.
 
 ### VTK-m
-
-<span id="vtkm_oneapi_sycl">17. </span>VTKm does not fully support building SYCL kernels
-in currently released versions, but has some support on the "master" branch.
 
 <span id="vtkm_rocm_openmp">18. </span>Spack ROCm does not provide OpenMP correclty for VTKm HIP
 modules.
